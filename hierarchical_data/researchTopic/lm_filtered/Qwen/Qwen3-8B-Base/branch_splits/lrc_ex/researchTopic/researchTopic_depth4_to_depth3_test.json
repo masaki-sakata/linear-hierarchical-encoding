@@ -1,0 +1,3265 @@
+{
+  "name": "depth4 to depth3",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth4",
+    "range_name": "depth3"
+  },
+  "samples": [
+    {
+      "subject": "Airway Management and Intubation Techniques",
+      "object": "Anesthesiology and Pain Medicine"
+    },
+    {
+      "subject": "Anesthesia and Sedative Agents",
+      "object": "Anesthesiology and Pain Medicine"
+    },
+    {
+      "subject": "Pain Management and Opioid Use",
+      "object": "Anesthesiology and Pain Medicine"
+    },
+    {
+      "subject": "Pain Management and Treatment",
+      "object": "Anesthesiology and Pain Medicine"
+    },
+    {
+      "subject": "Acute Myocardial Infarction Research",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Antiplatelet Therapy and Cardiovascular Diseases",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Atrial Fibrillation Management and Outcomes",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Blood Pressure and Hypertension Studies",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac Arrhythmias and Treatments",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac Fibrosis and Remodeling",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac Health and Mental Health",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac Valve Diseases and Treatments",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac electrophysiology and arrhythmias",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac pacing and defibrillation studies",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac tumors and thrombi",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiac, Anesthesia and Surgical Outcomes",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiomyopathy and Myosin Studies",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiovascular Disease and Adiposity",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiovascular Effects of Exercise",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiovascular Function and Risk Factors",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiovascular Health and Disease Prevention",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Cardiovascular Health and Risk Factors",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "ECG Monitoring and Analysis",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Heart Failure Treatment and Management",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Heart Rate Variability and Autonomic Control",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Heart rate and cardiovascular health",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Pericarditis and Cardiac Tamponade",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Takotsubo Cardiomyopathy and Associated Phenomena",
+      "object": "Cardiology and Cardiovascular Medicine"
+    },
+    {
+      "subject": "Acne and Rosacea Treatments and Effects",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Contact Dermatitis and Allergies",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Cutaneous lymphoproliferative disorders research",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Dermatologic Treatments and Research",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Dermatological and COVID-19 studies",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Dermatology and Skin Diseases",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Hidradenitis Suppurativa and Treatments",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Medicine and Dermatology Studies History",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Skin Protection and Aging",
+      "object": "Dermatology"
+    },
+    {
+      "subject": "Emergency Medicine Education and Research",
+      "object": "Emergency Medicine"
+    },
+    {
+      "subject": "Emergency and Acute Care Studies",
+      "object": "Emergency Medicine"
+    },
+    {
+      "subject": "Poisoning and overdose treatments",
+      "object": "Emergency Medicine"
+    },
+    {
+      "subject": "Restraint-Related Deaths",
+      "object": "Emergency Medicine"
+    },
+    {
+      "subject": "Trauma and Emergency Care Studies",
+      "object": "Emergency Medicine"
+    },
+    {
+      "subject": "Adrenal Hormones and Disorders",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Diabetes Management and Education",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Diabetes Management and Research",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Diabetes Treatment and Management",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Diabetic Foot Ulcer Assessment and Management",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Diet, Metabolism, and Disease",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Growth Hormone and Insulin-like Growth Factors",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Hormonal Regulation and Hypertension",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Menopause: Health Impacts and Treatments",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Natural Antidiabetic Agents Studies",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Pituitary Gland Disorders and Treatments",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Thyroid Disorders and Treatments",
+      "object": "Endocrinology, Diabetes and Metabolism"
+    },
+    {
+      "subject": "Celiac Disease Research and Management",
+      "object": "Gastroenterology"
+    },
+    {
+      "subject": "Gastroesophageal reflux and treatments",
+      "object": "Gastroenterology"
+    },
+    {
+      "subject": "Gastrointestinal Bleeding Diagnosis and Treatment",
+      "object": "Gastroenterology"
+    },
+    {
+      "subject": "Gastrointestinal motility and disorders",
+      "object": "Gastroenterology"
+    },
+    {
+      "subject": "Adolescent Health and Behaviors",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Adolescent Sexual and Reproductive Health",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Aging, Elder Care, and Social Issues",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Child and Adolescent Health",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Community Health and Development",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Dental Education, Practice, Research",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Diverse Scientific Research Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Doctoral Education Challenges and Solutions",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Employment and Welfare Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Ethics in medical practice",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Food Security and Health in Diverse Populations",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Geriatric Care and Nursing Homes",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Global Health Care Issues",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Global Healthcare and Medical Tourism",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health Policy Implementation Science",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health Sciences Research and Education",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health and Conflict Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health and Lifestyle Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health and Medical Education",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health and Wellbeing Research",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health, Medicine and Society",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health, Nursing, Elderly Care",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Health, psychology, and well-being",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Healthcare Quality and Satisfaction",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Healthcare Systems and Challenges",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Healthcare Systems and Practices",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Healthcare cost, quality, practices",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Healthcare professionals‚Äô stress and burnout",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Homelessness and Social Issues",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Indigenous Health and Education",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Indigenous Studies and Ecology",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Interpreting and Communication in Healthcare",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Interprofessional Education and Collaboration",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Male Reproductive Health Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Maternal and Neonatal Healthcare",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Mental Health and Patient Involvement",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Mobile Health and mHealth Applications",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Nursing Roles and Practices",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Patient Satisfaction in Healthcare",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Patient-Provider Communication in Healthcare",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Primary Care and Health Outcomes",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Public Health Policies and Education",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Romani and Gypsy Studies",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Social Policies and Healthcare Reform",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Social and Demographic Issues in Germany",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Workplace Health and Well-being",
+      "object": "General Health Professions"
+    },
+    {
+      "subject": "Frailty in Older Adults",
+      "object": "Geriatrics and Gerontology"
+    },
+    {
+      "subject": "Sirtuins and Resveratrol in Medicine",
+      "object": "Geriatrics and Gerontology"
+    },
+    {
+      "subject": "Electronic Health Records Systems",
+      "object": "Health Information Management"
+    },
+    {
+      "subject": "Innovation in Digital Healthcare Systems",
+      "object": "Health Information Management"
+    },
+    {
+      "subject": "Medical Coding and Health Information",
+      "object": "Health Information Management"
+    },
+    {
+      "subject": "Blood Coagulation and Thrombosis Mechanisms",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Blood groups and transfusion",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Chronic Myeloid Leukemia Treatments",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Erythropoietin and Anemia Treatment",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Hematopoietic Stem Cell Transplantation",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Hemophilia Treatment and Research",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Hemostasis and retained surgical items",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Iron Metabolism and Disorders",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Platelet Disorders and Treatments",
+      "object": "Hematology"
+    },
+    {
+      "subject": "Hepatitis C virus research",
+      "object": "Hepatology"
+    },
+    {
+      "subject": "Hepatocellular Carcinoma Treatment and Prognosis",
+      "object": "Hepatology"
+    },
+    {
+      "subject": "Liver Disease and Transplantation",
+      "object": "Hepatology"
+    },
+    {
+      "subject": "Liver Diseases and Immunity",
+      "object": "Hepatology"
+    },
+    {
+      "subject": "Liver physiology and pathology",
+      "object": "Hepatology"
+    },
+    {
+      "subject": "Allergic Rhinitis and Sensitization",
+      "object": "Immunology and Allergy"
+    },
+    {
+      "subject": "Cell Adhesion Molecules Research",
+      "object": "Immunology and Allergy"
+    },
+    {
+      "subject": "Food Allergy and Anaphylaxis Research",
+      "object": "Immunology and Allergy"
+    },
+    {
+      "subject": "Amoebic Infections and Treatments",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Antifungal resistance and susceptibility",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Antimicrobial Resistance in Staphylococcus",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "COVID-19 Clinical Research Studies",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Clostridium difficile and Clostridium perfringens research",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "HIV/AIDS Research and Interventions",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "HIV/AIDS drug development and treatment",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Infection Control in Healthcare",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Infectious Disease Case Reports and Treatments",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Infectious Encephalopathies and Encephalitis",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Leprosy Research and Treatment",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Parasitic Diseases Research and Treatment",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Parvovirus B19 Infection Studies",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "SARS-CoV-2 and COVID-19 Research",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "SARS-CoV-2 detection and testing",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Tuberculosis Research and Epidemiology",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Viral Infections and Outbreaks Research",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Viral Infections and Vectors",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Viral gastroenteritis research and epidemiology",
+      "object": "Infectious Diseases"
+    },
+    {
+      "subject": "Acute Kidney Injury Research",
+      "object": "Nephrology"
+    },
+    {
+      "subject": "Dialysis and Renal Disease Management",
+      "object": "Nephrology"
+    },
+    {
+      "subject": "Renal Diseases and Glomerulopathies",
+      "object": "Nephrology"
+    },
+    {
+      "subject": "Renal function and acid-base balance",
+      "object": "Nephrology"
+    },
+    {
+      "subject": "Amyotrophic Lateral Sclerosis Research",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Autoimmune Neurological Disorders and Treatments",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Botulinum Toxin and Related Neurological Disorders",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Cerebral Venous Sinus Thrombosis",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Cerebrovascular and genetic disorders",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Facial Nerve Paralysis Treatment and Research",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Intracerebral and Subarachnoid Hemorrhage Research",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Intracranial Aneurysms: Treatment and Complications",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Myasthenia Gravis and Thymoma",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Neurological disorders and treatments",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Neurosurgical Procedures and Complications",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Parkinson's Disease Mechanisms and Treatments",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Parkinson's Disease and Spinal Disorders",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Peripheral Neuropathies and Disorders",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Traumatic Brain Injury and Neurovascular Disturbances",
+      "object": "Neurology"
+    },
+    {
+      "subject": "Gynecological conditions and treatments",
+      "object": "Obstetrics and Gynecology"
+    },
+    {
+      "subject": "Pregnancy and preeclampsia studies",
+      "object": "Obstetrics and Gynecology"
+    },
+    {
+      "subject": "Uterine Myomas and Treatments",
+      "object": "Obstetrics and Gynecology"
+    },
+    {
+      "subject": "Assistive Technology in Communication and Mobility",
+      "object": "Occupational Therapy"
+    },
+    {
+      "subject": "Occupational Health and Safety Management",
+      "object": "Occupational Therapy"
+    },
+    {
+      "subject": "Occupational Health and Safety in Workplaces",
+      "object": "Occupational Therapy"
+    },
+    {
+      "subject": "Occupational Therapy Practice and Research",
+      "object": "Occupational Therapy"
+    },
+    {
+      "subject": "CAR-T cell therapy research",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Cells and Metastasis",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Diagnosis and Treatment",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Immunotherapy and Biomarkers",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Research and Treatment",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Risks and Factors",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer Treatment and Pharmacology",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer survivorship and care",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Cancer-related Molecular Pathways",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Colorectal Cancer Screening and Detection",
+      "object": "Oncology"
+    },
+    {
+      "subject": "HER2/EGFR in Cancer Research",
+      "object": "Oncology"
+    },
+    {
+      "subject": "PARP inhibition in cancer therapy",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Pancreatic and Hepatic Oncology Research",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Vascular Tumors and Angiosarcomas",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Viral-associated cancers and disorders",
+      "object": "Oncology"
+    },
+    {
+      "subject": "Drug-Induced Ocular Toxicity",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Glaucoma and retinal disorders",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Intraocular Surgery and Lenses",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Nasolacrimal Duct Obstruction Treatments",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Ocular Diseases and Beh√ßet‚Äôs Syndrome",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Ocular Infections and Treatments",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Ocular Oncology and Treatments",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Ocular and Laser Science Research",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Ophthalmology and Visual Health Research",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Retinal Diseases and Treatments",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Retinal and Optic Conditions",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Traumatic Ocular and Foreign Body Injuries",
+      "object": "Ophthalmology"
+    },
+    {
+      "subject": "Bone and Joint Diseases",
+      "object": "Orthopedics and Sports Medicine"
+    },
+    {
+      "subject": "Bone health and osteoporosis research",
+      "object": "Orthopedics and Sports Medicine"
+    },
+    {
+      "subject": "Sports injuries and prevention",
+      "object": "Orthopedics and Sports Medicine"
+    },
+    {
+      "subject": "Tendon Structure and Treatment",
+      "object": "Orthopedics and Sports Medicine"
+    },
+    {
+      "subject": "Ear Surgery and Otitis Media",
+      "object": "Otorhinolaryngology"
+    },
+    {
+      "subject": "Sinusitis and nasal conditions",
+      "object": "Otorhinolaryngology"
+    },
+    {
+      "subject": "Birth, Development, and Health",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Child Abuse and Related Trauma",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Childhood Cancer Survivors' Quality of Life",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Ethics and Legal Issues in Pediatric Healthcare",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Fetal and Pediatric Neurological Disorders",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Global Maternal and Child Health",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Infant Development and Preterm Care",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Neonatal Health and Biochemistry",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Pediatric Pain Management Techniques",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Pediatric Urology and Nephrology Studies",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Prenatal Substance Exposure Effects",
+      "object": "Pediatrics, Perinatology and Child Health"
+    },
+    {
+      "subject": "Antibiotics Pharmacokinetics and Efficacy",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Berberine and alkaloids research",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Biological and pharmacological studies of plants",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Drug-Induced Adverse Reactions",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Flavonoids in Medical Research",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Pharmacological Effects of Medicinal Plants",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Pharmacology and Obesity Treatment",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Synthesis of Organic Compounds",
+      "object": "Pharmacology"
+    },
+    {
+      "subject": "Athletic Training and Education",
+      "object": "Physical Therapy, Sports Therapy and Rehabilitation"
+    },
+    {
+      "subject": "Balance, Gait, and Falls Prevention",
+      "object": "Physical Therapy, Sports Therapy and Rehabilitation"
+    },
+    {
+      "subject": "Medical Practices and Rehabilitation",
+      "object": "Physical Therapy, Sports Therapy and Rehabilitation"
+    },
+    {
+      "subject": "Physical Education and Training Studies",
+      "object": "Physical Therapy, Sports Therapy and Rehabilitation"
+    },
+    {
+      "subject": "Sports and Physical Education Research",
+      "object": "Physical Therapy, Sports Therapy and Rehabilitation"
+    },
+    {
+      "subject": "Chronic Obstructive Pulmonary Disease (COPD) Research",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Cystic Fibrosis Research Advances",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Inhalation and Respiratory Drug Delivery",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Interstitial Lung Diseases and Idiopathic Pulmonary Fibrosis",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Neonatal Respiratory Health Research",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Occupational and environmental lung diseases",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Pleural and Pulmonary Diseases",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Pneumothorax, Barotrauma, Emphysema",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Pulmonary Hypertension Research and Treatments",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Respiratory Support and Mechanisms",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Respiratory and Cough-Related Research",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Tracheal and airway disorders",
+      "object": "Pulmonary and Respiratory Medicine"
+    },
+    {
+      "subject": "Advanced MRI Techniques and Applications",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Infrared Thermography in Medicine",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "MRI in cancer diagnosis",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Medical Imaging Techniques and Applications",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Optical Imaging and Spectroscopy Techniques",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Radiation Dose and Imaging",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Radiology practices and education",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Radiomics and Machine Learning in Medical Imaging",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Radiopharmaceutical Chemistry and Applications",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Ultrasound Imaging and Elastography",
+      "object": "Radiology, Nuclear Medicine and Imaging"
+    },
+    {
+      "subject": "Ovarian function and disorders",
+      "object": "Reproductive Medicine"
+    },
+    {
+      "subject": "Reproductive Health and Technologies",
+      "object": "Reproductive Medicine"
+    },
+    {
+      "subject": "Sperm and Testicular Function",
+      "object": "Reproductive Medicine"
+    },
+    {
+      "subject": "Rheumatoid Arthritis Research and Therapies",
+      "object": "Rheumatology"
+    },
+    {
+      "subject": "Spondyloarthritis Studies and Treatments",
+      "object": "Rheumatology"
+    },
+    {
+      "subject": "Systemic Lupus Erythematosus Research",
+      "object": "Rheumatology"
+    },
+    {
+      "subject": "Abdominal Trauma and Injuries",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Abdominal vascular conditions and treatments",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Anorectal Disease Treatments and Outcomes",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Bariatric Surgery and Outcomes",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Body Contouring and Surgery",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Breast Implant and Reconstruction",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Cardiac and Coronary Surgery Techniques",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Cholangiocarcinoma and Gallbladder Cancer Studies",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Diagnosis and Treatment of Venous Diseases",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Enhanced Recovery After Surgery",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Facial Trauma and Fracture Management",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Head and Neck Surgical Oncology",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Hernia repair and management",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Intestinal Malrotation and Obstruction Disorders",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Intestinal and Peritoneal Adhesions",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Minimally Invasive Surgical Techniques",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Orthopedic Surgery and Rehabilitation",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Pectus Deformity Diagnosis and Treatment",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Reconstructive Facial Surgery Techniques",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Reconstructive Surgery and Microvascular Techniques",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Stoma care and complications",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Surgical Simulation and Training",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Surgical Sutures and Adhesives",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Surgical site infection prevention",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Teratomas and Epidermoid Cysts",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Thyroid and Parathyroid Surgery",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Tissue Engineering and Regenerative Medicine",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Total Knee Arthroplasty Outcomes",
+      "object": "Surgery"
+    },
+    {
+      "subject": "Organ and Tissue Transplantation Research",
+      "object": "Transplantation"
+    },
+    {
+      "subject": "Renal Transplantation Outcomes and Treatments",
+      "object": "Transplantation"
+    },
+    {
+      "subject": "Urinary Bladder and Prostate Research",
+      "object": "Urology"
+    },
+    {
+      "subject": "Urological Disorders and Treatments",
+      "object": "Urology"
+    },
+    {
+      "subject": "Aerodynamics and Acoustics in Jet Flows",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Aerodynamics and Fluid Dynamics Research",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Aeroelasticity and Vibration Control",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Aerospace Engineering and Control Systems",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Aerospace Engineering and Energy Systems",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Aerospace and Aviation Technology",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Biomimetic flight and propulsion mechanisms",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Icing and De-icing Technologies",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Military Defense Systems Analysis",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Military Technology and Strategies",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Plasma and Flow Control in Aerodynamics",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Rocket and propulsion systems research",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Space Exploration and Technology",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Spacecraft Design and Technology",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Spacecraft and Cryogenic Technologies",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Synthetic Aperture Radar (SAR) Applications and Techniques",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "UAV Applications and Optimization",
+      "object": "Aerospace Engineering"
+    },
+    {
+      "subject": "Advanced Mathematical Identities",
+      "object": "Algebra and Number Theory"
+    },
+    {
+      "subject": "Advanced Topics in Algebra",
+      "object": "Algebra and Number Theory"
+    },
+    {
+      "subject": "Analytic Number Theory Research",
+      "object": "Algebra and Number Theory"
+    },
+    {
+      "subject": "Commutative Algebra and Its Applications",
+      "object": "Algebra and Number Theory"
+    },
+    {
+      "subject": "Rings, Modules, and Algebras",
+      "object": "Algebra and Number Theory"
+    },
+    {
+      "subject": "Analytical Methods in Pharmaceuticals",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Analytical chemistry methods development",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Chromatography in Natural Products",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Dye analysis and toxicity",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Heavy Metals in Plants",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Petroleum Processing and Analysis",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Spectroscopy and Chemometric Analyses",
+      "object": "Analytical Chemistry"
+    },
+    {
+      "subject": "Advanced Harmonic Analysis Research",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Differential Equations and Boundary Problems",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Mathematical Analysis and Transform Methods",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Mathematical Inequalities and Applications",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Mathematics Education and Pedagogy",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Nonlinear Differential Equations Analysis",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Nonlinear Partial Differential Equations",
+      "object": "Applied Mathematics"
+    },
+    {
+      "subject": "Architecture and Computational Design",
+      "object": "Architecture"
+    },
+    {
+      "subject": "Architecture, Modernity, and Design",
+      "object": "Architecture"
+    },
+    {
+      "subject": "Astro and Planetary Science",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Astrophysical Phenomena and Observations",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Astrophysics and Star Formation Studies",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Cosmology and Gravitation Theories",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Galaxies: Formation, Evolution, Phenomena",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Gamma-ray bursts and supernovae",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Historical Astronomy and Related Studies",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "History and Developments in Astronomy",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Origins and Evolution of Life",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Planetary Science and Exploration",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Pulsars and Gravitational Waves Research",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Radio Astronomy Observations and Technology",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Relativity and Gravitational Theory",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Solar and Space Plasma Dynamics",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Space Science and Extraterrestrial Life",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Space exploration and regulation",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Stellar, planetary, and galactic studies",
+      "object": "Astronomy and Astrophysics"
+    },
+    {
+      "subject": "Atmospheric Ozone and Climate",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Atmospheric chemistry and aerosols",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Meteorological Phenomena and Simulations",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Precipitation Measurement and Analysis",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Tree-ring climate responses",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Tropical and Extratropical Cyclones Research",
+      "object": "Atmospheric Science"
+    },
+    {
+      "subject": "Advanced Chemical Physics Studies",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Advanced Fiber Laser Technologies",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Atomic and Molecular Physics",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Atomic and Subatomic Physics Research",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Cold Atom Physics and Bose-Einstein Condensates",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Color Science and Applications",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Digital Holography and Microscopy",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Laser-Matter Interactions and Applications",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Mechanical and Optical Resonators",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Optical and Acousto-Optic Technologies",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Orbital Angular Momentum in Optics",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Photorefractive and Nonlinear Optics",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Quantum Electrodynamics and Casimir Effect",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Quantum Mechanics and Applications",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Quantum Mechanics and Non-Hermitian Physics",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Quantum and Classical Electrodynamics",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Quantum optics and atomic interactions",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Spectroscopy and Quantum Chemical Studies",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Strong Light-Matter Interactions",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Vacuum and Plasma Arcs",
+      "object": "Atomic and Molecular Physics, and Optics"
+    },
+    {
+      "subject": "Autonomous Vehicle Technology and Safety",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Brake Systems and Friction Analysis",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Engine and Fuel Emissions",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Vehicle Dynamics and Control Systems",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Vehicle Noise and Vibration Control",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Vehicle emissions and performance",
+      "object": "Automotive Engineering"
+    },
+    {
+      "subject": "Advanced Cellulose Research Studies",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "Collagen: Extraction and Characterization",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "Diatoms and Algae Research",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "Electrospun Nanofibers in Biomedical Applications",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "Nanoparticle-Based Drug Delivery",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "Silk-based biomaterials and applications",
+      "object": "Biomaterials"
+    },
+    {
+      "subject": "3D Printing in Biomedical Research",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Advanced X-ray and CT Imaging",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Anatomy and Medical Technology",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Biomedical and Engineering Education",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Biosensors and Analytical Detection",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Bone Tissue Engineering Materials",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Characterization and Applications of Magnetic Nanoparticles",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Gait Recognition and Analysis",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Innovative Microfluidic and Catalytic Techniques Innovation",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Lower Extremity Biomechanics and Pathologies",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Medical Imaging and Analysis",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Microfluidic and Bio-sensing Technologies",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Microfluidic and Capillary Electrophoresis Applications",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Muscle activation and electromyography studies",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Nanoplatforms for cancer theranostics",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Nanopore and Nanochannel Transport Studies",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Nanowire Synthesis and Applications",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Non-Invasive Vital Sign Monitoring",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Optical Coherence Tomography Applications",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Photoacoustic and Ultrasonic Imaging",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Prosthetics and Rehabilitation Robotics",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Slime Mold and Myxomycetes Research",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Sports Dynamics and Biomechanics",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "Ultrasound and Hyperthermia Applications",
+      "object": "Biomedical Engineering"
+    },
+    {
+      "subject": "BIM and Construction Integration",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Building Energy and Comfort Optimization",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Building energy efficiency and sustainability",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Construction Management and Sustainability",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Hygrothermal properties of building materials",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Sustainable Building Design and Assessment",
+      "object": "Building and Construction"
+    },
+    {
+      "subject": "Asphalt Pavement Performance Evaluation",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Civil and Structural Engineering Research",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Concrete Corrosion and Durability",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Concrete Properties and Behavior",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Concrete and Cement Materials Research",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Dam Engineering and Safety",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Earthquake and Tsunami Effects",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Fire effects on concrete materials",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geodetic Measurements and Engineering Structures",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geotechnical Engineering and Soil Mechanics",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geotechnical Engineering and Soil Stabilization",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geotechnical Engineering and Underground Structures",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geotechnical and Mining Engineering",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Geotechnical and construction materials studies",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Grouting, Rheology, and Soil Mechanics",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Hydraulic flow and structures",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Infrastructure Maintenance and Monitoring",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Infrastructure Resilience and Vulnerability Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Innovative concrete reinforcement materials",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Masonry and Concrete Structural Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Seismic Performance and Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Seismic and Structural Analysis of Tall Buildings",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Soil and Unsaturated Flow",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Structural Analysis and Optimization",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Structural Engineering and Materials Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Structural Engineering and Vibration Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Structural Health Monitoring Techniques",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Structural Load-Bearing Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Tailings Management and Properties",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Tunneling and Rock Mechanics",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Urban Transport Systems Analysis",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Water Systems and Optimization",
+      "object": "Civil and Structural Engineering"
+    },
+    {
+      "subject": "Advanced Numerical Analysis Techniques",
+      "object": "Computational Mechanics"
+    },
+    {
+      "subject": "Advanced Numerical Methods in Computational Mathematics",
+      "object": "Computational Mechanics"
+    },
+    {
+      "subject": "Fluid Dynamics Simulations and Interactions",
+      "object": "Computational Mechanics"
+    },
+    {
+      "subject": "Lattice Boltzmann Simulation Studies",
+      "object": "Computational Mechanics"
+    },
+    {
+      "subject": "Advanced Condensed Matter Physics",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "Crystallography and Radiation Phenomena",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "GaN-based semiconductor devices and materials",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "Physics of Superconductivity and Magnetism",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "Rare-earth and actinide compounds",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "Superconductivity in MgB2 and Alloys",
+      "object": "Condensed Matter Physics"
+    },
+    {
+      "subject": "Adaptive Control of Nonlinear Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Advanced Control Systems Design",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Advanced Control Systems Optimization",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Advanced Research in Systems and Signal Processing",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Advanced Sensor and Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Control Systems and Identification",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Control and Dynamics of Mobile Robots",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Control and Stability of Dynamical Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Dynamics and Control of Mechanical Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Elevator Systems and Control",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Extremum Seeking Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Fault Detection and Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Industrial Automation and Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Industrial Technology and Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Iterative Learning Control Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Machine Fault Diagnosis Techniques",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Microgrid Control and Optimization",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Optimization and Mathematical Programming",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Piezoelectric Actuators and Control",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Real-time simulation and control systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Robot Manipulation and Learning",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Robotics and Automated Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Simulation and Modeling Applications",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Stability and Control of Uncertain Systems",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Stability and Controllability of Differential Equations",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Systems Engineering Methodologies and Applications",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Traffic control and management",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Wireless Sensor Networks and IoT",
+      "object": "Control and Systems Engineering"
+    },
+    {
+      "subject": "Advanced Combinatorial Mathematics",
+      "object": "Discrete Mathematics and Combinatorics"
+    },
+    {
+      "subject": "Limits and Structures in Graph Theory",
+      "object": "Discrete Mathematics and Combinatorics"
+    },
+    {
+      "subject": "3D IC and TSV technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced DC-DC Converters",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Data and IoT Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Electrical Measurement Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Fiber Optic Sensors",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced MIMO Systems Optimization",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Memory and Neural Computing",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Optical Network Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Photonic Communication Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Power Amplifier Design",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Power Generation Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Semiconductor Detectors and Materials",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Signal Processing Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Wireless Communication Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Wireless Communication Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced Wireless Network Optimization",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advanced battery technologies research",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advancements in PLL and VCO Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Advancements in Semiconductor Devices and Circuit Design",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Arduino and IoT Applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "CCD and CMOS Imaging Sensors",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Chalcogenide Semiconductor Thin Films",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electric Motor Design and Analysis",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electric Power System Optimization",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrical Fault Detection and Protection",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrical and Bioimpedance Tomography",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrical and Thermal Properties of Materials",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electricity Theft Detection Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrodeposition and Electroless Coatings",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrokinetic Soil Remediation Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electromagnetic Compatibility and Measurements",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electromagnetic Compatibility and Noise Suppression",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electromagnetic Effects on Materials",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electromagnetic Simulation and Numerical Methods",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electronic Packaging and Soldering Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrostatic Discharge in Electronics",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Electrowetting and Microfluidic Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Embedded Systems and FPGA Applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Energy Harvesting in Wireless Networks",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Ferroelectric and Negative Capacitance Devices",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Full-Duplex Wireless Communications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Gas Sensing Nanomaterials and Sensors",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "HVDC Systems and Fault Protection",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "High-Voltage Power Transmission Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "IPv6, Mobility, Handover, Networks, Security",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Indoor and Outdoor Localization Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Integrated Circuits and Semiconductor Failure Analysis",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "IoT Networks and Protocols",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "IoT-based Smart Home Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Islanding Detection in Power Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Laser Design and Applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Low-power high-performance VLSI design",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Magnetic Field Sensors Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Microwave Engineering and Waveguides",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Microwave and Dielectric Measurement Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Millimeter-Wave Propagation and Modeling",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Molecular Junctions and Nanostructures",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Multilevel Inverters and Converters",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Optical Network Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Optical Systems and Laser Technology",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Optical Wireless Communication Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Organic Electronics and Photovoltaics",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Organic Light-Emitting Diodes Research",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "PAPR reduction in OFDM",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Particle Accelerators and Free-Electron Lasers",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Perovskite Materials and Applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Photonic Crystal and Fiber Optics",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Photonic and Optical Devices",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Plasma Diagnostics and Applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Power Line Communications and Noise",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Power Quality and Harmonics",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Power System Optimization and Stability",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Power Systems and Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Power Transformer Diagnostics and Insulation",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Radiation Effects in Electronics",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Radio Frequency Integrated Circuit Design",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Semiconductor Lasers and Optical Devices",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Semiconductor materials and devices",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Silicon Carbide Semiconductor Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Silicon and Solar Cell Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Smart Grid Energy Management",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Smart Grid and Power Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Solid State Laser Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Terahertz technology and applications",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Thin-Film Transistor Technologies",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Ultra-Wideband Communications Technology",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "VLSI and FPGA Design Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Vehicular Ad Hoc Networks (VANETs)",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Wireless Communication Security Techniques",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Wireless Power Transfer Systems",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "solar cell performance optimization",
+      "object": "Electrical and Electronic Engineering"
+    },
+    {
+      "subject": "Copper Interconnects and Reliability",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Electromagnetic wave absorption materials",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Heusler alloys: electronic and magnetic properties",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Iron-based superconductors research",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Magnetic Properties and Applications",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Magnetic Properties of Alloys",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Magnetic and transport properties of perovskites and related materials",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Magnetism in coordination complexes",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Metamaterials and Metasurfaces Applications",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Multiferroics and related materials",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Nonlinear Optical Materials Research",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Organic and Molecular Conductors Research",
+      "object": "Electronic, Optical and Magnetic Materials"
+    },
+    {
+      "subject": "Engineering and Material Science Research",
+      "object": "General Materials Science"
+    },
+    {
+      "subject": "Material Properties and Applications",
+      "object": "General Materials Science"
+    },
+    {
+      "subject": "Metallurgical and Alloy Processes",
+      "object": "General Materials Science"
+    },
+    {
+      "subject": "Geochemistry and Elemental Analysis",
+      "object": "Geochemistry and Petrology"
+    },
+    {
+      "subject": "Groundwater and Isotope Geochemistry",
+      "object": "Geochemistry and Petrology"
+    },
+    {
+      "subject": "Mineralogy and Gemology Studies",
+      "object": "Geochemistry and Petrology"
+    },
+    {
+      "subject": "3D Surveying and Cultural Heritage",
+      "object": "Geology"
+    },
+    {
+      "subject": "Environmental Monitoring and Data Management",
+      "object": "Geology"
+    },
+    {
+      "subject": "Geological Studies and Exploration",
+      "object": "Geology"
+    },
+    {
+      "subject": "Geological and Geophysical Studies",
+      "object": "Geology"
+    },
+    {
+      "subject": "Geotourism and Geoheritage Conservation",
+      "object": "Geology"
+    },
+    {
+      "subject": "Advanced Topology and Set Theory",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Analytic and geometric function theory",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Fixed Point Theorems Analysis",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Geometric and Algebraic Topology",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Geometry and complex manifolds",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Morphological variations and asymmetry",
+      "object": "Geometry and Topology"
+    },
+    {
+      "subject": "Earthquake Detection and Analysis",
+      "object": "Geophysics"
+    },
+    {
+      "subject": "Geophysical and Geoelectrical Methods",
+      "object": "Geophysics"
+    },
+    {
+      "subject": "High-pressure geophysics and materials",
+      "object": "Geophysics"
+    },
+    {
+      "subject": "Seismic Imaging and Inversion Techniques",
+      "object": "Geophysics"
+    },
+    {
+      "subject": "Seismic Waves and Analysis",
+      "object": "Geophysics"
+    },
+    {
+      "subject": "Advanced Manufacturing and Logistics Optimization",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Assembly Line Balancing Optimization",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Digital Transformation in Industry",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Diverse Industrial Engineering Technologies",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Flexible and Reconfigurable Manufacturing Systems",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Industrial Vision Systems and Defect Detection",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Manufacturing Process and Optimization",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Robotic Process Automation Applications",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Sustainable Industrial Ecology",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Vehicle Routing Optimization Methods",
+      "object": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "subject": "Asymmetric Hydrogenation and Catalysis",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Coconut Research and Applications",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Inorganic Chemistry and Materials",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Inorganic Fluorides and Related Compounds",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Metal-Catalyzed Oxygenation Mechanisms",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Metal-Organic Frameworks: Synthesis and Applications",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Pigment Synthesis and Properties",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Radioactive element chemistry and processing",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Synthesis and characterization of novel inorganic/organometallic compounds",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Vanadium and Halogenation Chemistry",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Zeolite Catalysis and Synthesis",
+      "object": "Inorganic Chemistry"
+    },
+    {
+      "subject": "Adsorption and Cooling Systems",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Advanced Thermodynamic Systems and Engines",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Advanced machining processes and optimization",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Belt Conveyor Systems Engineering",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Carbon Dioxide Capture Technologies",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Catalysis and Hydrodesulfurization Studies",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Extraction and Separation Processes",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Gear and Bearing Dynamics Analysis",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Heat Transfer Mechanisms",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Heat Transfer and Boiling Studies",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Heat Transfer and Mathematical Modeling",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Heat Transfer and Optimization",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "High Temperature Alloys and Creep",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Hydraulic and Pneumatic Systems",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Injection Molding Process and Properties",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Iron and Steelmaking Processes",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Lubricants and Their Additives",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Mechanical Engineering Research and Applications",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Mechanical Engineering and Vibrations Research",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Membrane Separation and Gas Transport",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Phase Change Materials Research",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Polymer Science and Applications",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Powder Metallurgy Techniques and Materials",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Ranque-Hilsch vortex tube",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Refrigeration and Air Conditioning Technologies",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Surface Treatment and Coatings",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Thermodynamic and Exergetic Analyses of Power and Cooling Systems",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Transport Systems and Technology",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Tribology and Lubrication Engineering",
+      "object": "Mechanical Engineering"
+    },
+    {
+      "subject": "Adhesion, Friction, and Surface Interactions",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Composite Material Mechanics",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Composite Structure Analysis and Optimization",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Elasticity and Wave Propagation",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Fatigue and fracture mechanics",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Geomechanics and Mining Engineering",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Laser-induced spectroscopy and plasma",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Material Properties and Processing",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Mechanical Behavior of Composites",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Mechanical stress and fatigue analysis",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Metal and Thin Film Mechanics",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Rock Mechanics and Modeling",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "Thermoelastic and Magnetoelastic Phenomena",
+      "object": "Mechanics of Materials"
+    },
+    {
+      "subject": "High-Energy Particle Collisions Research",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Neutrino Physics Research",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Nuclear physics research studies",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Particle Detector Development and Performance",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Particle physics theoretical and experimental studies",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Quantum Chromodynamics and Particle Interactions",
+      "object": "Nuclear and High Energy Physics"
+    },
+    {
+      "subject": "Advanced Optimization Algorithms Research",
+      "object": "Numerical Analysis"
+    },
+    {
+      "subject": "Differential Equations and Numerical Methods",
+      "object": "Numerical Analysis"
+    },
+    {
+      "subject": "Iterative Methods for Nonlinear Equations",
+      "object": "Numerical Analysis"
+    },
+    {
+      "subject": "Mathematical Approximation and Integration",
+      "object": "Numerical Analysis"
+    },
+    {
+      "subject": "Numerical methods for differential equations",
+      "object": "Numerical Analysis"
+    },
+    {
+      "subject": "Drilling and Well Engineering",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Marine Biology and Environmental Chemistry",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Marine and Coastal Research",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Marine and Offshore Engineering Studies",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Maritime Navigation and Safety",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Offshore Engineering and Technologies",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Ship Hydrodynamics and Maneuverability",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Underwater Vehicles and Communication Systems",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Wave and Wind Energy Systems",
+      "object": "Ocean Engineering"
+    },
+    {
+      "subject": "Marine Biology and Ecology Research",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Marine and coastal ecosystems",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Marine and coastal plant biology",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Marine and environmental studies",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Ocean Acidification Effects and Responses",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Ocean Waves and Remote Sensing",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Oceanographic and Atmospheric Processes",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Underwater Acoustics Research",
+      "object": "Oceanography"
+    },
+    {
+      "subject": "Advanced Polymer Synthesis and Characterization",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Advanced Synthetic Organic Chemistry",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Asymmetric Synthesis and Catalysis",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Axial and Atropisomeric Chirality Synthesis",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Carbohydrate Chemistry and Synthesis",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Catalytic Alkyne Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Catalytic Cross-Coupling Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Catalytic C‚ÄìH Functionalization Methods",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Chemical Synthesis and Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Chemical synthesis and alkaloids",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Chemical synthesis and pharmacological studies",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Chemistry and Stereochemistry Studies",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Click Chemistry and Applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Coordination Chemistry and Organometallics",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Cyclization and Aryne Chemistry",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Cyclopropane Reaction Mechanisms",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Ferrocene Chemistry and Applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Free Radicals and Antioxidants",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Fullerene Chemistry and Applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Inorganic and Organometallic Chemistry",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Microwave-Assisted Synthesis and Applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Multicomponent Synthesis of Heterocycles",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organic Chemistry Cycloaddition Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organic Chemistry Synthesis Methods",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organoboron and organosilicon chemistry",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organometallic Complex Synthesis and Catalysis",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organometallic Compounds Synthesis and Characterization",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Organophosphorus compounds synthesis",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Oxidative Organic Chemistry Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Phosphorus compounds and reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Plant-Derived Bioactive Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Polydiacetylene-based materials and applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Quinazolinone synthesis and applications",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Radical Photochemical Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Sulfur-Based Synthesis Techniques",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Biological Evaluation",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Catalytic Reactions",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Characterization of Heterocyclic Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Characterization of Pyrroles",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Properties of Aromatic Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Reactions of Organic Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Reactivity of Heterocycles",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and Reactivity of Sulfur-Containing Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and biological activity",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis and pharmacology of benzodiazepine derivatives",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis of Indole Derivatives",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis of Tetrazole Derivatives",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis of heterocyclic compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthesis of Œ≤-Lactam Compounds",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Synthetic Organic Chemistry Methods",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Wood and Agarwood Research",
+      "object": "Organic Chemistry"
+    },
+    {
+      "subject": "Evolution and Paleontology Studies",
+      "object": "Paleontology"
+    },
+    {
+      "subject": "Paleontology and Evolutionary Biology",
+      "object": "Paleontology"
+    },
+    {
+      "subject": "Paleontology and Stratigraphy of Fossils",
+      "object": "Paleontology"
+    },
+    {
+      "subject": "Scarabaeidae Beetle Taxonomy and Biogeography",
+      "object": "Paleontology"
+    },
+    {
+      "subject": "Advanced Physical and Chemical Molecular Interactions",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "Crystallography and molecular interactions",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "Electrostatics and Colloid Interactions",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "History and advancements in chemistry",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "Photochemistry and Electron Transfer Studies",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "Various Chemistry Research Topics",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "thermodynamics and calorimetric analyses",
+      "object": "Physical and Theoretical Chemistry"
+    },
+    {
+      "subject": "Conducting polymers and applications",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Dendrimers and Hyperbranched Polymers",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Flame retardant materials and properties",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer Foaming and Composites",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer Nanocomposite Synthesis and Irradiation",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer Nanocomposites and Properties",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer Science and PVC",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer Synthesis and Characterization",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer composites and self-healing",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Polymer crystallization and properties",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Synthesis and properties of polymers",
+      "object": "Polymers and Plastics"
+    },
+    {
+      "subject": "Evaluation and Optimization Models",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Fire Detection and Safety Systems",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Fire dynamics and safety research",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Industrial and Mining Safety",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Power System Reliability and Maintenance",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Reliability and Maintenance Optimization",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Safety Systems Engineering in Autonomy",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Traffic and Road Safety",
+      "object": "Safety, Risk, Reliability and Quality"
+    },
+    {
+      "subject": "Advanced Mathematical Theories and Applications",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Advanced Thermodynamics and Statistical Mechanics",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Chaos control and synchronization",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Complex Network Analysis Techniques",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Complex Systems and Dynamics",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Model Reduction and Neural Networks",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Nonlinear Photonic Systems",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Nonlinear Waves and Solitons",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Opinion Dynamics and Social Influence",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Quantum chaos and dynamical systems",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Statistical Mechanics and Entropy",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "stochastic dynamics and bifurcation",
+      "object": "Statistical and Nonlinear Physics"
+    },
+    {
+      "subject": "Advanced Causal Inference Techniques",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Advanced Statistical Methods and Models",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Benford‚Äôs Law and Fraud Detection",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Census and Population Estimation",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Cognitive and developmental aspects of mathematical skills",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Markov Chains and Monte Carlo Methods",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Probabilistic Statistics in Medicine",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Probability and Statistical Research",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Distribution Estimation and Applications",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Methods and Applications",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Methods and Bayesian Inference",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Methods and Inference",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Methods in Clinical Trials",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistical Methods in Epidemiology",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Statistics Education and Methodologies",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Survey Sampling and Estimation Techniques",
+      "object": "Statistics and Probability"
+    },
+    {
+      "subject": "Optical Coatings and Gratings",
+      "object": "Surfaces, Coatings and Films"
+    },
+    {
+      "subject": "Polymer Surface Interaction Studies",
+      "object": "Surfaces, Coatings and Films"
+    },
+    {
+      "subject": "Surface Modification and Superhydrophobicity",
+      "object": "Surfaces, Coatings and Films"
+    }
+  ]
+}

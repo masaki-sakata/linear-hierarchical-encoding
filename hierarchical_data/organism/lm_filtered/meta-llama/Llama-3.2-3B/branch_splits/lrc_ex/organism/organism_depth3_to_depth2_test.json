@@ -1,0 +1,989 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "buzzard",
+      "object": "Accipitriformes"
+    },
+    {
+      "subject": "harrier",
+      "object": "Accipitriformes"
+    },
+    {
+      "subject": "vulture",
+      "object": "Accipitriformes"
+    },
+    {
+      "subject": "duck",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "eider",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "gadwall",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "goldeneye",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "goose",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "mallard",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "merganser",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "pintail",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "scoter",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "shoveler",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "smew",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "swan",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "teal",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "wigeon",
+      "object": "Anseriformes"
+    },
+    {
+      "subject": "avocet",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "curlew",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "dunlin",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "godwit",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "lapwing",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "oystercatcher",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "phalarope",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "plover",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "puffin",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "redshank",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "sandpiper",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "seagull",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "snipe",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "tern",
+      "object": "Charadriiformes"
+    },
+    {
+      "subject": "dove",
+      "object": "Columbiformes"
+    },
+    {
+      "subject": "pigeon",
+      "object": "Columbiformes"
+    },
+    {
+      "subject": "bee-eater",
+      "object": "Coraciiformes"
+    },
+    {
+      "subject": "kingfisher",
+      "object": "Coraciiformes"
+    },
+    {
+      "subject": "falcon",
+      "object": "Falconiformes"
+    },
+    {
+      "subject": "kestrel",
+      "object": "Falconiformes"
+    },
+    {
+      "subject": "chicken",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "grouse",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "guineafowl",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "partridge",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "peafowl",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "pheasant",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "ptarmigan",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "quail",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "turkey",
+      "object": "Galliformes"
+    },
+    {
+      "subject": "antbird",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "antpitta",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "blackbird",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "brambling",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "bullfinch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "bunting",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "canary",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "cardinal",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "catbird",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "chaffinch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "cisticola",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "cotinga",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "crossbill",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "dipper",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "finch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "flycatcher",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "goldfinch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "greenfinch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "grosbeak",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "honeyeater",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "jay",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "junco",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "keel",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "kinglet",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "lark",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "linnet",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "magpie",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "manakin",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "mockingbird",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "nightingale",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "nuthatch",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "oriole",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "phoebe",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "pipit",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "raven",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "redpoll",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "reedbunting",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "shrike",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "siskin",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "sparrow",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "starling",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "sunbird",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "swallow",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "tanager",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "tapaculo",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "thrasher",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "thrush",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "treecreeper",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "vireo",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "wagtail",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "warbler",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "waxwing",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "wren",
+      "object": "Passeriformes"
+    },
+    {
+      "subject": "budgerigar",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "cockatoo",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "lorikeet",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "lovebird",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "macaw",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "parakeet",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "parrot",
+      "object": "Psittaciformes"
+    },
+    {
+      "subject": "addax",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "alpaca",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "antelope",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "bison",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "boar",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "buffalo",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "camel",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "caribou",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "cow",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "deer",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "eland",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "elk",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "gaur",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "gazelle",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "gemsbok",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "giraffe",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "gnu",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "goat",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "guanaco",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "hartebeest",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "ibex",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "impala",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "kudu",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "llama",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "moose",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "muskox",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "okapi",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "oryx",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "peccary",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "pronghorn",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "reindeer",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "serow",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "sheep",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "springbok",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "takin",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "topi",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "vicuna",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "warthog",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "waterbuck",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "wildebeest",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "yak",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "zebu",
+      "object": "Artiodactyla"
+    },
+    {
+      "subject": "badger",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "black-bear",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "caracal",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "cat",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "cheetah",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "cougar",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "coyote",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "dingo",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "dog",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "ermine",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "fennec",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "ferret",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "fox",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "hyena",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "jackal",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "jaguar",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "leopard",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "lion",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "lynx",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "margay",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "meerkat",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "mink",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "ocelot",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "otter",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "panda",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "panther",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "polarbear",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "puma",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "raccoon",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "sable",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "skunk",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "stoat",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "weasel",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "wolf",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "wolverine",
+      "object": "Carnivora"
+    },
+    {
+      "subject": "kangaroo",
+      "object": "Diprotodontia"
+    },
+    {
+      "subject": "koala",
+      "object": "Diprotodontia"
+    },
+    {
+      "subject": "wallaby",
+      "object": "Diprotodontia"
+    },
+    {
+      "subject": "wombat",
+      "object": "Diprotodontia"
+    },
+    {
+      "subject": "hedgehog",
+      "object": "Eulipotyphla"
+    },
+    {
+      "subject": "shrew",
+      "object": "Eulipotyphla"
+    },
+    {
+      "subject": "hare",
+      "object": "Lagomorpha"
+    },
+    {
+      "subject": "pika",
+      "object": "Lagomorpha"
+    },
+    {
+      "subject": "rabbit",
+      "object": "Lagomorpha"
+    },
+    {
+      "subject": "echidna",
+      "object": "Monotremata"
+    },
+    {
+      "subject": "platypus",
+      "object": "Monotremata"
+    },
+    {
+      "subject": "donkey",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "horse",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "mule",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "pony",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "rhinoceros",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "tapir",
+      "object": "Perissodactyla"
+    },
+    {
+      "subject": "ape",
+      "object": "Primates"
+    },
+    {
+      "subject": "baboon",
+      "object": "Primates"
+    },
+    {
+      "subject": "bonobo",
+      "object": "Primates"
+    },
+    {
+      "subject": "capuchin",
+      "object": "Primates"
+    },
+    {
+      "subject": "chimp",
+      "object": "Primates"
+    },
+    {
+      "subject": "chimpanzee",
+      "object": "Primates"
+    },
+    {
+      "subject": "colobus",
+      "object": "Primates"
+    },
+    {
+      "subject": "galago",
+      "object": "Primates"
+    },
+    {
+      "subject": "gelada",
+      "object": "Primates"
+    },
+    {
+      "subject": "gibbon",
+      "object": "Primates"
+    },
+    {
+      "subject": "gorilla",
+      "object": "Primates"
+    },
+    {
+      "subject": "howler",
+      "object": "Primates"
+    },
+    {
+      "subject": "langur",
+      "object": "Primates"
+    },
+    {
+      "subject": "lemur",
+      "object": "Primates"
+    },
+    {
+      "subject": "loris",
+      "object": "Primates"
+    },
+    {
+      "subject": "macaque",
+      "object": "Primates"
+    },
+    {
+      "subject": "mandrill",
+      "object": "Primates"
+    },
+    {
+      "subject": "marmoset",
+      "object": "Primates"
+    },
+    {
+      "subject": "monkey",
+      "object": "Primates"
+    },
+    {
+      "subject": "orangutan",
+      "object": "Primates"
+    },
+    {
+      "subject": "papio",
+      "object": "Primates"
+    },
+    {
+      "subject": "saki",
+      "object": "Primates"
+    },
+    {
+      "subject": "siamang",
+      "object": "Primates"
+    },
+    {
+      "subject": "tamarin",
+      "object": "Primates"
+    },
+    {
+      "subject": "tarsier",
+      "object": "Primates"
+    },
+    {
+      "subject": "uakari",
+      "object": "Primates"
+    },
+    {
+      "subject": "agouti",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "beaver",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "capybara",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "chinchilla",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "chipmunk",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "dormouse",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "gerbil",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "guinea",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "hamster",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "mouse",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "muskrat",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "nutria",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "porcupine",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "rat",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "rodent",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "squirrel",
+      "object": "Rodentia"
+    },
+    {
+      "subject": "vole",
+      "object": "Rodentia"
+    }
+  ]
+}

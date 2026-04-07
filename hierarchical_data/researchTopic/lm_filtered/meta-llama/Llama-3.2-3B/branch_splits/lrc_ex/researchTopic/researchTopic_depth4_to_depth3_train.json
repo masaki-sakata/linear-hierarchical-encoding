@@ -1,0 +1,3085 @@
+{
+  "name": "depth4 to depth3",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth4",
+    "range_name": "depth3"
+  },
+  "samples": [
+    {
+      "subject": "Animal Nutrition and Physiology",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Animal Virus Infections Studies",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Coccidia and coccidiosis research",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Livestock and Poultry Management",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Meat and Animal Product Quality",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Rabbits: Nutrition, Reproduction, Health",
+      "object": "Animal Science and Zoology"
+    },
+    {
+      "subject": "Amino Acid Enzymes and Metabolism",
+      "object": "Biochemistry"
+    },
+    {
+      "subject": "Biochemical Acid Research Studies",
+      "object": "Biochemistry"
+    },
+    {
+      "subject": "Eicosanoids and Hypertension Pharmacology",
+      "object": "Biochemistry"
+    },
+    {
+      "subject": "Breast Cancer Treatment Studies",
+      "object": "Cancer Research"
+    },
+    {
+      "subject": "Cancer Genomics and Diagnostics",
+      "object": "Cancer Research"
+    },
+    {
+      "subject": "Cancer, Hypoxia, and Metabolism",
+      "object": "Cancer Research"
+    },
+    {
+      "subject": "Cancer, Lipids, and Metabolism",
+      "object": "Cancer Research"
+    },
+    {
+      "subject": "Cancer-related molecular mechanisms research",
+      "object": "Cancer Research"
+    },
+    {
+      "subject": "Caveolin-1 and cellular processes",
+      "object": "Cell Biology"
+    },
+    {
+      "subject": "Cellular transport and secretion",
+      "object": "Cell Biology"
+    },
+    {
+      "subject": "Hippo pathway signaling and YAP/TAZ",
+      "object": "Cell Biology"
+    },
+    {
+      "subject": "Skin and Cellular Biology Research",
+      "object": "Cell Biology"
+    },
+    {
+      "subject": "Bryophyte Studies and Records",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Coleoptera Taxonomy and Distribution",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Collembola Taxonomy and Ecology Studies",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Diptera species taxonomy and behavior",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Entomological Studies and Ecology",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Fern and Epiphyte Biology",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Hymenoptera taxonomy and phylogeny",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Invertebrate Taxonomy and Ecology",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Lichen and fungal ecology",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Plant Taxonomy and Phylogenetics",
+      "object": "Ecology, Evolution, Behavior and Systematics"
+    },
+    {
+      "subject": "Culinary Culture and Tourism",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Fermentation and Sensory Analysis",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Chemistry and Fat Analysis",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Drying and Modeling",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Industry and Aquatic Biology",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Quality and Safety Studies",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Safety and Hygiene",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Supply Chain Traceability",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food Waste Reduction and Sustainability",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food and Agricultural Sciences",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Food, Nutrition, and Cultural Practices",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Melamine detection and toxicity",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Microencapsulation and Drying Processes",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Pesticide Residue Analysis and Safety",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Polysaccharides Composition and Applications",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Probiotics and Fermented Foods",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Proteins in Food Systems",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Salmonella and Campylobacter epidemiology",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Sensory Analysis and Statistical Methods",
+      "object": "Food Science"
+    },
+    {
+      "subject": "Agroforestry and silvopastoral systems",
+      "object": "Forestry"
+    },
+    {
+      "subject": "Forest Ecology and Conservation",
+      "object": "Forestry"
+    },
+    {
+      "subject": "Bioeconomy and Sustainability Development",
+      "object": "General Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Diverse Educational Innovations Studies",
+      "object": "General Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Animal Genetics and Reproduction",
+      "object": "Genetics"
+    },
+    {
+      "subject": "BRCA gene mutations in cancer",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Bacterial Genetics and Biotechnology",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Dermatoglyphics and Human Traits",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Evolution and Genetic Dynamics",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Forensic and Genetic Research",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic Associations and Epidemiology",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic Mapping and Diversity in Plants and Animals",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic Syndromes and Imprinting",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic and Kidney Cyst Diseases",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic and phenotypic traits in livestock",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic and rare skin diseases.",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetic diversity and population structure",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetics and Neurodevelopmental Disorders",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genetics and Physical Performance",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genome Rearrangement Algorithms",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genomic variations and chromosomal abnormalities",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Genomics and Rare Diseases",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Nutrition, Genetics, and Disease",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Race, Genetics, and Society",
+      "object": "Genetics"
+    },
+    {
+      "subject": "Atherosclerosis and Cardiovascular Diseases",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Biomarkers in Disease Mechanisms",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Biosimilars and Bioanalytical Methods",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Complement system in diseases",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Galectins and Cancer Biology",
+      "object": "Immunology"
+    },
+    {
+      "subject": "IL-33, ST2, and ILC Pathways",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immune Cell Function and Interaction",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immune Response and Inflammation",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immune cells in cancer",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immune responses and vaccinations",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immunodeficiency and Autoimmune Disorders",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immunotherapy and Immune Responses",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Immunotoxicology and immune responses",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Inflammation biomarkers and pathways",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Invertebrate Immune Response Mechanisms",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Macrophage Migration Inhibitory Factor",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Mast cells and histamine",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Neutrophil, Myeloperoxidase and Oxidative Mechanisms",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Phagocytosis and Immune Regulation",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Psoriasis: Treatment and Pathogenesis",
+      "object": "Immunology"
+    },
+    {
+      "subject": "T-cell and B-cell Immunology",
+      "object": "Immunology"
+    },
+    {
+      "subject": "T-cell and Retrovirus Studies",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Toxin Mechanisms and Immunotoxins",
+      "object": "Immunology"
+    },
+    {
+      "subject": "interferon and immune responses",
+      "object": "Immunology"
+    },
+    {
+      "subject": "Entomopathogenic Microorganisms in Pest Control",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect Pheromone Research and Control",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect Utilization and Effects",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect and Pesticide Research",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect behavior and control techniques",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect symbiosis and bacterial influences",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Insect-Plant Interactions and Control",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Research on scale insects",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Silkworms and Sericulture Research",
+      "object": "Insect Science"
+    },
+    {
+      "subject": "Alexander von Humboldt Studies",
+      "object": "Microbiology"
+    },
+    {
+      "subject": "Antimicrobial Peptides and Activities",
+      "object": "Microbiology"
+    },
+    {
+      "subject": "Medical Device Sterilization and Disinfection",
+      "object": "Microbiology"
+    },
+    {
+      "subject": "Microbial infections and disease research",
+      "object": "Microbiology"
+    },
+    {
+      "subject": "14-3-3 protein interactions",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "ATP Synthase and ATPases Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Advanced Biosensing Techniques and Applications",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Advanced biosensing and bioanalysis techniques",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Amyloidosis: Diagnosis, Treatment, Outcomes",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Bacillus and Francisella bacterial research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Bacterial biofilms and quorum sensing",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Biochemical and Molecular Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Bioinformatics and Genomic Networks",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Biological Research and Disease Studies",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Biomedical Text Mining and Ontologies",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "CRISPR and Genetic Engineering",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Coenzyme Q10 studies and effects",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Congenital heart defects research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Connexins and lens biology",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "DNA and Biological Computing",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "DNA and Nucleic Acid Chemistry",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Diffusion and Search Dynamics",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "FOXO transcription factor regulation",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Fibroblast Growth Factor Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Fractal and DNA sequence analysis",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Gene Regulatory Network Analysis",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Genomics and Chromatin Dynamics",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Genomics, phytochemicals, and oxidative stress",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Ginseng Biological Effects and Applications",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Glutathione Transferases and Polymorphisms",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Glycosylation and Glycoproteins Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Heat shock proteins research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Heme Oxygenase-1 and Carbon Monoxide",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Histone Deacetylase Inhibitors Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Ion Transport and Channel Regulation",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Machine Learning in Bioinformatics",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Mechanisms of cancer metastasis",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Mitochondrial Function and Pathology",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Molecular Biology Techniques and Applications",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Natural product bioactivities and synthesis",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Nicotinic Acetylcholine Receptors Study",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Nuclear Structure and Function",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Peroxisome Proliferator-Activated Receptors",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Phosphodiesterase function and regulation",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Phytochemical compounds biological activities",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Pineapple and bromelain studies",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Plant Gene Expression Analysis",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Plant Reproductive Biology",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Plant Toxicity and Pharmacological Properties",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Plant and Fungal Species Descriptions",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Pluripotent Stem Cells Research",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Polyamine Metabolism and Applications",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Prion Diseases and Protein Misfolding",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Protein Degradation and Inhibitors",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Protist diversity and phylogeny",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "RNA Research and Splicing",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "RNA and protein synthesis mechanisms",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "RNA modifications and cancer",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "RNA regulation and disease",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Redox biology and oxidative stress",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Steroid Chemistry and Biochemistry",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Synthesis and bioactivity of alkaloids",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Ubiquitin and proteasome pathways",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Viral Infectious Diseases and Gene Expression in Insects",
+      "object": "Molecular Biology"
+    },
+    {
+      "subject": "Agricultural Practices and Plant Genetics",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Agriculture, Plant Science, Crop Management",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Allelopathy and phytotoxic interactions",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Bamboo properties and applications",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Banana Cultivation and Research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Berry genetics and cultivation research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Bioactive Compounds in Plants",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Botanical Studies and Applications",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Botany and Plant Ecology Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Cassava research and cyanide",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Cynara cardunculus studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Date Palm Research Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Ethnobotanical and Medicinal Plants Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Flowering Plant Growth and Cultivation",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Genetic and Environmental Crop Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Genetics and Plant Breeding",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Greenhouse Technology and Climate Control",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Growth and nutrition in plants",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Horticultural and Viticultural Research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Leaf Properties and Growth Measurement",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Legume Nitrogen Fixing Symbiosis",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Light effects on plants",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Medicinal Plant Research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Mediterranean and Iberian flora and fauna",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Moringa oleifera research and applications",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Mycorrhizal Fungi and Plant Interactions",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Natural Compound Pharmacology Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Nematode management and characterization studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Peanut Plant Research Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytase and its Applications",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytochemistry Medicinal Plant Applications",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytochemistry and Biological Activities",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytochemistry and biological activities of Ficus species",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytochemistry and biological activity of medicinal plants",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Phytoplasmas and Hemiptera pathogens",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Disease Management Techniques",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Disease Resistance and Genetics",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Genetic and Mutation Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Micronutrient Interactions and Effects",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Molecular Biology Research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Parasitism and Resistance",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Pathogenic Bacteria Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Pathogens and Resistance",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Physiology and Cultivation Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Stress Responses and Tolerance",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Surface Properties and Treatments",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant Virus Research Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant and Biological Electrophysiology Studies",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant chemical constituents analysis",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant nutrient uptake and metabolism",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant pathogens and resistance mechanisms",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant responses to elevated CO2",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant responses to water stress",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Plant-Microbe Interactions and Immunity",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Polysaccharides and Plant Cell Walls",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Powdery Mildew Fungal Diseases",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Seed Germination and Physiology",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Sesame and Sesamin Research",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Silicon Effects in Agriculture",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Sugarcane Cultivation and Processing",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Wheat and Barley Genetics and Pathology",
+      "object": "Plant Science"
+    },
+    {
+      "subject": "Composting and Vermicomposting Techniques",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Humic Substances and Bio-Organic Studies",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Soil Carbon and Nitrogen Dynamics",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Soil Management and Crop Yield",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Soil Science and Environmental Management",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Soil and Environmental Studies",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Soil erosion and sediment transport",
+      "object": "Soil Science"
+    },
+    {
+      "subject": "Poxvirus research and outbreaks",
+      "object": "Virology"
+    },
+    {
+      "subject": "Rabies epidemiology and control",
+      "object": "Virology"
+    },
+    {
+      "subject": "Accounting Education and Careers",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Accounting Theory and Financial Reporting",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Accounting and Financial Management",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Auditing, Earnings Management, Governance",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Corporate Taxation and Avoidance",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Taxation and Legal Issues",
+      "object": "Accounting"
+    },
+    {
+      "subject": "Working Capital and Financial Performance",
+      "object": "Accounting"
+    },
+    {
+      "subject": "African history and culture studies",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Anthropological Studies and Insights",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Anthropology: Ethics, History, Culture",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Archaeology and Natural History",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Australian Indigenous Culture and History",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Death, Funerary Practices, and Mourning",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Historical and Cultural Archaeology Studies",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Indigenous Cultures and History",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Pleistocene-Era Hominins and Archaeology",
+      "object": "Anthropology"
+    },
+    {
+      "subject": "Coaching Methods and Impact",
+      "object": "Applied Psychology"
+    },
+    {
+      "subject": "Human Resource Development and Performance Evaluation",
+      "object": "Applied Psychology"
+    },
+    {
+      "subject": "Psychological Testing and Assessment",
+      "object": "Applied Psychology"
+    },
+    {
+      "subject": "Body Image and Dysmorphia Studies",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "COVID-19 and Mental Health",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Child Abuse and Trauma",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Counseling, Therapy, and Family Dynamics",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Eating Disorders and Behaviors",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Family Caregiving in Mental Illness",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Family and Disability Support Research",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Gambling Behavior and Treatments",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Grief, Bereavement, and Mental Health",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Migration, Health and Trauma",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Obsessive-Compulsive Spectrum Disorders",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Personality Disorders and Psychopathology",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Personality Traits and Psychology",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Posttraumatic Stress Disorder Research",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychiatric care and mental health services",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychoanalysis and Psychopathology Research",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychological Treatments and Assessments",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychological Treatments and Disorders",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychology and Mental Health",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Psychotherapy Techniques and Applications",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Resilience and Mental Health",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Stuttering Research and Treatment",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Suicide and Self-Harm Studies",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Transactional Analysis in Psychotherapy",
+      "object": "Clinical Psychology"
+    },
+    {
+      "subject": "Advertising and Communication Studies",
+      "object": "Communication"
+    },
+    {
+      "subject": "Communication Studies and Media",
+      "object": "Communication"
+    },
+    {
+      "subject": "Communication and COVID-19 Impact",
+      "object": "Communication"
+    },
+    {
+      "subject": "Journalism and Media Studies",
+      "object": "Communication"
+    },
+    {
+      "subject": "Media Studies and Communication",
+      "object": "Communication"
+    },
+    {
+      "subject": "Media and Communication Studies",
+      "object": "Communication"
+    },
+    {
+      "subject": "Public Relations and Crisis Communication",
+      "object": "Communication"
+    },
+    {
+      "subject": "Radio, Podcasts, and Digital Media",
+      "object": "Communication"
+    },
+    {
+      "subject": "Development, Ethics, and Society",
+      "object": "Development"
+    },
+    {
+      "subject": "Economic and Technological Developments in Russia",
+      "object": "Development"
+    },
+    {
+      "subject": "International Development and Aid",
+      "object": "Development"
+    },
+    {
+      "subject": "Regional Development and Innovation",
+      "object": "Development"
+    },
+    {
+      "subject": "Child and Animal Learning Development",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Children's Physical and Motor Development",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Educational Games and Gamification",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Educational Strategies and Epistemologies",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Educational and Psychological Assessments",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Educational methodologies and cognitive development",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Innovative Teaching and Learning Methods",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Language Acquisition and Education",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Language Development and Disorders",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Learning Styles and Cognitive Differences",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Psychology of Development and Education",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Reading and Literacy Development",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Science Education and Perceptions",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Second Language Acquisition and Learning",
+      "object": "Developmental and Educational Psychology"
+    },
+    {
+      "subject": "Ayn Rand and Bront√´ studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Balkan and Eastern European Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Belt and Road Initiative",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Brazilian History and Foreign Policy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Business, Innovation, and Economy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "COVID-19 Pandemic Impacts",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Cinema and Media Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Climate Change Policy and Economics",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Complex Systems and Time Series Analysis",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Defense, Military, and Policy Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Diverse Global Economic and Educational Challenges",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Diverse Perspectives in Modern Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Diverse Scientific and Economic Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Diverse Specialized Academic Research",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Diverse academic and cultural studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic Analysis and Policy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic Development and Regional Competitiveness",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic Growth and Productivity",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic Sanctions and International Relations",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic Theory and Institutions",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Business Development Strategies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Environmental Valuation",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Financial Impacts of Cancer",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Fiscal Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Industrial Development",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic and Technological Innovation",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic theories and models",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economic, Social, and Health Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Economics of Agriculture and Food Markets",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Energy, Environment, Economic Growth",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "European Socioeconomic and Political Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Fiscal Policies and Political Economy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Fiscal Policy and Economic Growth",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Game Theory and Voting Systems",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Geochemistry and Geochronology of Asian Mineral Deposits",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "German Economic Analysis & Policies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Global Economic and Social Development",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Global Politics and Economy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Global Socioeconomic and Political Dynamics",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Globalization, Economics, and Policies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "HIV/AIDS Impact and Responses",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Health Systems, Economic Evaluations, Quality of Life",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Healthcare Policy and Management",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Herbal Medicine and Trade Cooperation",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Historical Economic and Social Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Historical and socio-economic studies of Spain and related regions",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Housing Market and Economics",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Impulse Buying and Technology Impacts",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Indian Economic and Social Development",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Innovation Policy and R&D",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Insurance and Financial Risk Management",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Italy: Economic History and Contemporary Issues",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Labor Market and Education",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Labor market dynamics and wage inequality",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Law, Economics, and Judicial Systems",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Legal and Constitutional Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Market Dynamics and Volatility",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Merger and Competition Analysis",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Microfinance and Financial Inclusion",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "New Zealand Economic and Social Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Occupational and Professional Licensing Regulation",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Pharmaceutical Economics and Policy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Polish socio-economic development",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Politics, Economics, and Education Policy",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Public Administration, ICT, and Policy Development",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Regional Development and Management Studies",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Regional Economic and Spatial Analysis",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Regional Economics and Spatial Analysis",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Socio-economic Development and Sustainability",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Socioeconomics of Resources and Conservation",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Spatial and Panel Data Analysis",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Sports Analytics and Performance",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Unemployment and Economic Growth",
+      "object": "Economics and Econometrics"
+    },
+    {
+      "subject": "Adult and Continuing Education Topics",
+      "object": "Education"
+    },
+    {
+      "subject": "African Education and Politics",
+      "object": "Education"
+    },
+    {
+      "subject": "Arabic Language Education Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Chemistry Education and Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Child Development and Digital Technology",
+      "object": "Education"
+    },
+    {
+      "subject": "Child Development and Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Collaborative Teaching and Inclusion",
+      "object": "Education"
+    },
+    {
+      "subject": "Critical and Liberation Pedagogy",
+      "object": "Education"
+    },
+    {
+      "subject": "Diverse Education Studies and Reforms",
+      "object": "Education"
+    },
+    {
+      "subject": "Diverse Education and Engineering Focus",
+      "object": "Education"
+    },
+    {
+      "subject": "E-Learning and COVID-19",
+      "object": "Education"
+    },
+    {
+      "subject": "Early Childhood Education and Development",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Discipline and Inequality",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Methods and Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Methods and Technologies",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Pedagogy and Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Practices and Evaluation",
+      "object": "Education"
+    },
+    {
+      "subject": "Education Systems and Policy",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Art Integration",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Character Development",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Communication Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Critical Thinking Development",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Cultural Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Islamic Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Military Integration",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Professional Development",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Social Development in Ukraine",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Teacher Training",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Technology Integration",
+      "object": "Education"
+    },
+    {
+      "subject": "Education and Vocational Training",
+      "object": "Education"
+    },
+    {
+      "subject": "Education during COVID-19 pandemic",
+      "object": "Education"
+    },
+    {
+      "subject": "Education in Diverse Contexts",
+      "object": "Education"
+    },
+    {
+      "subject": "Education in Rural Contexts",
+      "object": "Education"
+    },
+    {
+      "subject": "Education, Innovation and Language Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Education, Leadership, and Health Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Education, Literature, Philosophy Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Education, Psychology, and Social Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Assessment and Pedagogy",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Curriculum and Learning Methods",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Environments and Student Outcomes",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Leadership and Administration",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Leadership and Innovation",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Leadership and Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Methods and Analysis",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Methods and Impacts",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Methods and Outcomes",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Methods and Psychological Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Outcomes and Influences",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Philosophies and Pedagogies",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Practices and Challenges",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Practices and Policies",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Practices and Sociocultural Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Research and Analysis",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational Research and Methods",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational and Social Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Educational theories and practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Evaluation of Teaching Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Global Education Systems and Policies",
+      "object": "Education"
+    },
+    {
+      "subject": "Global Education and Multiculturalism",
+      "object": "Education"
+    },
+    {
+      "subject": "Health Education and Validation",
+      "object": "Education"
+    },
+    {
+      "subject": "Health and Education Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education Learning Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education Practises and Engagement",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education Research Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education Teaching and Evaluation",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education and Employability",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education and Sustainability",
+      "object": "Education"
+    },
+    {
+      "subject": "Higher Education in Latin America",
+      "object": "Education"
+    },
+    {
+      "subject": "Historical Education Studies Worldwide",
+      "object": "Education"
+    },
+    {
+      "subject": "Historical Education and Society",
+      "object": "Education"
+    },
+    {
+      "subject": "Impact of Education Environments",
+      "object": "Education"
+    },
+    {
+      "subject": "Inclusive Education and Diversity",
+      "object": "Education"
+    },
+    {
+      "subject": "Indigenous and Place-Based Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Innovations in Educational Methods",
+      "object": "Education"
+    },
+    {
+      "subject": "Innovative Educational Techniques",
+      "object": "Education"
+    },
+    {
+      "subject": "Innovative Teaching Methods",
+      "object": "Education"
+    },
+    {
+      "subject": "Knowledge Management in Higher Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Literacy and Educational Practices",
+      "object": "Education"
+    },
+    {
+      "subject": "Mathematics Education and Teaching Techniques",
+      "object": "Education"
+    },
+    {
+      "subject": "Music Education and Analysis",
+      "object": "Education"
+    },
+    {
+      "subject": "Online Learning Methods and Innovations",
+      "object": "Education"
+    },
+    {
+      "subject": "Online and Blended Learning",
+      "object": "Education"
+    },
+    {
+      "subject": "Pancasila Values in Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Parental Involvement in Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Physical Education and Gymnastics",
+      "object": "Education"
+    },
+    {
+      "subject": "Problem and Project Based Learning",
+      "object": "Education"
+    },
+    {
+      "subject": "Qualitative Research Methods and Applications",
+      "object": "Education"
+    },
+    {
+      "subject": "Reflective Practices in Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Religious Education and Schools",
+      "object": "Education"
+    },
+    {
+      "subject": "Rural and Ethnic Education",
+      "object": "Education"
+    },
+    {
+      "subject": "STEM Education",
+      "object": "Education"
+    },
+    {
+      "subject": "School Leadership and Teacher Performance",
+      "object": "Education"
+    },
+    {
+      "subject": "Science Education and Pedagogy",
+      "object": "Education"
+    },
+    {
+      "subject": "Science and Education Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Social Development and Education Research",
+      "object": "Education"
+    },
+    {
+      "subject": "Social Skills and Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Social and Educational Sciences",
+      "object": "Education"
+    },
+    {
+      "subject": "Student Assessment and Feedback",
+      "object": "Education"
+    },
+    {
+      "subject": "Sustainability in Higher Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Teacher Education and Assessments",
+      "object": "Education"
+    },
+    {
+      "subject": "Teacher Education and Leadership Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Teacher Professional Development and Motivation",
+      "object": "Education"
+    },
+    {
+      "subject": "Technology in Education and Healthcare",
+      "object": "Education"
+    },
+    {
+      "subject": "Technology-Enhanced Education Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Values and Moral Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Violence, Education, and Gender Studies",
+      "object": "Education"
+    },
+    {
+      "subject": "Vocational Education and Training",
+      "object": "Education"
+    },
+    {
+      "subject": "Vocational and Entrepreneurial Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Writing and Handwriting Education",
+      "object": "Education"
+    },
+    {
+      "subject": "Youth Substance Use and School Attendance",
+      "object": "Education"
+    },
+    {
+      "subject": "Cognitive Abilities and Testing",
+      "object": "Experimental and Cognitive Psychology"
+    },
+    {
+      "subject": "Cognitive Functions and Memory",
+      "object": "Experimental and Cognitive Psychology"
+    },
+    {
+      "subject": "Phonetics and Phonology Research",
+      "object": "Experimental and Cognitive Psychology"
+    },
+    {
+      "subject": "Sound Studies and Aurality",
+      "object": "Experimental and Cognitive Psychology"
+    },
+    {
+      "subject": "Banking stability, regulation, efficiency",
+      "object": "Finance"
+    },
+    {
+      "subject": "Community Development and Social Impact",
+      "object": "Finance"
+    },
+    {
+      "subject": "Credit Risk and Financial Regulations",
+      "object": "Finance"
+    },
+    {
+      "subject": "European Monetary and Fiscal Policies",
+      "object": "Finance"
+    },
+    {
+      "subject": "Finance, Markets, and Regulation",
+      "object": "Finance"
+    },
+    {
+      "subject": "Financial Markets and Investment Strategies",
+      "object": "Finance"
+    },
+    {
+      "subject": "Financial Risk and Volatility Modeling",
+      "object": "Finance"
+    },
+    {
+      "subject": "Global Financial Crisis and Policies",
+      "object": "Finance"
+    },
+    {
+      "subject": "Healthcare Systems and Reforms",
+      "object": "Finance"
+    },
+    {
+      "subject": "Housing, Finance, and Neoliberalism",
+      "object": "Finance"
+    },
+    {
+      "subject": "Stochastic processes and financial applications",
+      "object": "Finance"
+    },
+    {
+      "subject": "Sustainable Finance and Green Bonds",
+      "object": "Finance"
+    },
+    {
+      "subject": "Feminism, Gender, and Sexuality Studies",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Feminism, Gender, and Social Issues",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender Diversity and Inequality",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender Politics and Representation",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender Roles and Identity Studies",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender Studies and Social Issues",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender Studies in Language",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender and Feminist Studies",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender and Technology in Education",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender, Feminism, and Media",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Gender, Security, and Conflict",
+      "object": "Gender Studies"
+    },
+    {
+      "subject": "Aviation Industry Analysis and Trends",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Digital Transformation in Financial Services",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Digital Transformation in Law",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Economic Theory and Policy",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Economic Zones and Regional Development",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Global trade and economics",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Monetary Policy and Economic Impact",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Natural Resources and Economic Development",
+      "object": "General Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Geographic Information Systems Studies",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Geography and Environmental Studies in Latin America",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Historical Geography and Cartography",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Historical Geography and Geographical Thought",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Local Governance and Development",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Spatial and Cultural Studies",
+      "object": "Geography, Planning and Development"
+    },
+    {
+      "subject": "Health disparities and outcomes",
+      "object": "Health"
+    },
+    {
+      "subject": "Health, Education, and Aging",
+      "object": "Health"
+    },
+    {
+      "subject": "Vaccine Coverage and Hesitancy",
+      "object": "Health"
+    },
+    {
+      "subject": "Digital Accessibility for Disabilities",
+      "object": "Human Factors and Ergonomics"
+    },
+    {
+      "subject": "Employee Performance and Management",
+      "object": "Human Factors and Ergonomics"
+    },
+    {
+      "subject": "Animal Law and Welfare",
+      "object": "Law"
+    },
+    {
+      "subject": "Brazilian Legal Issues",
+      "object": "Law"
+    },
+    {
+      "subject": "Comparative and International Law Studies",
+      "object": "Law"
+    },
+    {
+      "subject": "Criminal Law and Evidence",
+      "object": "Law"
+    },
+    {
+      "subject": "Digitalization, Law, and Regulation",
+      "object": "Law"
+    },
+    {
+      "subject": "Discrimination and Equality Law",
+      "object": "Law"
+    },
+    {
+      "subject": "EU Law and Policy Analysis",
+      "object": "Law"
+    },
+    {
+      "subject": "Environmental law and policy",
+      "object": "Law"
+    },
+    {
+      "subject": "European Law and Migration",
+      "object": "Law"
+    },
+    {
+      "subject": "European and International Contract Law",
+      "object": "Law"
+    },
+    {
+      "subject": "Family and Matrimonial Law",
+      "object": "Law"
+    },
+    {
+      "subject": "Indigenous Peoples' Rights and Law",
+      "object": "Law"
+    },
+    {
+      "subject": "Intellectual Property Law",
+      "object": "Law"
+    },
+    {
+      "subject": "Law in Society and Culture",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal Education and Practice Innovations",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal Issues in South Africa",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal Language and Interpretation",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal and Policy Analysis in Indonesia",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal and Policy Issues",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal and Social Justice Studies",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal principles and applications",
+      "object": "Law"
+    },
+    {
+      "subject": "Legal processes and jurisprudence",
+      "object": "Law"
+    },
+    {
+      "subject": "Library Science and Administration",
+      "object": "Library and Information Sciences"
+    },
+    {
+      "subject": "Library Science and Information Literacy",
+      "object": "Library and Information Sciences"
+    },
+    {
+      "subject": "Advanced Queuing Theory Analysis",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Big Data and Business Intelligence",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Decision Support System Applications",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "ERP Systems Implementation and Impact",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Information Systems and Technology Applications",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Information Technology Governance and Strategy",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Optics and Image Analysis",
+      "object": "Management Information Systems"
+    },
+    {
+      "subject": "Economic and Technological Systems Analysis",
+      "object": "Management of Technology and Innovation"
+    },
+    {
+      "subject": "Entrepreneurship Studies and Influences",
+      "object": "Management of Technology and Innovation"
+    },
+    {
+      "subject": "Intellectual Property and Patents",
+      "object": "Management of Technology and Innovation"
+    },
+    {
+      "subject": "Sustainability and Innovation in Business",
+      "object": "Management of Technology and Innovation"
+    },
+    {
+      "subject": "University-Industry-Government Innovation Models",
+      "object": "Management of Technology and Innovation"
+    },
+    {
+      "subject": "Consumer Behavior and Marketing Influence",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Consumer Behavior in Brand Consumption and Identification",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Consumer Market Behavior and Pricing",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Consumer Packaging Perceptions and Trends",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Consumer Perception and Purchasing Behavior",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Consumer Retail Behavior Studies",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Customer churn and segmentation",
+      "object": "Marketing"
+    },
+    {
+      "subject": "Marketing and Advertising Strategies",
+      "object": "Marketing"
+    },
+    {
+      "subject": "AI and HR Technologies",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Appreciative Inquiry and Organizational Change",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Educational and Organizational Development",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Employee Performance and Motivation",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Employer Branding and e-HRM",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Facility Location and Emergency Management",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Family Business Performance and Succession",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Human Resource and Talent Management",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Job Satisfaction and Organizational Behavior",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Organizational Change and Leadership",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Organizational Downsizing and Restructuring",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Organizational Management and Change",
+      "object": "Organizational Behavior and Human Resource Management"
+    },
+    {
+      "subject": "Border Security and International Relations",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Commonwealth, Australian Politics and Federalism",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Cybersecurity and Cyber Warfare Studies",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Electoral Systems and Political Participation",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "European Politics and Security",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "European and Russian Geopolitical Military Strategies",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "European history and politics",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "German Security and Defense Policies",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Global Peace and Security Dynamics",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Global Political and Economic Relations",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Globalization and political ideologies",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Hannah Arendt's Political Philosophy",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Historical Geopolitical and Social Dynamics",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "History and International Relations",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "International Relations and Foreign Policy",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "International Relations in Latin America",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Nuclear Issues and Defense",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Political Developments and Conflicts",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Political Philosophy and Ethics",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Political Theory and Democracy",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Political Theory and Influence",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Political and Economic history of UK and US",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Post-Communist Economic and Political Transition",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Post-Soviet Geopolitical Dynamics",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Public Administration and Political Analysis",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Russia and Soviet political economy",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "South Asian Studies and Conflicts",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "Soviet and Russian History",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "World Wars: History, Literature, and Impact",
+      "object": "Political Science and International Relations"
+    },
+    {
+      "subject": "African studies and sociopolitical issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Anarchism and Radical Politics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Asian Studies and History",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Australian History and Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Canadian Identity and History",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "China's Ethnic Minorities and Relations",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Communism, Protests, Social Movements",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Conflict Management and Negotiation",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Conflict, Peace, and Violence in Colombia",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Consumer Behavior and Market Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Consumer behavior in food and health",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Contemporary Sociological Theory and Practice",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Crime Patterns and Interventions",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Crime, Deviance, and Social Control",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Crime, Illicit Activities, and Governance",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Criminal Justice and Corrections Analysis",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Critical Realism in Sociology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Critical Theory and Philosophy",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Cuban History and Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Cultural, Social, and Media Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Cyprus History, Politics, Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Decadence, Literature, and Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Delphi Technique in Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Diverse Academic Research Analysis",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Diverse Aspects of Tourism Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Diverse Research Studies Overview",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Doping in Sports",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Eastern European Communism and Reforms",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Economic and Social Issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Education, Politics, and Culture Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Educational, Social, and Political Issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Elite Sociology and Global Capitalism",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Emile Durkheim and Sociology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Emotional Labor in Professions",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Environmental Justice and Health Disparities",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Environmental, Ecological, and Cultural Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "European Cultural and National Identity",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Evolutionary Game Theory and Cooperation",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Extractivism and Socioeconomic Issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Family Support in Illness",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Feminist Epistemology and Gender Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Focus Groups and Qualitative Methods",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Foucault, Power, and Ethics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "German Social Sciences and History",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "German legal, social, and political studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Global History, Politics, and Ideology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Globalization and Cultural Identity",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Halal products and consumer behavior",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Historical and Environmental Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Homicide, Infanticide, and Child Abuse",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Hong Kong and Taiwan Politics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Human Rights and Immigration",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Impact of Technology on Adolescents",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Income, Poverty, and Inequality",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Islamic Studies and Radicalism",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Italian Fascism and Post-war Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Italian Social Issues and Migration",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Jewish and Middle Eastern Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Latin American social science",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Latin American socio-political dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Legal and Social Philosophy",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Marriage and Family Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Marriage and Sexual Relationships",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Media Discourse and Social Analysis",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Methodology and Impact of Social Science Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Migration and Exile Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Migration and Labor Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Migration, Ethnicity, and Economy",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Migration, Identity, and Health",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Migration, Refugees, and Integration",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Military, Security, and Education Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Misinformation and Its Impacts",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Multicultural Socio-Legal Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "National Identity and Symbolism",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Nonprofit Sector and Volunteering",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Ombudsman and Human Rights",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Ottoman Empire History and Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Participatory Visual Research Methods",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Philosophy and Social Theory",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Philosophy, Sociology, Political Theory",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Political Economy and Marxism",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Political Theology and Sovereignty",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Political and Social Dynamics in Chile and Latin America",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Privacy, Security, and Data Protection",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Psychosocial Factors Impacting Youth",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Qualitative Comparative Analysis Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Qualitative Research Methods and Ethics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Race, History, and American Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Racial and Ethnic Identity Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Religion and Society Interactions",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Religion and Society in Latin America",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Religion, Ecology, and Ethics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Religion, Society, and Development",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Religious and Theological Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Risk Perception and Management",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social Capital and Networks",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social Movements and Cultural Identity",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social Policies and Family",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social Power and Status Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social and Cultural Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social and Cultural Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social and Economic Solidarity",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social and Intergroup Psychology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Social and Political Issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Society, Economy, and Ethics Research",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Socio-political and Technological Issues",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Socioeconomic Development in MENA",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sociology and Cultural Identity Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sociology and Education Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sociology and Education in Brazil",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sociology and Norbert Elias",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sociology, Governance, and Technology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "South African History and Culture",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sport and Mega-Event Impacts",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Stalking, Cyberstalking, and Harassment",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Survey Methodology and Nonresponse",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Sustainability, Governance, and Employment Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "The Impact of Diversity and Innovation on Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Theological Perspectives and Practices",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Urban, Neighborhood, and Segregation Studies",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Weber, Simmel, Sociological Theory",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Youth Culture and Social Dynamics",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Youth, Politics, and Society",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Zygmunt Bauman's Sociology",
+      "object": "Sociology and Political Science"
+    },
+    {
+      "subject": "Business Strategy and Innovation",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Corporate Governance and Financial Management",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Corporate Governance and Management",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Corporate Identity and Reputation",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Dispute Resolution and Class Actions",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Governance, Compliance, and Sustainability",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Leadership and Management in Organizations",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Management Systems and Quality Improvement",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Political Influence and Corporate Strategies",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Quality and Management Systems",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Strategic Planning and Analysis",
+      "object": "Strategy and Management"
+    },
+    {
+      "subject": "Hospitality and Tourism Education",
+      "object": "Tourism, Leisure and Hospitality Management"
+    },
+    {
+      "subject": "Wine Industry and Tourism",
+      "object": "Tourism, Leisure and Hospitality Management"
+    },
+    {
+      "subject": "Latin American Urban Studies",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Night-time city culture",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Sustainable Urban and Rural Development",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Urban Development and Societal Issues",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Urban Planning and Governance",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Urban and Rural Development Challenges",
+      "object": "Urban Studies"
+    },
+    {
+      "subject": "Urbanization and City Planning",
+      "object": "Urban Studies"
+    }
+  ]
+}

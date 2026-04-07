@@ -1,0 +1,53 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Automotive company",
+      "object": "Company"
+    },
+    {
+      "subject": "Consumer goods company",
+      "object": "Company"
+    },
+    {
+      "subject": "Financial services company",
+      "object": "Company"
+    },
+    {
+      "subject": "Media company",
+      "object": "Company"
+    },
+    {
+      "subject": "Retail company",
+      "object": "Company"
+    },
+    {
+      "subject": "Technology company",
+      "object": "Company"
+    },
+    {
+      "subject": "Research institute",
+      "object": "Educational institution"
+    },
+    {
+      "subject": "School",
+      "object": "Educational institution"
+    },
+    {
+      "subject": "University",
+      "object": "Educational institution"
+    }
+  ]
+}

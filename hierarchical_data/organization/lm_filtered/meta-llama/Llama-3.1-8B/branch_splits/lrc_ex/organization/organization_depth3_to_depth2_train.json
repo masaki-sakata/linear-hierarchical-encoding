@@ -1,0 +1,385 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Museo del Prado",
+      "object": "Museum"
+    },
+    {
+      "subject": "Rijksmuseum",
+      "object": "Museum"
+    },
+    {
+      "subject": "Smithsonian Institution",
+      "object": "Museum"
+    },
+    {
+      "subject": "Solomon R. Guggenheim Museum",
+      "object": "Museum"
+    },
+    {
+      "subject": "The British Museum",
+      "object": "Museum"
+    },
+    {
+      "subject": "The Louvre",
+      "object": "Museum"
+    },
+    {
+      "subject": "The Metropolitan Museum of Art",
+      "object": "Museum"
+    },
+    {
+      "subject": "The State Hermitage Museum",
+      "object": "Museum"
+    },
+    {
+      "subject": "Tokyo National Museum",
+      "object": "Museum"
+    },
+    {
+      "subject": "Uffizi Gallery",
+      "object": "Museum"
+    },
+    {
+      "subject": "Vatican Museums",
+      "object": "Museum"
+    },
+    {
+      "subject": "Berlin Philharmonic",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "London Symphony Orchestra",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Metropolitan Opera",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "NHK Symphony Orchestra",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "New York Philharmonic",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Opéra national de Paris",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Royal Concertgebouw Orchestra",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Royal Opera House",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Teatro Real",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Teatro alla Scala",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "Vienna Philharmonic",
+      "object": "Performing arts organization"
+    },
+    {
+      "subject": "International Atomic Energy Agency",
+      "object": "International organization"
+    },
+    {
+      "subject": "International Labour Organization",
+      "object": "International organization"
+    },
+    {
+      "subject": "International Monetary Fund",
+      "object": "International organization"
+    },
+    {
+      "subject": "International Organization for Migration",
+      "object": "International organization"
+    },
+    {
+      "subject": "NATO",
+      "object": "International organization"
+    },
+    {
+      "subject": "OECD",
+      "object": "International organization"
+    },
+    {
+      "subject": "UNESCO",
+      "object": "International organization"
+    },
+    {
+      "subject": "UNHCR",
+      "object": "International organization"
+    },
+    {
+      "subject": "UNICEF",
+      "object": "International organization"
+    },
+    {
+      "subject": "United Nations",
+      "object": "International organization"
+    },
+    {
+      "subject": "World Bank",
+      "object": "International organization"
+    },
+    {
+      "subject": "World Health Organization",
+      "object": "International organization"
+    },
+    {
+      "subject": "World Trade Organization",
+      "object": "International organization"
+    },
+    {
+      "subject": "City of Chicago",
+      "object": "Local government"
+    },
+    {
+      "subject": "City of Los Angeles",
+      "object": "Local government"
+    },
+    {
+      "subject": "City of New York",
+      "object": "Local government"
+    },
+    {
+      "subject": "City of Paris",
+      "object": "Local government"
+    },
+    {
+      "subject": "Greater London Authority",
+      "object": "Local government"
+    },
+    {
+      "subject": "Osaka Prefectural Government",
+      "object": "Local government"
+    },
+    {
+      "subject": "San Francisco City and County",
+      "object": "Local government"
+    },
+    {
+      "subject": "Senate of Berlin",
+      "object": "Local government"
+    },
+    {
+      "subject": "Seoul Metropolitan Government",
+      "object": "Local government"
+    },
+    {
+      "subject": "Sydney City Council",
+      "object": "Local government"
+    },
+    {
+      "subject": "Tokyo Metropolitan Government",
+      "object": "Local government"
+    },
+    {
+      "subject": "Toronto City Council",
+      "object": "Local government"
+    },
+    {
+      "subject": "Federal Bureau of Investigation (FBI)",
+      "object": "National government agency"
+    },
+    {
+      "subject": "U.S. Department of Defense",
+      "object": "National government agency"
+    },
+    {
+      "subject": "U.S. Department of State",
+      "object": "National government agency"
+    },
+    {
+      "subject": "UK Home Office",
+      "object": "National government agency"
+    },
+    {
+      "subject": "Cleveland Clinic",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Johns Hopkins Medicine",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Kaiser Permanente",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "MD Anderson Cancer Center",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Mass General Brigham",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Mayo Clinic",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "NYU Langone Health",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Seoul National University Hospital",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "SingHealth",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "UCSF Health",
+      "object": "Hospital system"
+    },
+    {
+      "subject": "Africa Centres for Disease Control and Prevention",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "Chinese Center for Disease Control and Prevention",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "European Centre for Disease Prevention and Control",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "Korea Disease Control and Prevention Agency",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "Public Health Agency of Canada",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "Robert Koch Institute",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "Singapore Ministry of Health",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "UK Health Security Agency",
+      "object": "Public health agency"
+    },
+    {
+      "subject": "350.org",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "BirdLife International",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Conservation International",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Environmental Defense Fund",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Friends of the Earth",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Greenpeace",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Oceana",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Rainforest Alliance",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Sierra Club",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "The Nature Conservancy",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "WWF",
+      "object": "Environmental NGO"
+    },
+    {
+      "subject": "Action Against Hunger",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Amnesty International",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "CARE",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Catholic Relief Services",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "International Committee of the Red Cross",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "International Rescue Committee",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Mercy Corps",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Norwegian Refugee Council",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Oxfam",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Plan International",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "Save the Children",
+      "object": "Humanitarian NGO"
+    },
+    {
+      "subject": "World Vision International",
+      "object": "Humanitarian NGO"
+    }
+  ]
+}

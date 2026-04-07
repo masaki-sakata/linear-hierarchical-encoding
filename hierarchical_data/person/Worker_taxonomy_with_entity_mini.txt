@@ -1,0 +1,151 @@
+Worker
+├── Politician
+│   ├── Legislator
+│   │   ├── Abraham Lincoln
+│   │   ├── Franklin D. Roosevelt
+│   │   └── Barack Obama
+│   ├── Governor
+│   │   ├── Sarah Palin
+│   │   ├── Jerry Brown
+│   │   └── Chris Christie
+│   └── Mayor
+│       ├── Rudy Giuliani
+│       ├── Sadiq Khan
+│       └── Fiorello La Guardia
+├── Actor
+│   ├── Comedian
+│   │   ├── Charlie Chaplin
+│   │   ├── Robin Williams
+│   │   └── Eddie Murphy
+│   ├── Film actor
+│   │   ├── Meryl Streep
+│   │   ├── Tom Hanks
+│   │   └── Denzel Washington
+│   └── Voice actor
+│       ├── Mel Blanc
+│       ├── Tara Strong
+│       └── Frank Welker
+├── Athlete
+│   ├── Soccer player
+│   │   ├── Lionel Messi
+│   │   ├── Cristiano Ronaldo
+│   │   └── Pelé
+│   ├── Basketball player
+│   │   ├── Michael Jordan
+│   │   ├── LeBron James
+│   │   └── Kobe Bryant
+│   ├── Baseball player
+│   │   ├── Babe Ruth
+│   │   ├── Jackie Robinson
+│   │   └── Shohei Ohtani
+│   ├── Golfer
+│   │   ├── Tiger Woods
+│   │   ├── Jack Nicklaus
+│   │   └── Arnold Palmer
+│   ├── Boxer
+│   │   ├── Muhammad Ali
+│   │   ├── Mike Tyson
+│   │   └── Floyd Mayweather Jr.
+│   ├── Sprinter
+│   │   ├── Usain Bolt
+│   │   ├── Allyson Felix
+│   │   └── Florence Griffith-Joyner
+│   └── Tennis player
+│       ├── Serena Williams
+│       ├── Roger Federer
+│       └── Rafael Nadal
+├── Musician
+│   ├── Singer
+│   │   ├── Michael Jackson
+│   │   ├── Elvis Presley
+│   │   └── Beyoncé
+│   ├── Composer
+│   │   ├── Mozart
+│   │   ├── Ludwig van Beethoven
+│   │   └── Johann Sebastian Bach
+│   ├── Conductor
+│   │   ├── Herbert von Karajan
+│   │   ├── Leonard Bernstein
+│   │   └── Gustavo Dudamel
+│   ├── Pianist
+│   │   ├── Frédéric Chopin
+│   │   ├── Franz Liszt
+│   │   └── Martha Argerich
+│   ├── Guitarist
+│   │   ├── Jimi Hendrix
+│   │   ├── Eric Clapton
+│   │   └── Jimmy Page
+│   ├── Bassist
+│   │   ├── Paul McCartney
+│   │   ├── Jaco Pastorius
+│   │   └── James Jamerson
+│   ├── Drummer
+│   │   ├── Ringo Starr
+│   │   ├── John Bonham
+│   │   └── Neil Peart
+│   └── Violinist
+│       ├── Niccolò Paganini
+│       ├── Jascha Heifetz
+│       └── Itzhak Perlman
+├── Scientist
+│   ├── Physicist
+│   │   ├── Albert Einstein
+│   │   ├── Isaac Newton
+│   │   └── Stephen Hawking
+│   ├── Chemist
+│   │   ├── Antoine Lavoisier
+│   │   ├── Dmitri Mendeleev
+│   │   └── Linus Pauling
+│   ├── Mathematician
+│   │   ├── Carl Friedrich Gauss
+│   │   ├── Leonhard Euler
+│   │   └── Alan Turing
+│   ├── Biologist
+│   │   ├── Charles Darwin
+│   │   ├── Gregor Mendel
+│   │   └── Rosalind Franklin
+│   ├── Computer scientist
+│   │   ├── Grace Hopper
+│   │   ├── Tim Berners-Lee
+│   │   └── Donald Knuth
+│   ├── Astronomer
+│   │   ├── Galileo Galilei
+│   │   ├── Edwin Hubble
+│   │   └── Carl Sagan
+│   ├── Economist
+│   │   ├── Adam Smith
+│   │   ├── John Maynard Keynes
+│   │   └── Milton Friedman
+│   ├── Psychologist
+│   │   ├── Sigmund Freud
+│   │   ├── Jean Piaget
+│   │   └── Daniel Kahneman
+│   ├── Neuroscientist
+│   │   ├── Santiago Ramón y Cajal
+│   │   ├── Eric Kandel
+│   │   └── Rita Levi-Montalcini
+│   └── Engineer
+│       ├── Nikola Tesla
+│       ├── Thomas Edison
+│       └── Gustave Eiffel
+└── Business person
+    ├── Entrepreneur
+    │   ├── Steve Jobs
+    │   ├── Elon Musk
+    │   └── Jeff Bezos
+    ├── Business executive
+    │   ├── Bill Gates
+    │   ├── Tim Cook
+    │   └── Satya Nadella
+    ├── Investor
+    │   ├── Warren Buffett
+    │   ├── Benjamin Graham
+    │   └── Peter Lynch
+    ├── Marketer
+    │   ├── Philip Kotler
+    │   ├── David Ogilvy
+    │   └── Edward Bernays
+    └── Financier
+        ├── J. P. Morgan
+        ├── George Soros
+        └── Jamie Dimon

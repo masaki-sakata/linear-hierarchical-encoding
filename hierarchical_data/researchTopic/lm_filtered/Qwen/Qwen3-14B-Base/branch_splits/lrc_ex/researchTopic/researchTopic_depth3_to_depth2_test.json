@@ -1,0 +1,357 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Oral Surgery",
+      "object": "Dentistry"
+    },
+    {
+      "subject": "Orthodontics",
+      "object": "Dentistry"
+    },
+    {
+      "subject": "Periodontics",
+      "object": "Dentistry"
+    },
+    {
+      "subject": "General Health Professions",
+      "object": "Health Professions"
+    },
+    {
+      "subject": "Health Information Management",
+      "object": "Health Professions"
+    },
+    {
+      "subject": "Occupational Therapy",
+      "object": "Health Professions"
+    },
+    {
+      "subject": "Physical Therapy, Sports Therapy and Rehabilitation",
+      "object": "Health Professions"
+    },
+    {
+      "subject": "Anesthesiology and Pain Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Cardiology and Cardiovascular Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Complementary and alternative medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Critical Care and Intensive Care Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Dermatology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Emergency Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Endocrinology, Diabetes and Metabolism",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Gastroenterology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Hematology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Hepatology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Immunology and Allergy",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Infectious Diseases",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Nephrology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Neurology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Obstetrics and Gynecology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Oncology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Ophthalmology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Orthopedics and Sports Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Otorhinolaryngology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Pediatrics, Perinatology and Child Health",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Pharmacology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Physiology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Psychiatry and Mental health",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Pulmonary and Respiratory Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Radiology, Nuclear Medicine and Imaging",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Reproductive Medicine",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Rheumatology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Surgery",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Urology",
+      "object": "Medicine"
+    },
+    {
+      "subject": "Analytical Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Inorganic Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Organic Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Physical and Theoretical Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computational Theory and Mathematics",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Graphics and Computer-Aided Design",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Networks and Communications",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Science Applications",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Vision and Pattern Recognition",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Human-Computer Interaction",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Information Systems",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Signal Processing",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Atmospheric Science",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Geochemistry and Petrology",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Geology",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Geophysics",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Oceanography",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Paleontology",
+      "object": "Earth and Planetary Sciences"
+    },
+    {
+      "subject": "Aerospace Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Architecture",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Automotive Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Biomedical Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Building and Construction",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Civil and Structural Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Computational Mechanics",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Control and Systems Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Electrical and Electronic Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Industrial and Manufacturing Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Mechanical Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Mechanics of Materials",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Ocean Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Safety, Risk, Reliability and Quality",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Biomaterials",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Electronic, Optical and Magnetic Materials",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "General Materials Science",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Polymers and Plastics",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Surfaces, Coatings and Films",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Algebra and Number Theory",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Applied Mathematics",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Discrete Mathematics and Combinatorics",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Geometry and Topology",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Numerical Analysis",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Statistics and Probability",
+      "object": "Mathematics"
+    },
+    {
+      "subject": "Astronomy and Astrophysics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Atomic and Molecular Physics, and Optics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Condensed Matter Physics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Nuclear and High Energy Physics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Statistical and Nonlinear Physics",
+      "object": "Physics and Astronomy"
+    }
+  ]
+}

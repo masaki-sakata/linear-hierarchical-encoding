@@ -1,0 +1,329 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is part of"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Antigua and Barbuda",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Bahamas",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Barbados",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "British Virgin Islands",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Cuba",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Dominica",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Dominican Republic",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Grenada",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Haiti",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Jamaica",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Puerto Rico",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Saint Kitts and Nevis",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Saint Lucia",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Saint Vincent and the Grenadines",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Trinidad and Tobago",
+      "object": "Caribbean"
+    },
+    {
+      "subject": "Belize",
+      "object": "Central America"
+    },
+    {
+      "subject": "Costa Rica",
+      "object": "Central America"
+    },
+    {
+      "subject": "El Salvador",
+      "object": "Central America"
+    },
+    {
+      "subject": "Guatemala",
+      "object": "Central America"
+    },
+    {
+      "subject": "Honduras",
+      "object": "Central America"
+    },
+    {
+      "subject": "Nicaragua",
+      "object": "Central America"
+    },
+    {
+      "subject": "Panama",
+      "object": "Central America"
+    },
+    {
+      "subject": "Canada",
+      "object": "North America"
+    },
+    {
+      "subject": "Greenland",
+      "object": "North America"
+    },
+    {
+      "subject": "United States",
+      "object": "North America"
+    },
+    {
+      "subject": "Argentina",
+      "object": "South America"
+    },
+    {
+      "subject": "Bolivia",
+      "object": "South America"
+    },
+    {
+      "subject": "Brazil",
+      "object": "South America"
+    },
+    {
+      "subject": "Chile",
+      "object": "South America"
+    },
+    {
+      "subject": "Colombia",
+      "object": "South America"
+    },
+    {
+      "subject": "Ecuador",
+      "object": "South America"
+    },
+    {
+      "subject": "Falkland Islands",
+      "object": "South America"
+    },
+    {
+      "subject": "Paraguay",
+      "object": "South America"
+    },
+    {
+      "subject": "Peru",
+      "object": "South America"
+    },
+    {
+      "subject": "Suriname",
+      "object": "South America"
+    },
+    {
+      "subject": "Uruguay",
+      "object": "South America"
+    },
+    {
+      "subject": "Venezuela",
+      "object": "South America"
+    },
+    {
+      "subject": "Belarus",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Hungary",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Moldova",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Poland",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Russian Federation",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Slovakia",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Ukraine",
+      "object": "Eastern Europe"
+    },
+    {
+      "subject": "Denmark",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "England",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Estonia",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Finland",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Iceland",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Ireland",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Lithuania",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Norway",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Sweden",
+      "object": "Northern Europe"
+    },
+    {
+      "subject": "Croatia",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Greece",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Italy",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Malta",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Montenegro",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "North Macedonia",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Serbia",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Slovenia",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Spain",
+      "object": "Southern Europe"
+    },
+    {
+      "subject": "Austria",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Belgium",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "France",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Germany",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Liechtenstein",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Luxembourg",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Monaco",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Switzerland",
+      "object": "Western Europe"
+    },
+    {
+      "subject": "Australia",
+      "object": "Australia and New Zealand"
+    },
+    {
+      "subject": "New Zealand",
+      "object": "Australia and New Zealand"
+    },
+    {
+      "subject": "Papua New Guinea",
+      "object": "Melanesia"
+    },
+    {
+      "subject": "Solomon Islands",
+      "object": "Melanesia"
+    },
+    {
+      "subject": "Vanuatu",
+      "object": "Melanesia"
+    },
+    {
+      "subject": "Cook Islands",
+      "object": "Polynesia"
+    },
+    {
+      "subject": "Samoa",
+      "object": "Polynesia"
+    },
+    {
+      "subject": "Tonga",
+      "object": "Polynesia"
+    }
+  ]
+}

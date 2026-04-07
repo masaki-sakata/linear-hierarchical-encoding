@@ -1,0 +1,65 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is part of"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Caribbean",
+      "object": "Americas"
+    },
+    {
+      "subject": "Central America",
+      "object": "Americas"
+    },
+    {
+      "subject": "North America",
+      "object": "Americas"
+    },
+    {
+      "subject": "South America",
+      "object": "Americas"
+    },
+    {
+      "subject": "Eastern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Northern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Southern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Western Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Australia and New Zealand",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Melanesia",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Micronesia",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Polynesia",
+      "object": "Oceania"
+    }
+  ]
+}

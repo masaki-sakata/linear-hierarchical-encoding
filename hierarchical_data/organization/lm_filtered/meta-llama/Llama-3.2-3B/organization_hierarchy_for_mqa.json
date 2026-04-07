@@ -1,0 +1,199 @@
+{
+    "Organization": {
+        "Company": {
+            "Automotive company": [
+                "BMW",
+                "Ford",
+                "General Motors",
+                "Honda",
+                "Hyundai Motor",
+                "Kia",
+                "Mercedes-Benz",
+                "Nissan",
+                "Stellantis",
+                "Tesla",
+                "Toyota",
+                "Volkswagen",
+                "Volvo Cars"
+            ],
+            "Consumer goods company": [
+                "Colgate-Palmolive",
+                "Danone",
+                "Johnson & Johnson",
+                "Kimberly-Clark",
+                "Kraft Heinz",
+                "L’Oréal",
+                "Mondelez International",
+                "Nestlé",
+                "PepsiCo",
+                "Procter & Gamble",
+                "Reckitt",
+                "The Coca-Cola Company",
+                "Unilever"
+            ],
+            "Financial services company": [
+                "BNP Paribas",
+                "Bank of America",
+                "Barclays",
+                "Citigroup",
+                "Deutsche Bank",
+                "Goldman Sachs",
+                "HSBC",
+                "JPMorgan Chase",
+                "Morgan Stanley",
+                "Standard Chartered",
+                "UBS",
+                "Visa"
+            ],
+            "Retail company": [
+                "Amazon",
+                "Carrefour",
+                "Costco",
+                "IKEA",
+                "JD.com",
+                "Kroger",
+                "Target",
+                "Tesco",
+                "The Home Depot",
+                "Walmart"
+            ],
+            "Technology company": [
+                "Adobe",
+                "Apple",
+                "Google",
+                "Huawei",
+                "IBM",
+                "Intel",
+                "Meta",
+                "Microsoft",
+                "NVIDIA",
+                "Oracle",
+                "SAP",
+                "Samsung Electronics",
+                "Tencent"
+            ]
+        },
+        "Cultural organization": {
+            "Performing arts organization": [
+                "Berlin Philharmonic",
+                "London Symphony Orchestra",
+                "Metropolitan Opera",
+                "NHK Symphony Orchestra",
+                "New York Philharmonic",
+                "Opéra national de Paris",
+                "Royal Concertgebouw Orchestra",
+                "Royal Opera House",
+                "Teatro Real",
+                "Teatro alla Scala",
+                "Vienna Philharmonic"
+            ],
+            "Sports organization": [
+                "FIA",
+                "FIBA",
+                "FIFA",
+                "International Cricket Council",
+                "International Olympic Committee",
+                "Major League Baseball (MLB)",
+                "NBA",
+                "National Football League (NFL)",
+                "UEFA",
+                "World Athletics",
+                "World Rugby"
+            ]
+        },
+        "Educational institution": {
+            "School": [
+                "Eton College",
+                "Harrow School",
+                "International School of Geneva",
+                "Lycée Louis-le-Grand",
+                "Phillips Academy Andover",
+                "Phillips Exeter Academy",
+                "Seoul Foreign School",
+                "Sydney Grammar School",
+                "The Bronx High School of Science"
+            ],
+            "University": [
+                "ETH Zurich",
+                "Harvard University",
+                "Massachusetts Institute of Technology (MIT)",
+                "National University of Singapore",
+                "Sorbonne University",
+                "Stanford University",
+                "Tsinghua University",
+                "University of California, Berkeley",
+                "University of Cambridge",
+                "University of Melbourne",
+                "University of Oxford",
+                "University of Tokyo",
+                "University of Toronto"
+            ]
+        },
+        "Government organization": {
+            "International organization": [
+                "International Atomic Energy Agency",
+                "International Labour Organization",
+                "International Monetary Fund",
+                "International Organization for Migration",
+                "NATO",
+                "OECD",
+                "UNESCO",
+                "UNHCR",
+                "UNICEF",
+                "United Nations",
+                "World Bank",
+                "World Health Organization",
+                "World Trade Organization"
+            ],
+            "Local government": [
+                "City of Chicago",
+                "City of Los Angeles",
+                "City of New York",
+                "City of Paris",
+                "Greater London Authority",
+                "Osaka Prefectural Government",
+                "San Francisco City and County",
+                "Senate of Berlin",
+                "Seoul Metropolitan Government",
+                "Sydney City Council",
+                "Tokyo Metropolitan Government",
+                "Toronto City Council"
+            ],
+            "National government agency": [
+                "Federal Bureau of Investigation (FBI)",
+                "U.S. Department of Defense",
+                "U.S. Department of State",
+                "UK Home Office"
+            ]
+        },
+        "Nonprofit organization": {
+            "Environmental NGO": [
+                "350.org",
+                "BirdLife International",
+                "Conservation International",
+                "Environmental Defense Fund",
+                "Friends of the Earth",
+                "Greenpeace",
+                "Oceana",
+                "Rainforest Alliance",
+                "Sierra Club",
+                "The Nature Conservancy",
+                "WWF"
+            ],
+            "Humanitarian NGO": [
+                "Action Against Hunger",
+                "Amnesty International",
+                "CARE",
+                "Catholic Relief Services",
+                "International Committee of the Red Cross",
+                "International Rescue Committee",
+                "Mercy Corps",
+                "Norwegian Refugee Council",
+                "Oxfam",
+                "Plan International",
+                "Save the Children",
+                "World Vision International"
+            ]
+        }
+    }
+}

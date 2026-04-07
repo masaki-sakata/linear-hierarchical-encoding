@@ -1,0 +1,109 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Business executive",
+      "object": "Business person"
+    },
+    {
+      "subject": "Investor",
+      "object": "Business person"
+    },
+    {
+      "subject": "Marketer",
+      "object": "Business person"
+    },
+    {
+      "subject": "Bassist",
+      "object": "Musician"
+    },
+    {
+      "subject": "Composer",
+      "object": "Musician"
+    },
+    {
+      "subject": "Conductor",
+      "object": "Musician"
+    },
+    {
+      "subject": "Drummer",
+      "object": "Musician"
+    },
+    {
+      "subject": "Guitarist",
+      "object": "Musician"
+    },
+    {
+      "subject": "Pianist",
+      "object": "Musician"
+    },
+    {
+      "subject": "Singer",
+      "object": "Musician"
+    },
+    {
+      "subject": "Violinist",
+      "object": "Musician"
+    },
+    {
+      "subject": "Governor",
+      "object": "Politician"
+    },
+    {
+      "subject": "Legislator",
+      "object": "Politician"
+    },
+    {
+      "subject": "Mayor",
+      "object": "Politician"
+    },
+    {
+      "subject": "Astronomer",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Biologist",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Chemist",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Computer scientist",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Engineer",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Mathematician",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Neuroscientist",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Physicist",
+      "object": "Scientist"
+    },
+    {
+      "subject": "Psychologist",
+      "object": "Scientist"
+    }
+  ]
+}

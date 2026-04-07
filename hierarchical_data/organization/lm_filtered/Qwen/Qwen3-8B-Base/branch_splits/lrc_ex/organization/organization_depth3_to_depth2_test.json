@@ -1,0 +1,393 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "BMW",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Ford",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "General Motors",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Honda",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Hyundai Motor",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Kia",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Mercedes-Benz",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Nissan",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Stellantis",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Tesla",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Toyota",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Volkswagen",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Volvo Cars",
+      "object": "Automotive company"
+    },
+    {
+      "subject": "Colgate-Palmolive",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Danone",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Johnson & Johnson",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Kimberly-Clark",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Kraft Heinz",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "L’Oréal",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Mondelez International",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Nestlé",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "PepsiCo",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Procter & Gamble",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Reckitt",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "The Coca-Cola Company",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "Unilever",
+      "object": "Consumer goods company"
+    },
+    {
+      "subject": "BNP Paribas",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Bank of America",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Barclays",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Citigroup",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Deutsche Bank",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Goldman Sachs",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "HSBC",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "JPMorgan Chase",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Morgan Stanley",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Standard Chartered",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "UBS",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Visa",
+      "object": "Financial services company"
+    },
+    {
+      "subject": "Comcast",
+      "object": "Media company"
+    },
+    {
+      "subject": "Disney",
+      "object": "Media company"
+    },
+    {
+      "subject": "NBCUniversal",
+      "object": "Media company"
+    },
+    {
+      "subject": "Netflix",
+      "object": "Media company"
+    },
+    {
+      "subject": "News Corp",
+      "object": "Media company"
+    },
+    {
+      "subject": "Paramount Global",
+      "object": "Media company"
+    },
+    {
+      "subject": "Sony Pictures",
+      "object": "Media company"
+    },
+    {
+      "subject": "Tencent Music",
+      "object": "Media company"
+    },
+    {
+      "subject": "The New York Times Company",
+      "object": "Media company"
+    },
+    {
+      "subject": "Warner Bros. Discovery",
+      "object": "Media company"
+    },
+    {
+      "subject": "iHeartMedia",
+      "object": "Media company"
+    },
+    {
+      "subject": "Carrefour",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Costco",
+      "object": "Retail company"
+    },
+    {
+      "subject": "IKEA",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Kroger",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Seven & i Holdings",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Target",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Tesco",
+      "object": "Retail company"
+    },
+    {
+      "subject": "The Home Depot",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Walmart",
+      "object": "Retail company"
+    },
+    {
+      "subject": "Adobe",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Apple",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Google",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Huawei",
+      "object": "Technology company"
+    },
+    {
+      "subject": "IBM",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Intel",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Meta",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Microsoft",
+      "object": "Technology company"
+    },
+    {
+      "subject": "NVIDIA",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Oracle",
+      "object": "Technology company"
+    },
+    {
+      "subject": "SAP",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Samsung Electronics",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Tencent",
+      "object": "Technology company"
+    },
+    {
+      "subject": "Eton College",
+      "object": "School"
+    },
+    {
+      "subject": "Harrow School",
+      "object": "School"
+    },
+    {
+      "subject": "International School of Geneva",
+      "object": "School"
+    },
+    {
+      "subject": "Lycée Louis-le-Grand",
+      "object": "School"
+    },
+    {
+      "subject": "Phillips Academy Andover",
+      "object": "School"
+    },
+    {
+      "subject": "Phillips Exeter Academy",
+      "object": "School"
+    },
+    {
+      "subject": "Seoul Foreign School",
+      "object": "School"
+    },
+    {
+      "subject": "Sydney Grammar School",
+      "object": "School"
+    },
+    {
+      "subject": "The Bronx High School of Science",
+      "object": "School"
+    },
+    {
+      "subject": "Tokyo Gakugei University Senior High School",
+      "object": "School"
+    },
+    {
+      "subject": "ETH Zurich",
+      "object": "University"
+    },
+    {
+      "subject": "Harvard University",
+      "object": "University"
+    },
+    {
+      "subject": "Massachusetts Institute of Technology (MIT)",
+      "object": "University"
+    },
+    {
+      "subject": "National University of Singapore",
+      "object": "University"
+    },
+    {
+      "subject": "Sorbonne University",
+      "object": "University"
+    },
+    {
+      "subject": "Stanford University",
+      "object": "University"
+    },
+    {
+      "subject": "Tsinghua University",
+      "object": "University"
+    },
+    {
+      "subject": "University of California, Berkeley",
+      "object": "University"
+    },
+    {
+      "subject": "University of Cambridge",
+      "object": "University"
+    },
+    {
+      "subject": "University of Melbourne",
+      "object": "University"
+    },
+    {
+      "subject": "University of Oxford",
+      "object": "University"
+    },
+    {
+      "subject": "University of Tokyo",
+      "object": "University"
+    },
+    {
+      "subject": "University of Toronto",
+      "object": "University"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Counts by depth:
+Before:
+depth 0: 1
+depth 1: 6
+depth 2: 35
+depth 3: 224
+After:
+depth 0: 0
+depth 1: 0
+depth 2: 0
+depth 3: 0
+Changes (Before -> After):
+depth 0: 1 -> 0
+depth 1: 6 -> 0
+depth 2: 35 -> 0
+depth 3: 224 -> 0

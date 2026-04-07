@@ -1,0 +1,91 @@
+Organization
+├── Company
+│   ├── Technology company
+│   │   ├── Apple
+│   │   ├── Microsoft
+│   │   └── Google
+│   ├── Automotive company
+│   │   ├── Toyota
+│   │   ├── Tesla
+│   │   └── Volkswagen
+│   ├── Consumer goods company
+│   │   ├── Procter & Gamble
+│   │   ├── Unilever
+│   │   └── Nestlé
+│   ├── Retail company
+│   │   ├── Walmart
+│   │   ├── Amazon
+│   │   └── Costco
+│   ├── Media company
+│   │   ├── Disney
+│   │   ├── Netflix
+│   │   └── Warner Bros. Discovery
+│   └── Financial services company
+│       ├── JPMorgan Chase
+│       ├── Goldman Sachs
+│       └── HSBC
+├── Government organization
+│   ├── International organization
+│   │   ├── United Nations
+│   │   ├── World Health Organization
+│   │   └── World Bank
+│   ├── National government agency
+│   │   ├── NASA
+│   │   ├── U.S. Department of Defense
+│   │   └── National Science Foundation
+│   └── Local government
+│       ├── City of New York
+│       ├── Greater London Authority
+│       └── Tokyo Metropolitan Government
+├── Nonprofit organization
+│   ├── Humanitarian NGO
+│   │   ├── International Committee of the Red Cross
+│   │   ├── Doctors Without Borders
+│   │   └── CARE
+│   ├── Environmental NGO
+│   │   ├── WWF
+│   │   ├── Greenpeace
+│   │   └── The Nature Conservancy
+│   └── Education nonprofit
+│       ├── Khan Academy
+│       ├── Wikimedia Foundation
+│       └── Teach For All
+├── Educational institution
+│   ├── University
+│   │   ├── Harvard University
+│   │   ├── University of Oxford
+│   │   └── University of Tokyo
+│   ├── Research institute
+│   │   ├── Max Planck Society
+│   │   ├── RIKEN
+│   │   └── CNRS
+│   └── School
+│       ├── Eton College
+│       ├── Phillips Exeter Academy
+│       └── Tokyo Gakugei University Senior High School
+├── Healthcare organization
+│   ├── Hospital system
+│   │   ├── Mayo Clinic
+│   │   ├── Cleveland Clinic
+│   │   └── Johns Hopkins Medicine
+│   ├── Public health agency
+│   │   ├── Centers for Disease Control and Prevention
+│   │   ├── European Centre for Disease Prevention and Control
+│   │   └── National Institute of Infectious Diseases (Japan)
+│   └── Pharmaceutical company
+│       ├── Pfizer
+│       ├── Roche
+│       └── Takeda Pharmaceutical
+└── Cultural organization
+    ├── Museum
+    │   ├── The Louvre
+    │   ├── The Metropolitan Museum of Art
+    │   └── Tokyo National Museum
+    ├── Performing arts organization
+    │   ├── Royal Opera House
+    │   ├── Metropolitan Opera
+    │   └── New York Philharmonic
+    └── Sports organization
+        ├── International Olympic Committee
+        ├── FIFA
+        └── NBA

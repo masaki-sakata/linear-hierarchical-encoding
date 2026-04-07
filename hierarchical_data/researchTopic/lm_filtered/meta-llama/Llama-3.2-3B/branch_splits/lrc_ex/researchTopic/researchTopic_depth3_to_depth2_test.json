@@ -1,0 +1,161 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Analytical Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Inorganic Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Organic Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Physical and Theoretical Chemistry",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Spectroscopy",
+      "object": "Chemistry"
+    },
+    {
+      "subject": "Artificial Intelligence",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computational Theory and Mathematics",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Networks and Communications",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Science Applications",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Computer Vision and Pattern Recognition",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Human-Computer Interaction",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Information Systems",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Signal Processing",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Software",
+      "object": "Computer Science"
+    },
+    {
+      "subject": "Aerospace Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Architecture",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Automotive Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Biomedical Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Building and Construction",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Civil and Structural Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Control and Systems Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Electrical and Electronic Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Industrial and Manufacturing Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Mechanical Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Ocean Engineering",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Safety, Risk, Reliability and Quality",
+      "object": "Engineering"
+    },
+    {
+      "subject": "Biomaterials",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Ceramics and Composites",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Electronic, Optical and Magnetic Materials",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Materials Chemistry",
+      "object": "Materials Science"
+    },
+    {
+      "subject": "Astronomy and Astrophysics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Atomic and Molecular Physics, and Optics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Condensed Matter Physics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Nuclear and High Energy Physics",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Radiation",
+      "object": "Physics and Astronomy"
+    },
+    {
+      "subject": "Statistical and Nonlinear Physics",
+      "object": "Physics and Astronomy"
+    }
+  ]
+}

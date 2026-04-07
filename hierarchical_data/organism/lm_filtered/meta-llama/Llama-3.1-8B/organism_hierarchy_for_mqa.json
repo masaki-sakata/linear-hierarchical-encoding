@@ -1,0 +1,501 @@
+{
+    "Animal": {
+        "Amphibian": {
+            "Anura": [
+                "bullfrog",
+                "frog",
+                "glassfrog",
+                "natterjack toad",
+                "surinam toad",
+                "toad",
+                "treefrog"
+            ],
+            "Caudata": [
+                "axolotl",
+                "hellbender",
+                "mudpuppy",
+                "newt",
+                "salamander"
+            ]
+        },
+        "Bird": {
+            "Accipitriformes": [
+                "buzzard",
+                "eagle",
+                "harrier",
+                "hawk",
+                "kite",
+                "osprey",
+                "vulture"
+            ],
+            "Anseriformes": [
+                "duck",
+                "eider",
+                "gadwall",
+                "goldeneye",
+                "goose",
+                "mallard",
+                "merganser",
+                "pintail",
+                "scoter",
+                "shoveler",
+                "smew",
+                "swan",
+                "teal",
+                "wigeon"
+            ],
+            "Charadriiformes": [
+                "avocet",
+                "curlew",
+                "dunlin",
+                "godwit",
+                "lapwing",
+                "oystercatcher",
+                "phalarope",
+                "plover",
+                "puffin",
+                "redshank",
+                "sandpiper",
+                "seagull",
+                "snipe",
+                "tern"
+            ],
+            "Columbiformes": [
+                "dove",
+                "pigeon"
+            ],
+            "Coraciiformes": [
+                "bee-eater",
+                "kingfisher"
+            ],
+            "Cuculiformes": [
+                "cuckoo",
+                "roadrunner"
+            ],
+            "Falconiformes": [
+                "falcon",
+                "kestrel"
+            ],
+            "Galliformes": [
+                "chicken",
+                "grouse",
+                "guineafowl",
+                "partridge",
+                "peafowl",
+                "pheasant",
+                "ptarmigan",
+                "quail",
+                "turkey"
+            ],
+            "Passeriformes": [
+                "antbird",
+                "antpitta",
+                "blackbird",
+                "brambling",
+                "bullfinch",
+                "bunting",
+                "canary",
+                "cardinal",
+                "catbird",
+                "chaffinch",
+                "cisticola",
+                "crossbill",
+                "dipper",
+                "finch",
+                "flycatcher",
+                "goldfinch",
+                "greenfinch",
+                "grosbeak",
+                "honeyeater",
+                "jay",
+                "junco",
+                "kinglet",
+                "lark",
+                "linnet",
+                "magpie",
+                "manakin",
+                "mockingbird",
+                "nightingale",
+                "nuthatch",
+                "oriole",
+                "phoebe",
+                "pipit",
+                "raven",
+                "redpoll",
+                "reedbunting",
+                "shrike",
+                "siskin",
+                "sparrow",
+                "starling",
+                "swallow",
+                "tanager",
+                "tapaculo",
+                "thrasher",
+                "thrush",
+                "treecreeper",
+                "vireo",
+                "wagtail",
+                "warbler",
+                "waxwing",
+                "wren"
+            ],
+            "Piciformes": [
+                "jacamar",
+                "woodpecker"
+            ],
+            "Psittaciformes": [
+                "budgerigar",
+                "cockatoo",
+                "lorikeet",
+                "lovebird",
+                "macaw",
+                "parakeet",
+                "parrot"
+            ]
+        },
+        "Fish": {
+            "Anguilliformes": [
+                "eel",
+                "moray"
+            ],
+            "Clupeiformes": [
+                "anchovy",
+                "herring",
+                "sardine"
+            ],
+            "Cypriniformes": [
+                "bitterling",
+                "bleak",
+                "bream",
+                "carp",
+                "chub",
+                "dace",
+                "goldfish",
+                "ide",
+                "roach",
+                "rudd",
+                "tench"
+            ],
+            "Cyprinodontiformes": [
+                "guppy",
+                "swordtail"
+            ],
+            "Elopiformes": [
+                "ladyfish",
+                "tarpon"
+            ],
+            "Gadiformes": [
+                "cod",
+                "haddock",
+                "pollock"
+            ],
+            "Perciformes": [
+                "amberjack",
+                "angelfish",
+                "barracuda",
+                "bluefish",
+                "cichlid",
+                "clownfish",
+                "croaker",
+                "damselfish",
+                "discus",
+                "dolphinfish",
+                "grouper",
+                "grunt",
+                "lionfish",
+                "mahi-mahi",
+                "moonfish",
+                "perch",
+                "pomfret",
+                "pompano",
+                "rockfish",
+                "scorpionfish",
+                "scup",
+                "snapper",
+                "snook",
+                "surgeonfish",
+                "swordfish",
+                "tuna",
+                "weakfish",
+                "wrasse"
+            ],
+            "Pleuronectiformes": [
+                "flounder",
+                "halibut"
+            ],
+            "Salmoniformes": [
+                "chinook",
+                "coho",
+                "grayling",
+                "salmon",
+                "sockeye",
+                "trout",
+                "whitefish"
+            ],
+            "Siluriformes": [
+                "catfish",
+                "pleco"
+            ],
+            "Syngnathiformes": [
+                "pipefish",
+                "seahorse"
+            ],
+            "Tetraodontiformes": [
+                "boxfish",
+                "puffer",
+                "triggerfish"
+            ]
+        },
+        "Insect": {
+            "Blattodea": [
+                "cockroach",
+                "termite"
+            ],
+            "Coleoptera": [
+                "beetle",
+                "firefly",
+                "ladybug",
+                "scarab",
+                "weevil"
+            ],
+            "Diptera": [
+                "gnat",
+                "housefly",
+                "mosquito"
+            ],
+            "Hemiptera": [
+                "aphid",
+                "bedbug",
+                "cicada"
+            ],
+            "Hymenoptera": [
+                "ant",
+                "bee",
+                "hornet",
+                "wasp"
+            ],
+            "Lepidoptera": [
+                "butterfly",
+                "caterpillar",
+                "moth"
+            ],
+            "Odonata": [
+                "damselfly",
+                "dragonfly"
+            ],
+            "Orthoptera": [
+                "cricket",
+                "grasshopper"
+            ]
+        },
+        "Mammal": {
+            "Artiodactyla": [
+                "addax",
+                "alpaca",
+                "antelope",
+                "bison",
+                "boar",
+                "bongo",
+                "camel",
+                "caribou",
+                "cow",
+                "deer",
+                "eland",
+                "elk",
+                "gaur",
+                "gazelle",
+                "gemsbok",
+                "giraffe",
+                "gnu",
+                "goat",
+                "guanaco",
+                "hartebeest",
+                "hippopotamus",
+                "ibex",
+                "impala",
+                "kudu",
+                "llama",
+                "moose",
+                "muskox",
+                "okapi",
+                "oryx",
+                "peccary",
+                "pig",
+                "pronghorn",
+                "reindeer",
+                "serow",
+                "sheep",
+                "springbok",
+                "takin",
+                "topi",
+                "vicuna",
+                "warthog",
+                "waterbuck",
+                "wildebeest",
+                "yak",
+                "zebu"
+            ],
+            "Carnivora": [
+                "badger",
+                "black-bear",
+                "caracal",
+                "cat",
+                "cheetah",
+                "coyote",
+                "dingo",
+                "dog",
+                "fennec",
+                "ferret",
+                "fox",
+                "grizzly",
+                "hyena",
+                "jackal",
+                "jaguar",
+                "leopard",
+                "lion",
+                "lynx",
+                "margay",
+                "marten",
+                "meerkat",
+                "mink",
+                "mongoose",
+                "ocelot",
+                "otter",
+                "panda",
+                "panther",
+                "polarbear",
+                "puma",
+                "raccoon",
+                "redpanda",
+                "sable",
+                "sea-lion",
+                "skunk",
+                "snow-leopard",
+                "stoat",
+                "tiger",
+                "weasel",
+                "wolf",
+                "wolverine"
+            ],
+            "Cetacea": [
+                "beluga",
+                "dolphin",
+                "finwhale",
+                "narwhal",
+                "orca",
+                "porpoise",
+                "spermwhale",
+                "whale"
+            ],
+            "Diprotodontia": [
+                "kangaroo",
+                "koala",
+                "wallaby",
+                "wombat"
+            ],
+            "Eulipotyphla": [
+                "hedgehog",
+                "mole",
+                "shrew"
+            ],
+            "Lagomorpha": [
+                "hare",
+                "pika",
+                "rabbit"
+            ],
+            "Monotremata": [
+                "echidna",
+                "platypus"
+            ],
+            "Perissodactyla": [
+                "donkey",
+                "horse",
+                "pony",
+                "rhinoceros",
+                "tapir",
+                "zebra"
+            ],
+            "Pilosa": [
+                "anteater",
+                "sloth"
+            ],
+            "Primates": [
+                "ape",
+                "baboon",
+                "bonobo",
+                "capuchin",
+                "chimp",
+                "chimpanzee",
+                "colobus",
+                "galago",
+                "gelada",
+                "gibbon",
+                "gorilla",
+                "howler",
+                "langur",
+                "lemur",
+                "loris",
+                "macaque",
+                "mandrill",
+                "marmoset",
+                "monkey",
+                "orangutan",
+                "papio",
+                "saki",
+                "siamang",
+                "tamarin",
+                "tarsier",
+                "uakari"
+            ],
+            "Rodentia": [
+                "agouti",
+                "beaver",
+                "capybara",
+                "chinchilla",
+                "chipmunk",
+                "dormouse",
+                "gerbil",
+                "guinea",
+                "hamster",
+                "mouse",
+                "muskrat",
+                "nutria",
+                "porcupine",
+                "rat",
+                "rodent",
+                "squirrel",
+                "vole"
+            ],
+            "Sirenia": [
+                "dugong",
+                "manatee"
+            ]
+        },
+        "Reptilia": {
+            "Crocodylia": [
+                "alligator",
+                "crocodile"
+            ],
+            "Squamata": [
+                "anaconda",
+                "anole",
+                "chameleon",
+                "cobra",
+                "gecko",
+                "gila",
+                "iguana",
+                "komodo",
+                "lizard",
+                "mamba",
+                "skink",
+                "snake",
+                "viper"
+            ],
+            "Testudines": [
+                "terrapin",
+                "tortoise",
+                "turtle"
+            ]
+        }
+    }
+}

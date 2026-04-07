@@ -1,0 +1,3317 @@
+{
+    "name": "animal in order and order in class",
+    "prompt_templates": [
+        "{} is"
+    ],
+    "prompt_templates_zs": [
+        "{} is"
+    ],
+    "properties": {
+        "relation_type": "factual",
+        "domain_name": "animal and order",
+        "range_name": "order and class",
+        "symmetric": false
+    },
+    "samples": [
+        {
+            "subject": "beaver",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "panther",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lion",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "llama",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "colobus",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "marmoset",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rabbit",
+            "object": "Lagomorpha",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dingo",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pika",
+            "object": "Lagomorpha",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "okapi",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "gazelle",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "margay",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "echidna",
+            "object": "Monotremata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "vicuna",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "grizzly",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "aardvark",
+            "object": "Tubulidentata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "anteater",
+            "object": "Pilosa",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "orangutan",
+            "object": "Primates",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "wallaby",
+            "object": "Diprotodontia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "meerkat",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mongoose",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bongo",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "hamster",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "caracal",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "whale",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "addax",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "boar",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "puma",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "peccary",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "bonobo",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dolphin",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "proboscis",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "otter",
+            "object": "Carnivora",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "sheep",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "capuchin",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "howler",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "guinea",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "horse",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chinchilla",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "donkey",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mandrill",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "warthog",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "galago",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "takin",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "impala",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "eland",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "springbok",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "chimpanzee",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "waterbuck",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "moose",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "nutria",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mink",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "platypus",
+            "object": "Monotremata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mole",
+            "object": "Eulipotyphla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "ibex",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "dormouse",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wolverine",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "buffalo",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "gorilla",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "spermwhale",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "fennec",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gerbil",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goat",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "pangolin",
+            "object": "Pholidota",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "vole",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "panda",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pronghorn",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "polarbear",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gibbon",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "jaguar",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "fox",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "agouti",
+            "object": "Rodentia",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "kudu",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "snow-leopard",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "finwhale",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gnu",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "ape",
+            "object": "Primates",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "wombat",
+            "object": "Diprotodontia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tiger",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "uakari",
+            "object": "Primates",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "dog",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "saki",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hartebeest",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "gemsbok",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "pony",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "redpanda",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "jackal",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sloth",
+            "object": "Pilosa",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "alpaca",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "muskox",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "pig",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "hedgehog",
+            "object": "Eulipotyphla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "coyote",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "giraffe",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "koala",
+            "object": "Diprotodontia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "porpoise",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gelada",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chipmunk",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lynx",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lemur",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "squirrel",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "skunk",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "topi",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "hyena",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "siamang",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "walrus",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "narwhal",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rodent",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cougar",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "serow",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "cat",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "yak",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "kangaroo",
+            "object": "Diprotodontia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tarsier",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "elk",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "chimp",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bison",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "capybara",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "papio",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "armadillo",
+            "object": "Cingulata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "tamarin",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "black-bear",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "loris",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ermine",
+            "object": "Carnivora",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "weasel",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hare",
+            "object": "Lagomorpha",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "monkey",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "oryx",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "camel",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "ocelot",
+            "object": "Carnivora",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "marten",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "beluga",
+            "object": "Cetacea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "antelope",
+            "object": "Artiodactyla",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "caribou",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "macaque",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rhinoceros",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ferret",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "muskrat",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cheetah",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "raccoon",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "opossum",
+            "object": "Didelphimorphia",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "deer",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "langur",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sable",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gaur",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "dugong",
+            "object": "Sirenia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "zebu",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "mule",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hippopotamus",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "badger",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wolf",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "manatee",
+            "object": "Sirenia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wildebeest",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "shrew",
+            "object": "Eulipotyphla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "elephant",
+            "object": "Proboscidea",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "rat",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tapir",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "stoat",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "baboon",
+            "object": "Primates",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "reindeer",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "sea-lion",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "guanaco",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "orca",
+            "object": "Cetacea",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "zebra",
+            "object": "Perissodactyla",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cow",
+            "object": "Artiodactyla",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "porcupine",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "leopard",
+            "object": "Carnivora",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mouse",
+            "object": "Rodentia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wigeon",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "parrot",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "albatross",
+            "object": "Procellariiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "cockatoo",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "magpie",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cardinal",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "honeyeater",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hummingbird",
+            "object": "Apodiformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "sedge",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kinglet",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kingfisher",
+            "object": "Coraciiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rhea",
+            "object": "Rheiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "plover",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "thrush",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "raven",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pelican",
+            "object": "Pelecaniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ibis",
+            "object": "Pelecaniformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "redshank",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mockingbird",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goldfinch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tinamou",
+            "object": "Tinamiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cassowary",
+            "object": "Casuariiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chaffinch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "woodpecker",
+            "object": "Piciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "peafowl",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cuckoo",
+            "object": "Cuculiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "loon",
+            "object": "Gaviiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sunbird",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "emu",
+            "object": "Casuariiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "roadrunner",
+            "object": "Cuculiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "waxwing",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "harrier",
+            "object": "Accipitriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "curlew",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "godwit",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goose",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "vulture",
+            "object": "Accipitriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "avocet",
+            "object": "Charadriiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "wagtail",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "manakin",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "snipe",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "vireo",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "partridge",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "jay",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sandpiper",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dipper",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gadwall",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "woodcock",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cotinga",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "antpitta",
+            "object": "Passeriformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "lovebird",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ptarmigan",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "grebe",
+            "object": "Podicipediformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hawk",
+            "object": "Accipitriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "teal",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "gnateater",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "budgerigar",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "oystercatcher",
+            "object": "Charadriiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "osprey",
+            "object": "Accipitriformes",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "owl",
+            "object": "Strigiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "finch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kite",
+            "object": "Accipitriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "lorikeet",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wren",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hornbill",
+            "object": "Bucerotiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "turkey",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "buzzard",
+            "object": "Accipitriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "nightingale",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "treecreeper",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tanager",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "shoveler",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "greenfinch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "puffin",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tern",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "jacamar",
+            "object": "Piciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "egret",
+            "object": "Pelecaniformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "antbird",
+            "object": "Passeriformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "tapaculo",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "thrasher",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "eagle",
+            "object": "Accipitriformes",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "brambling",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "smew",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "moorhen",
+            "object": "Gruiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "blackbird",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "phalarope",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "oriole",
+            "object": "Passeriformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "toucan",
+            "object": "Piciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "junco",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goldeneye",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "turaco",
+            "object": "Musophagiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bunting",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "flamingo",
+            "object": "Phoenicopteriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "keel",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "redpoll",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "macaw",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "parakeet",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "heron",
+            "object": "Pelecaniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hoopoe",
+            "object": "Bucerotiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "duck",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "sparrow",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "catbird",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mallard",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "coot",
+            "object": "Gruiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "flycatcher",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "quail",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "nuthatch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bee-eater",
+            "object": "Coraciiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lapwing",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chicken",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "guineafowl",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "grosbeak",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "swallow",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "phoebe",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "linnet",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kakapo",
+            "object": "Psittaciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cisticola",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kestrel",
+            "object": "Falconiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ostrich",
+            "object": "Struthioniformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "dunlin",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "reedbunting",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lark",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dove",
+            "object": "Columbiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pintail",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "falcon",
+            "object": "Falconiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bullfinch",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pipit",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "swan",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "starling",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pheasant",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kiwi",
+            "object": "Apterygiformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "eider",
+            "object": "Anseriformes",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "grouse",
+            "object": "Galliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pigeon",
+            "object": "Columbiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "shrike",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "stork",
+            "object": "Ciconiiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "warbler",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cormorant",
+            "object": "Suliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "merganser",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "crossbill",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "seagull",
+            "object": "Charadriiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "canary",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "scoter",
+            "object": "Anseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "siskin",
+            "object": "Passeriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "viper",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lizard",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "terrapin",
+            "object": "Testudines",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cobra",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "anaconda",
+            "object": "Squamata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "gila",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "skink",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "crocodile",
+            "object": "Crocodylia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "anole",
+            "object": "Squamata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "iguana",
+            "object": "Squamata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "chameleon",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mamba",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gecko",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "komodo",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "snake",
+            "object": "Squamata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tortoise",
+            "object": "Testudines",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "alligator",
+            "object": "Crocodylia",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "turtle",
+            "object": "Testudines",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tuatara",
+            "object": "Rhynchocephalia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bullfrog",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "siren",
+            "object": "Caudata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "toad",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "treefrog",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "frog",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "olm",
+            "object": "Caudata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "axolotl",
+            "object": "Caudata",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "surinam toad",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "natterjack toad",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "hellbender",
+            "object": "Caudata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "salamander",
+            "object": "Caudata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "glassfrog",
+            "object": "Anura",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "mudpuppy",
+            "object": "Caudata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "newt",
+            "object": "Caudata",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "caecilian",
+            "object": "Gymnophiona",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mayfly",
+            "object": "Ephemeroptera",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "grasshopper",
+            "object": "Orthoptera",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "bedbug",
+            "object": "Hemiptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "silverfish",
+            "object": "Zygentoma",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cicada",
+            "object": "Hemiptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dragonfly",
+            "object": "Odonata",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "lacewing",
+            "object": "Neuroptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "butterfly",
+            "object": "Lepidoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "damselfly",
+            "object": "Odonata",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "housefly",
+            "object": "Diptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "termite",
+            "object": "Blattodea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "earwig",
+            "object": "Dermaptera",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "moth",
+            "object": "Lepidoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "flea",
+            "object": "Siphonaptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mosquito",
+            "object": "Diptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "hornet",
+            "object": "Hymenoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ladybug",
+            "object": "Coleoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cockroach",
+            "object": "Blattodea",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gnat",
+            "object": "Diptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "scarab",
+            "object": "Coleoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "caterpillar",
+            "object": "Lepidoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "aphid",
+            "object": "Hemiptera",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "thrips",
+            "object": "Thysanoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "weevil",
+            "object": "Coleoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "beetle",
+            "object": "Coleoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "firefly",
+            "object": "Coleoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cricket",
+            "object": "Orthoptera",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "wasp",
+            "object": "Hymenoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "ant",
+            "object": "Hymenoptera",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "bee",
+            "object": "Hymenoptera",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "snapper",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "anchovy",
+            "object": "Clupeiformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "moonfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "herring",
+            "object": "Clupeiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dolphinfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pomfret",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "barracuda",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "arowana",
+            "object": "Osteoglossiformes",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "ladyfish",
+            "object": "Elopiformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "salmon",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "dace",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "carp",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "eel",
+            "object": "Anguilliformes",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "flounder",
+            "object": "Pleuronectiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "spadefish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tilapia",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "boxfish",
+            "object": "Tetraodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "croaker",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goosefish",
+            "object": "Lophiiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pollock",
+            "object": "Gadiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "trout",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "seahorse",
+            "object": "Syngnathiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "shark",
+            "object": "Various",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "jewfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "grayling",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tench",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mahi-mahi",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "halibut",
+            "object": "Pleuronectiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bonefish",
+            "object": "Albuliformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "ide",
+            "object": "Cypriniformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "piranha",
+            "object": "Characiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rockfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "swordtail",
+            "object": "Cyprinodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tuna",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "surgeonfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "smelt",
+            "object": "Osmeriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "mackerel",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sockeye",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "fluke",
+            "object": "Pleuronectiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chub",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "tarpon",
+            "object": "Elopiformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "pompano",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "monkfish",
+            "object": "Lophiiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "moray",
+            "object": "Anguilliformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "cod",
+            "object": "Gadiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "catfish",
+            "object": "Siluriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "rudd",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "sturgeon",
+            "object": "Acipenseriformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "coho",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bitterling",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "grunt",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "roach",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pipefish",
+            "object": "Syngnathiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "weakfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "grouper",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "snook",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "swordfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lingcod",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "clownfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "haddock",
+            "object": "Gadiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "angelfish",
+            "object": "Perciformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "sardine",
+            "object": "Clupeiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "platy",
+            "object": "Cyprinodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "scorpionfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "chinook",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "triggerfish",
+            "object": "Tetraodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "amberjack",
+            "object": "Perciformes",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "sablefish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "guppy",
+            "object": "Cyprinodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "discus",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "puffer",
+            "object": "Tetraodontiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "mullet",
+            "object": "Mugiliformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "kingfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pleco",
+            "object": "Siluriformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "whitefish",
+            "object": "Salmoniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "perch",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "gar",
+            "object": "Lepisosteiformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "barbel",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bream",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "wrasse",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "pike",
+            "object": "Esociformes",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "damselfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "lionfish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "goldfish",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "cichlid",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bleak",
+            "object": "Cypriniformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "scup",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "bluefish",
+            "object": "Perciformes",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Rodentia",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Carnivora",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Artiodactyla",
+            "object": "Mammal",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Primates",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Lagomorpha",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Monotremata",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Tubulidentata",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Pilosa",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Diprotodontia",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Cetacea",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Perissodactyla",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Eulipotyphla",
+            "object": "Mammal",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Pholidota",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Cingulata",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Didelphimorphia",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Sirenia",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Proboscidea",
+            "object": "Mammal",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Anseriformes",
+            "object": "Bird",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Psittaciformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Procellariiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Passeriformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Apodiformes",
+            "object": "Bird",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Coraciiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Rheiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Charadriiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Pelecaniformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Tinamiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Casuariiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Piciformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Galliformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Cuculiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Gaviiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Accipitriformes",
+            "object": "Bird",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Podicipediformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Strigiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Bucerotiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Gruiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Musophagiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Phoenicopteriformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Falconiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Struthioniformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Columbiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Apterygiformes",
+            "object": "Bird",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Ciconiiformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Suliformes",
+            "object": "Bird",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Squamata",
+            "object": "Reptilia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Testudines",
+            "object": "Reptilia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Crocodylia",
+            "object": "Reptilia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Rhynchocephalia",
+            "object": "Reptilia",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Anura",
+            "object": "Amphibian",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "Caudata",
+            "object": "Amphibian",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Gymnophiona",
+            "object": "Amphibian",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Ephemeroptera",
+            "object": "Insect",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "Orthoptera",
+            "object": "Insect",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "Hemiptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Zygentoma",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Odonata",
+            "object": "Insect",
+            "subject_article": "An",
+            "object_article": "an"
+        },
+        {
+            "subject": "Neuroptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Lepidoptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Diptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Blattodea",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Dermaptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Siphonaptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Hymenoptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Coleoptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Thysanoptera",
+            "object": "Insect",
+            "subject_article": "A",
+            "object_article": "an"
+        },
+        {
+            "subject": "Perciformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Clupeiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Osteoglossiformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Elopiformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Salmoniformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Cypriniformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Anguilliformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Pleuronectiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Tetraodontiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Lophiiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Gadiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Syngnathiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Various",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Albuliformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Characiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Cyprinodontiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Osmeriformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Siluriformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Acipenseriformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        },
+        {
+            "subject": "Mugiliformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Lepisosteiformes",
+            "object": "Fish",
+            "subject_article": "A",
+            "object_article": "a"
+        },
+        {
+            "subject": "Esociformes",
+            "object": "Fish",
+            "subject_article": "An",
+            "object_article": "a"
+        }
+    ]
+}

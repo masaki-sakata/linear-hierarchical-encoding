@@ -1,0 +1,49 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Health Professions",
+      "object": "Health Sciences"
+    },
+    {
+      "subject": "Medicine",
+      "object": "Health Sciences"
+    },
+    {
+      "subject": "Chemistry",
+      "object": "Physical Sciences"
+    },
+    {
+      "subject": "Earth and Planetary Sciences",
+      "object": "Physical Sciences"
+    },
+    {
+      "subject": "Engineering",
+      "object": "Physical Sciences"
+    },
+    {
+      "subject": "Materials Science",
+      "object": "Physical Sciences"
+    },
+    {
+      "subject": "Mathematics",
+      "object": "Physical Sciences"
+    },
+    {
+      "subject": "Physics and Astronomy",
+      "object": "Physical Sciences"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is part of"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Eastern Africa",
+      "object": "Africa"
+    },
+    {
+      "subject": "Middle Africa",
+      "object": "Africa"
+    },
+    {
+      "subject": "Northern Africa",
+      "object": "Africa"
+    },
+    {
+      "subject": "Southern Africa",
+      "object": "Africa"
+    },
+    {
+      "subject": "Western Africa",
+      "object": "Africa"
+    },
+    {
+      "subject": "Caribbean",
+      "object": "Americas"
+    },
+    {
+      "subject": "Central America",
+      "object": "Americas"
+    },
+    {
+      "subject": "North America",
+      "object": "Americas"
+    },
+    {
+      "subject": "South America",
+      "object": "Americas"
+    },
+    {
+      "subject": "Central Asia",
+      "object": "Asia"
+    },
+    {
+      "subject": "Eastern Asia",
+      "object": "Asia"
+    },
+    {
+      "subject": "Southeast Asia",
+      "object": "Asia"
+    },
+    {
+      "subject": "Southern Asia",
+      "object": "Asia"
+    },
+    {
+      "subject": "Western Asia",
+      "object": "Asia"
+    },
+    {
+      "subject": "Australia and New Zealand",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Melanesia",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Micronesia",
+      "object": "Oceania"
+    },
+    {
+      "subject": "Polynesia",
+      "object": "Oceania"
+    }
+  ]
+}

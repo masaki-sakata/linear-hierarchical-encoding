@@ -1,0 +1,109 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Accipitriformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Anseriformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Charadriiformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Columbiformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Coraciiformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Cuculiformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Falconiformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Galliformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Passeriformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Piciformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Psittaciformes",
+      "object": "Bird"
+    },
+    {
+      "subject": "Artiodactyla",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Carnivora",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Cetacea",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Diprotodontia",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Eulipotyphla",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Lagomorpha",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Monotremata",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Perissodactyla",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Pilosa",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Primates",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Rodentia",
+      "object": "Mammal"
+    },
+    {
+      "subject": "Sirenia",
+      "object": "Mammal"
+    }
+  ]
+}

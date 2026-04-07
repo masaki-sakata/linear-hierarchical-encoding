@@ -1,0 +1,268 @@
+Worker
+├── Politician
+│   ├── Legislator
+│   │   ├── Barack Obama
+│   │   ├── Margaret Thatcher
+│   │   ├── Winston Churchill
+│   │   ├── Franklin D. Roosevelt
+│   │   ├── Abraham Lincoln
+│   │   ├── John F. Kennedy
+│   │   ├── Angela Merkel
+│   │   ├── Jacinda Ardern
+│   │   ├── Helmut Kohl
+│   │   ├── John Major
+│   │   ├── Lee Hsien Loong
+│   │   ├── José Mujica
+│   │   ├── Justin Trudeau
+│   │   ├── Tony Blair
+│   │   ├── Indira Gandhi
+│   │   ├── Golda Meir
+│   │   ├── Shinzo Abe
+│   │   ├── Konrad Adenauer
+│   │   ├── Benazir Bhutto
+│   │   ├── Lee Kuan Yew
+│   │   ├── Nancy Pelosi
+│   │   ├── Bernie Sanders
+│   │   ├── John McCain
+│   │   ├── Mitch McConnell
+│   │   └── Shirley Chisholm
+│   ├── Governor
+│   │   ├── Sarah Palin
+│   │   ├── Jerry Brown
+│   │   └── Chris Christie
+│   └── Mayor
+│       ├── Fiorello La Guardia
+│       ├── Rudy Giuliani
+│       ├── Sadiq Khan
+│       ├── Anne Hidalgo
+│       └── Ken Livingstone
+├── Actor
+│   ├── Comedian
+│   │   ├── Charlie Chaplin
+│   │   ├── Richard Pryor
+│   │   ├── Eddie Murphy
+│   │   ├── Robin Williams
+│   │   └── Dave Chappelle
+│   ├── Film actor
+│   │   ├── Meryl Streep
+│   │   ├── Denzel Washington
+│   │   ├── Tom Hanks
+│   │   ├── Leonardo DiCaprio
+│   │   ├── Marilyn Monroe
+│   │   ├── Robert De Niro
+│   │   ├── Audrey Hepburn
+│   │   ├── Morgan Freeman
+│   │   ├── Tilda Swinton
+│   │   ├── Gael García Bernal
+│   │   ├── Mahershala Ali
+│   │   ├── Rachel Weisz
+│   │   ├── Saoirse Ronan
+│   │   ├── Chiwetel Ejiofor
+│   │   ├── Ken Watanabe
+│   │   ├── Ian McKellen
+│   │   ├── Toni Collette
+│   │   └── Michael Fassbender
+│   └── Voice actor
+│       ├── Mel Blanc
+│       ├── Tara Strong
+│       ├── Frank Welker
+│       ├── Nancy Cartwright
+│       └── Tom Kenny
+├── Athlete
+│   ├── Soccer player
+│   │   ├── Lionel Messi
+│   │   ├── Cristiano Ronaldo
+│   │   ├── Marta
+│   │   ├── Abby Wambach
+│   │   └── Pelé
+│   ├── Basketball player
+│   │   ├── Michael Jordan
+│   │   ├── Tim Duncan
+│   │   ├── LeBron James
+│   │   ├── Kobe Bryant
+│   │   └── Stephen Curry
+│   ├── Baseball player
+│   │   ├── Babe Ruth
+│   │   ├── Jackie Robinson
+│   │   ├── Hank Aaron
+│   │   ├── Shohei Ohtani
+│   │   └── Ichiro Suzuki
+│   ├── Golfer
+│   │   ├── Tiger Woods
+│   │   ├── Jack Nicklaus
+│   │   ├── Arnold Palmer
+│   │   ├── Rory McIlroy
+│   │   └── Annika Sörenstam
+│   ├── Boxer
+│   │   ├── Muhammad Ali
+│   │   ├── Mike Tyson
+│   │   ├── Floyd Mayweather Jr.
+│   │   ├── Manny Pacquiao
+│   │   └── Sugar Ray Robinson
+│   ├── Sprinter
+│   │   ├── Usain Bolt
+│   │   ├── Allyson Felix
+│   │   ├── Florence Griffith-Joyner
+│   │   ├── Shelly-Ann Fraser-Pryce
+│   │   └── Justin Gatlin
+│   └── Tennis player
+│       ├── Serena Williams
+│       ├── Stan Wawrinka
+│       ├── Roger Federer
+│       ├── Rafael Nadal
+│       └── Novak Djokovic
+├── Musician
+│   ├── Singer
+│   │   ├── John Lennon
+│   │   ├── Michael Jackson
+│   │   ├── Madonna
+│   │   ├── Bob Dylan
+│   │   ├── Elvis Presley
+│   │   ├── Aretha Franklin
+│   │   ├── Beyoncé
+│   │   ├── Beck
+│   │   ├── Norah Jones
+│   │   ├── Björk
+│   │   ├── Janelle Monáe
+│   │   ├── Florence Welch
+│   │   └── Solange
+│   ├── Composer
+│   │   ├── Mozart
+│   │   ├── Erik Satie
+│   │   ├── Ludwig van Beethoven
+│   │   ├── Johann Sebastian Bach
+│   │   └── Pyotr Ilyich Tchaikovsky
+│   ├── Conductor
+│   │   ├── Herbert von Karajan
+│   │   ├── Leonard Bernstein
+│   │   ├── Simon Rattle
+│   │   ├── Gustavo Dudamel
+│   │   └── Seiji Ozawa
+│   ├── Pianist
+│   │   ├── Frédéric Chopin
+│   │   ├── Franz Liszt
+│   │   ├── Martha Argerich
+│   │   ├── Vladimir Horowitz
+│   │   └── Lang Lang
+│   ├── Guitarist
+│   │   ├── St. Vincent
+│   │   ├── Jimi Hendrix
+│   │   ├── Eric Clapton
+│   │   ├── Jimmy Page
+│   │   └── Carlos Santana
+│   ├── Bassist
+│   │   ├── Paul McCartney
+│   │   ├── Jaco Pastorius
+│   │   ├── James Jamerson
+│   │   └── John Entwistle
+│   ├── Drummer
+│   │   ├── Ringo Starr
+│   │   ├── John Bonham
+│   │   ├── Keith Moon
+│   │   ├── Neil Peart
+│   │   └── Buddy Rich
+│   └── Violinist
+│       ├── Niccolò Paganini
+│       ├── Jascha Heifetz
+│       ├── Itzhak Perlman
+│       ├── Anne-Sophie Mutter
+│       └── Hilary Hahn
+├── Scientist
+│   ├── Physicist
+│   │   ├── Albert Einstein
+│   │   ├── Isaac Newton
+│   │   ├── Stephen Hawking
+│   │   └── Chien-Shiung Wu
+│   ├── Chemist
+│   │   ├── Tu Youyou
+│   │   ├── Dmitri Mendeleev
+│   │   ├── Linus Pauling
+│   │   └── Antoine Lavoisier
+│   ├── Mathematician
+│   │   ├── Emmy Noether
+│   │   ├── Katherine Johnson
+│   │   ├── Carl Friedrich Gauss
+│   │   ├── Leonhard Euler
+│   │   └── Alan Turing
+│   ├── Biologist
+│   │   ├── Charles Darwin
+│   │   ├── Rosalind Franklin
+│   │   ├── Barbara McClintock
+│   │   └── Gregor Mendel
+│   ├── Computer scientist
+│   │   ├── Ada Lovelace
+│   │   ├── Grace Hopper
+│   │   ├── Donald Knuth
+│   │   ├── Tim Berners-Lee
+│   │   ├── Edsger W. Dijkstra
+│   │   └── John McCarthy
+│   ├── Astronomer
+│   │   ├── Galileo Galilei
+│   │   ├── Vera Rubin
+│   │   ├── Subrahmanyan Chandrasekhar
+│   │   ├── Edwin Hubble
+│   │   └── Carl Sagan
+│   ├── Economist
+│   │   ├── John Maynard Keynes
+│   │   ├── Adam Smith
+│   │   ├── Milton Friedman
+│   │   ├── Amartya Sen
+│   │   └── Joseph Stiglitz
+│   ├── Psychologist
+│   │   ├── Sigmund Freud
+│   │   ├── Carl Jung
+│   │   ├── B. F. Skinner
+│   │   ├── Jean Piaget
+│   │   └── Daniel Kahneman
+│   ├── Neuroscientist
+│   │   ├── Santiago Ramón y Cajal
+│   │   ├── Eric Kandel
+│   │   ├── David Hubel
+│   │   ├── Torsten Wiesel
+│   │   └── Rita Levi-Montalcini
+│   └── Engineer
+│       ├── Nikola Tesla
+│       ├── Isambard Kingdom Brunel
+│       ├── Thomas Edison
+│       ├── Gustave Eiffel
+│       └── Wernher von Braun
+└── Business person
+    ├── Entrepreneur
+    │   ├── Steve Jobs
+    │   ├── Elon Musk
+    │   ├── Jeff Bezos
+    │   ├── Henry Ford
+    │   ├── Walt Disney
+    │   ├── Oprah Winfrey
+    │   ├── Sara Blakely
+    │   ├── Yvon Chouinard
+    │   ├── Daniel Ek
+    │   ├── Melanie Perkins
+    │   ├── Stewart Butterfield
+    │   └── Tony Hsieh
+    ├── Business executive
+    │   ├── Bill Gates
+    │   ├── Indra Nooyi
+    │   ├── Tadashi Yanai
+    │   ├── Tim Cook
+    │   ├── Satya Nadella
+    │   ├── Sundar Pichai
+    │   └── Mary Barra
+    ├── Investor
+    │   ├── Warren Buffett
+    │   ├── Benjamin Graham
+    │   ├── Peter Lynch
+    │   ├── Ray Dalio
+    │   └── John Templeton
+    ├── Marketer
+    │   ├── Philip Kotler
+    │   ├── David Ogilvy
+    │   ├── Seth Godin
+    │   ├── Gary Vaynerchuk
+    │   └── Edward Bernays
+    └── Financier
+        ├── J. P. Morgan
+        ├── David Rockefeller
+        ├── George Soros
+        ├── Jamie Dimon
+        └── Amadeo Giannini

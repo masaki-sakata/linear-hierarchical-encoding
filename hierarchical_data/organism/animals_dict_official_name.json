@@ -1,0 +1,1850 @@
+{
+    "beaver": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "panther": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "lion": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "llama": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "colobus": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "marmoset": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "rabbit": {
+        "class": "Mammalia",
+        "order": "Lagomorpha"
+    },
+    "dingo": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "pika": {
+        "class": "Mammalia",
+        "order": "Lagomorpha"
+    },
+    "okapi": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "gazelle": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "margay": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "echidna": {
+        "class": "Mammalia",
+        "order": "Monotremata"
+    },
+    "vicuna": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "grizzly": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "aardvark": {
+        "class": "Mammalia",
+        "order": "Tubulidentata"
+    },
+    "anteater": {
+        "class": "Mammalia",
+        "order": "Pilosa"
+    },
+    "orangutan": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "wallaby": {
+        "class": "Mammalia",
+        "order": "Diprotodontia"
+    },
+    "meerkat": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "mongoose": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "bongo": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "hamster": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "caracal": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "whale": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "addax": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "boar": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "puma": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "peccary": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "bonobo": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "dolphin": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "proboscis": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "otter": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "sheep": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "capuchin": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "howler": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "guinea": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "horse": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "chinchilla": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "donkey": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "mandrill": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "warthog": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "galago": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "takin": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "impala": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "eland": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "springbok": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "chimpanzee": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "waterbuck": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "moose": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "nutria": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "mink": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "platypus": {
+        "class": "Mammalia",
+        "order": "Monotremata"
+    },
+    "mole": {
+        "class": "Mammalia",
+        "order": "Eulipotyphla"
+    },
+    "ibex": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "dormouse": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "wolverine": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "buffalo": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "gorilla": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "spermwhale": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "fennec": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "gerbil": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "goat": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "pangolin": {
+        "class": "Mammalia",
+        "order": "Pholidota"
+    },
+    "vole": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "panda": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "pronghorn": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "polarbear": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "gibbon": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "jaguar": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "fox": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "agouti": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "kudu": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "snow-leopard": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "finwhale": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "gnu": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "ape": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "wombat": {
+        "class": "Mammalia",
+        "order": "Diprotodontia"
+    },
+    "tiger": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "uakari": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "dog": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "saki": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "hartebeest": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "gemsbok": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "pony": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "redpanda": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "jackal": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "sloth": {
+        "class": "Mammalia",
+        "order": "Pilosa"
+    },
+    "alpaca": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "muskox": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "pig": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "hedgehog": {
+        "class": "Mammalia",
+        "order": "Eulipotyphla"
+    },
+    "coyote": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "giraffe": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "koala": {
+        "class": "Mammalia",
+        "order": "Diprotodontia"
+    },
+    "porpoise": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "gelada": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "chipmunk": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "lynx": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "lemur": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "squirrel": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "skunk": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "topi": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "hyena": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "siamang": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "walrus": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "narwhal": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "rodent": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "cougar": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "serow": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "cat": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "yak": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "kangaroo": {
+        "class": "Mammalia",
+        "order": "Diprotodontia"
+    },
+    "tarsier": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "elk": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "chimp": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "bison": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "capybara": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "papio": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "armadillo": {
+        "class": "Mammalia",
+        "order": "Cingulata"
+    },
+    "tamarin": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "black-bear": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "loris": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "ermine": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "weasel": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "hare": {
+        "class": "Mammalia",
+        "order": "Lagomorpha"
+    },
+    "monkey": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "oryx": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "camel": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "ocelot": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "marten": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "beluga": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "antelope": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "caribou": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "macaque": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "rhinoceros": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "ferret": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "muskrat": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "cheetah": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "raccoon": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "opossum": {
+        "class": "Mammalia",
+        "order": "Didelphimorphia"
+    },
+    "deer": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "langur": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "sable": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "gaur": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "dugong": {
+        "class": "Mammalia",
+        "order": "Sirenia"
+    },
+    "zebu": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "mule": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "hippopotamus": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "badger": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "wolf": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "manatee": {
+        "class": "Mammalia",
+        "order": "Sirenia"
+    },
+    "wildebeest": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "shrew": {
+        "class": "Mammalia",
+        "order": "Eulipotyphla"
+    },
+    "elephant": {
+        "class": "Mammalia",
+        "order": "Proboscidea"
+    },
+    "rat": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "tapir": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "stoat": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "baboon": {
+        "class": "Mammalia",
+        "order": "Primates"
+    },
+    "reindeer": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "sea-lion": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "guanaco": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "orca": {
+        "class": "Mammalia",
+        "order": "Cetacea"
+    },
+    "zebra": {
+        "class": "Mammalia",
+        "order": "Perissodactyla"
+    },
+    "cow": {
+        "class": "Mammalia",
+        "order": "Artiodactyla"
+    },
+    "porcupine": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "leopard": {
+        "class": "Mammalia",
+        "order": "Carnivora"
+    },
+    "mouse": {
+        "class": "Mammalia",
+        "order": "Rodentia"
+    },
+    "wigeon": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "parrot": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "albatross": {
+        "class": "Aves",
+        "order": "Procellariiformes"
+    },
+    "cockatoo": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "magpie": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "cardinal": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "honeyeater": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "hummingbird": {
+        "class": "Aves",
+        "order": "Apodiformes"
+    },
+    "sedge": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "kinglet": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "kingfisher": {
+        "class": "Aves",
+        "order": "Coraciiformes"
+    },
+    "rhea": {
+        "class": "Aves",
+        "order": "Rheiformes"
+    },
+    "plover": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "thrush": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "raven": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "pelican": {
+        "class": "Aves",
+        "order": "Pelecaniformes"
+    },
+    "ibis": {
+        "class": "Aves",
+        "order": "Pelecaniformes"
+    },
+    "redshank": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "mockingbird": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "goldfinch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "tinamou": {
+        "class": "Aves",
+        "order": "Tinamiformes"
+    },
+    "cassowary": {
+        "class": "Aves",
+        "order": "Casuariiformes"
+    },
+    "chaffinch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "woodpecker": {
+        "class": "Aves",
+        "order": "Piciformes"
+    },
+    "peafowl": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "cuckoo": {
+        "class": "Aves",
+        "order": "Cuculiformes"
+    },
+    "loon": {
+        "class": "Aves",
+        "order": "Gaviiformes"
+    },
+    "sunbird": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "emu": {
+        "class": "Aves",
+        "order": "Casuariiformes"
+    },
+    "roadrunner": {
+        "class": "Aves",
+        "order": "Cuculiformes"
+    },
+    "waxwing": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "harrier": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "curlew": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "godwit": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "goose": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "vulture": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "avocet": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "wagtail": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "manakin": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "snipe": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "vireo": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "partridge": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "jay": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "sandpiper": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "dipper": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "gadwall": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "woodcock": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "cotinga": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "antpitta": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "lovebird": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "ptarmigan": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "grebe": {
+        "class": "Aves",
+        "order": "Podicipediformes"
+    },
+    "hawk": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "teal": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "gnateater": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "budgerigar": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "oystercatcher": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "osprey": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "owl": {
+        "class": "Aves",
+        "order": "Strigiformes"
+    },
+    "finch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "kite": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "lorikeet": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "wren": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "hornbill": {
+        "class": "Aves",
+        "order": "Bucerotiformes"
+    },
+    "turkey": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "buzzard": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "nightingale": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "treecreeper": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "tanager": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "shoveler": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "greenfinch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "puffin": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "tern": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "jacamar": {
+        "class": "Aves",
+        "order": "Piciformes"
+    },
+    "egret": {
+        "class": "Aves",
+        "order": "Pelecaniformes"
+    },
+    "antbird": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "tapaculo": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "thrasher": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "eagle": {
+        "class": "Aves",
+        "order": "Accipitriformes"
+    },
+    "brambling": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "smew": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "moorhen": {
+        "class": "Aves",
+        "order": "Gruiformes"
+    },
+    "blackbird": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "phalarope": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "oriole": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "toucan": {
+        "class": "Aves",
+        "order": "Piciformes"
+    },
+    "junco": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "goldeneye": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "turaco": {
+        "class": "Aves",
+        "order": "Musophagiformes"
+    },
+    "bunting": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "flamingo": {
+        "class": "Aves",
+        "order": "Phoenicopteriformes"
+    },
+    "keel": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "redpoll": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "macaw": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "parakeet": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "heron": {
+        "class": "Aves",
+        "order": "Pelecaniformes"
+    },
+    "hoopoe": {
+        "class": "Aves",
+        "order": "Bucerotiformes"
+    },
+    "duck": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "sparrow": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "catbird": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "mallard": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "coot": {
+        "class": "Aves",
+        "order": "Gruiformes"
+    },
+    "flycatcher": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "quail": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "nuthatch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "bee-eater": {
+        "class": "Aves",
+        "order": "Coraciiformes"
+    },
+    "lapwing": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "chicken": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "guineafowl": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "grosbeak": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "swallow": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "phoebe": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "linnet": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "kakapo": {
+        "class": "Aves",
+        "order": "Psittaciformes"
+    },
+    "cisticola": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "kestrel": {
+        "class": "Aves",
+        "order": "Falconiformes"
+    },
+    "ostrich": {
+        "class": "Aves",
+        "order": "Struthioniformes"
+    },
+    "dunlin": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "reedbunting": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "lark": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "dove": {
+        "class": "Aves",
+        "order": "Columbiformes"
+    },
+    "pintail": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "falcon": {
+        "class": "Aves",
+        "order": "Falconiformes"
+    },
+    "bullfinch": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "pipit": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "swan": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "starling": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "pheasant": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "kiwi": {
+        "class": "Aves",
+        "order": "Apterygiformes"
+    },
+    "eider": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "grouse": {
+        "class": "Aves",
+        "order": "Galliformes"
+    },
+    "pigeon": {
+        "class": "Aves",
+        "order": "Columbiformes"
+    },
+    "shrike": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "stork": {
+        "class": "Aves",
+        "order": "Ciconiiformes"
+    },
+    "warbler": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "cormorant": {
+        "class": "Aves",
+        "order": "Suliformes"
+    },
+    "merganser": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "crossbill": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "seagull": {
+        "class": "Aves",
+        "order": "Charadriiformes"
+    },
+    "canary": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "scoter": {
+        "class": "Aves",
+        "order": "Anseriformes"
+    },
+    "siskin": {
+        "class": "Aves",
+        "order": "Passeriformes"
+    },
+    "viper": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "lizard": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "terrapin": {
+        "class": "Reptilia",
+        "order": "Testudines"
+    },
+    "cobra": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "anaconda": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "gila": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "skink": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "crocodile": {
+        "class": "Reptilia",
+        "order": "Crocodylia"
+    },
+    "anole": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "iguana": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "chameleon": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "mamba": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "gecko": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "komodo": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "snake": {
+        "class": "Reptilia",
+        "order": "Squamata"
+    },
+    "tortoise": {
+        "class": "Reptilia",
+        "order": "Testudines"
+    },
+    "alligator": {
+        "class": "Reptilia",
+        "order": "Crocodylia"
+    },
+    "turtle": {
+        "class": "Reptilia",
+        "order": "Testudines"
+    },
+    "tuatara": {
+        "class": "Reptilia",
+        "order": "Rhynchocephalia"
+    },
+    "bullfrog": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "siren": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "toad": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "treefrog": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "frog": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "olm": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "axolotl": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "surinam toad": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "natterjack toad": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "hellbender": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "salamander": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "glassfrog": {
+        "class": "Amphibia",
+        "order": "Anura"
+    },
+    "mudpuppy": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "newt": {
+        "class": "Amphibia",
+        "order": "Caudata"
+    },
+    "caecilian": {
+        "class": "Amphibia",
+        "order": "Gymnophiona"
+    },
+    "mayfly": {
+        "class": "Insecta",
+        "order": "Ephemeroptera"
+    },
+    "grasshopper": {
+        "class": "Insecta",
+        "order": "Orthoptera"
+    },
+    "bedbug": {
+        "class": "Insecta",
+        "order": "Hemiptera"
+    },
+    "silverfish": {
+        "class": "Insecta",
+        "order": "Zygentoma"
+    },
+    "cicada": {
+        "class": "Insecta",
+        "order": "Hemiptera"
+    },
+    "dragonfly": {
+        "class": "Insecta",
+        "order": "Odonata"
+    },
+    "lacewing": {
+        "class": "Insecta",
+        "order": "Neuroptera"
+    },
+    "butterfly": {
+        "class": "Insecta",
+        "order": "Lepidoptera"
+    },
+    "damselfly": {
+        "class": "Insecta",
+        "order": "Odonata"
+    },
+    "housefly": {
+        "class": "Insecta",
+        "order": "Diptera"
+    },
+    "termite": {
+        "class": "Insecta",
+        "order": "Blattodea"
+    },
+    "earwig": {
+        "class": "Insecta",
+        "order": "Dermaptera"
+    },
+    "moth": {
+        "class": "Insecta",
+        "order": "Lepidoptera"
+    },
+    "flea": {
+        "class": "Insecta",
+        "order": "Siphonaptera"
+    },
+    "mosquito": {
+        "class": "Insecta",
+        "order": "Diptera"
+    },
+    "hornet": {
+        "class": "Insecta",
+        "order": "Hymenoptera"
+    },
+    "ladybug": {
+        "class": "Insecta",
+        "order": "Coleoptera"
+    },
+    "cockroach": {
+        "class": "Insecta",
+        "order": "Blattodea"
+    },
+    "gnat": {
+        "class": "Insecta",
+        "order": "Diptera"
+    },
+    "scarab": {
+        "class": "Insecta",
+        "order": "Coleoptera"
+    },
+    "caterpillar": {
+        "class": "Insecta",
+        "order": "Lepidoptera"
+    },
+    "aphid": {
+        "class": "Insecta",
+        "order": "Hemiptera"
+    },
+    "thrips": {
+        "class": "Insecta",
+        "order": "Thysanoptera"
+    },
+    "weevil": {
+        "class": "Insecta",
+        "order": "Coleoptera"
+    },
+    "beetle": {
+        "class": "Insecta",
+        "order": "Coleoptera"
+    },
+    "firefly": {
+        "class": "Insecta",
+        "order": "Coleoptera"
+    },
+    "cricket": {
+        "class": "Insecta",
+        "order": "Orthoptera"
+    },
+    "wasp": {
+        "class": "Insecta",
+        "order": "Hymenoptera"
+    },
+    "ant": {
+        "class": "Insecta",
+        "order": "Hymenoptera"
+    },
+    "bee": {
+        "class": "Insecta",
+        "order": "Hymenoptera"
+    },
+    "snapper": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "anchovy": {
+        "class": "Actinopterygii",
+        "order": "Clupeiformes"
+    },
+    "moonfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "herring": {
+        "class": "Actinopterygii",
+        "order": "Clupeiformes"
+    },
+    "dolphinfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "pomfret": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "barracuda": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "arowana": {
+        "class": "Actinopterygii",
+        "order": "Osteoglossiformes"
+    },
+    "ladyfish": {
+        "class": "Actinopterygii",
+        "order": "Elopiformes"
+    },
+    "salmon": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "dace": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "carp": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "eel": {
+        "class": "Actinopterygii",
+        "order": "Anguilliformes"
+    },
+    "flounder": {
+        "class": "Actinopterygii",
+        "order": "Pleuronectiformes"
+    },
+    "spadefish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "tilapia": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "boxfish": {
+        "class": "Actinopterygii",
+        "order": "Tetraodontiformes"
+    },
+    "croaker": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "goosefish": {
+        "class": "Actinopterygii",
+        "order": "Lophiiformes"
+    },
+    "pollock": {
+        "class": "Actinopterygii",
+        "order": "Gadiformes"
+    },
+    "trout": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "seahorse": {
+        "class": "Actinopterygii",
+        "order": "Syngnathiformes"
+    },
+    "shark": {
+        "class": "Actinopterygii",
+        "order": "Various"
+    },
+    "jewfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "grayling": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "tench": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "mahi-mahi": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "halibut": {
+        "class": "Actinopterygii",
+        "order": "Pleuronectiformes"
+    },
+    "bonefish": {
+        "class": "Actinopterygii",
+        "order": "Albuliformes"
+    },
+    "ide": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "piranha": {
+        "class": "Actinopterygii",
+        "order": "Characiformes"
+    },
+    "rockfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "swordtail": {
+        "class": "Actinopterygii",
+        "order": "Cyprinodontiformes"
+    },
+    "tuna": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "surgeonfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "smelt": {
+        "class": "Actinopterygii",
+        "order": "Osmeriformes"
+    },
+    "mackerel": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "sockeye": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "fluke": {
+        "class": "Actinopterygii",
+        "order": "Pleuronectiformes"
+    },
+    "chub": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "tarpon": {
+        "class": "Actinopterygii",
+        "order": "Elopiformes"
+    },
+    "pompano": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "monkfish": {
+        "class": "Actinopterygii",
+        "order": "Lophiiformes"
+    },
+    "moray": {
+        "class": "Actinopterygii",
+        "order": "Anguilliformes"
+    },
+    "cod": {
+        "class": "Actinopterygii",
+        "order": "Gadiformes"
+    },
+    "catfish": {
+        "class": "Actinopterygii",
+        "order": "Siluriformes"
+    },
+    "rudd": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "sturgeon": {
+        "class": "Actinopterygii",
+        "order": "Acipenseriformes"
+    },
+    "coho": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "bitterling": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "grunt": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "roach": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "pipefish": {
+        "class": "Actinopterygii",
+        "order": "Syngnathiformes"
+    },
+    "weakfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "grouper": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "snook": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "swordfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "lingcod": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "clownfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "haddock": {
+        "class": "Actinopterygii",
+        "order": "Gadiformes"
+    },
+    "angelfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "sardine": {
+        "class": "Actinopterygii",
+        "order": "Clupeiformes"
+    },
+    "platy": {
+        "class": "Actinopterygii",
+        "order": "Cyprinodontiformes"
+    },
+    "scorpionfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "chinook": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "triggerfish": {
+        "class": "Actinopterygii",
+        "order": "Tetraodontiformes"
+    },
+    "amberjack": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "sablefish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "guppy": {
+        "class": "Actinopterygii",
+        "order": "Cyprinodontiformes"
+    },
+    "discus": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "puffer": {
+        "class": "Actinopterygii",
+        "order": "Tetraodontiformes"
+    },
+    "mullet": {
+        "class": "Actinopterygii",
+        "order": "Mugiliformes"
+    },
+    "kingfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "pleco": {
+        "class": "Actinopterygii",
+        "order": "Siluriformes"
+    },
+    "whitefish": {
+        "class": "Actinopterygii",
+        "order": "Salmoniformes"
+    },
+    "perch": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "gar": {
+        "class": "Actinopterygii",
+        "order": "Lepisosteiformes"
+    },
+    "barbel": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "bream": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "wrasse": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "pike": {
+        "class": "Actinopterygii",
+        "order": "Esociformes"
+    },
+    "damselfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "lionfish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "goldfish": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "cichlid": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "bleak": {
+        "class": "Actinopterygii",
+        "order": "Cypriniformes"
+    },
+    "scup": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    },
+    "bluefish": {
+        "class": "Actinopterygii",
+        "order": "Perciformes"
+    }
+}

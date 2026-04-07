@@ -1,0 +1,5506 @@
+{
+  "name": "organism full",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "mixed",
+    "range_name": "mixed"
+  },
+  "samples": [
+    {
+      "subject": "Accipitriformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anguilliformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anseriformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Anura",
+      "targets": [
+        {
+          "object": "Amphibian",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Artiodactyla",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Blattodea",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Carnivora",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Caudata",
+      "targets": [
+        {
+          "object": "Amphibian",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cetacea",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Charadriiformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Clupeiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Coleoptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Columbiformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Coraciiformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Crocodylia",
+      "targets": [
+        {
+          "object": "Reptilia",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cuculiformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cypriniformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cyprinodontiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Diprotodontia",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Diptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Elopiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Eulipotyphla",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Falconiformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gadiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Galliformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hemiptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Hymenoptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lagomorpha",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Lepidoptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Monotremata",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Odonata",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Orthoptera",
+      "targets": [
+        {
+          "object": "Insect",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Passeriformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Perciformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Perissodactyla",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Piciformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pilosa",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pleuronectiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Primates",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Psittaciformes",
+      "targets": [
+        {
+          "object": "Bird",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Rodentia",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Salmoniformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Siluriformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Sirenia",
+      "targets": [
+        {
+          "object": "Mammal",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Squamata",
+      "targets": [
+        {
+          "object": "Reptilia",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Syngnathiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Testudines",
+      "targets": [
+        {
+          "object": "Reptilia",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Tetraodontiformes",
+      "targets": [
+        {
+          "object": "Fish",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "addax",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "agouti",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "alligator",
+      "targets": [
+        {
+          "object": "Crocodylia",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "alpaca",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "amberjack",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "anaconda",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "anchovy",
+      "targets": [
+        {
+          "object": "Clupeiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "angelfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "anole",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ant",
+      "targets": [
+        {
+          "object": "Hymenoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "antbird",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "anteater",
+      "targets": [
+        {
+          "object": "Pilosa",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "antelope",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "antpitta",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ape",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "aphid",
+      "targets": [
+        {
+          "object": "Hemiptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "avocet",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "axolotl",
+      "targets": [
+        {
+          "object": "Caudata",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "baboon",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "badger",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "barracuda",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "beaver",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bedbug",
+      "targets": [
+        {
+          "object": "Hemiptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bee",
+      "targets": [
+        {
+          "object": "Hymenoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bee-eater",
+      "targets": [
+        {
+          "object": "Coraciiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "beetle",
+      "targets": [
+        {
+          "object": "Coleoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "beluga",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bison",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bitterling",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "black-bear",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "blackbird",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bleak",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bluefish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "boar",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bongo",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bonobo",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "boxfish",
+      "targets": [
+        {
+          "object": "Tetraodontiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "brambling",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bream",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "budgerigar",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bullfinch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bullfrog",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "bunting",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "butterfly",
+      "targets": [
+        {
+          "object": "Lepidoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "buzzard",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "camel",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "canary",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "capuchin",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "capybara",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "caracal",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cardinal",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "caribou",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "carp",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cat",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "catbird",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "caterpillar",
+      "targets": [
+        {
+          "object": "Lepidoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "catfish",
+      "targets": [
+        {
+          "object": "Siluriformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chaffinch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chameleon",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cheetah",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chicken",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chimp",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chimpanzee",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chinchilla",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chinook",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chipmunk",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "chub",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cicada",
+      "targets": [
+        {
+          "object": "Hemiptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cichlid",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cisticola",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "clownfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cobra",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cockatoo",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cockroach",
+      "targets": [
+        {
+          "object": "Blattodea",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cod",
+      "targets": [
+        {
+          "object": "Gadiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "coho",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "colobus",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cow",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "coyote",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cricket",
+      "targets": [
+        {
+          "object": "Orthoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "croaker",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "crocodile",
+      "targets": [
+        {
+          "object": "Crocodylia",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "crossbill",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "cuckoo",
+      "targets": [
+        {
+          "object": "Cuculiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "curlew",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dace",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "damselfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "damselfly",
+      "targets": [
+        {
+          "object": "Odonata",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "deer",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dingo",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dipper",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "discus",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dog",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dolphin",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dolphinfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "donkey",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dormouse",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dove",
+      "targets": [
+        {
+          "object": "Columbiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dragonfly",
+      "targets": [
+        {
+          "object": "Odonata",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "duck",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dugong",
+      "targets": [
+        {
+          "object": "Sirenia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "dunlin",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "eagle",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "echidna",
+      "targets": [
+        {
+          "object": "Monotremata",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "eel",
+      "targets": [
+        {
+          "object": "Anguilliformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "eider",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "eland",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "elk",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "falcon",
+      "targets": [
+        {
+          "object": "Falconiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "fennec",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ferret",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "finch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "finwhale",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "firefly",
+      "targets": [
+        {
+          "object": "Coleoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "flounder",
+      "targets": [
+        {
+          "object": "Pleuronectiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "flycatcher",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "fox",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "frog",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gadwall",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "galago",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gaur",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gazelle",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gecko",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gelada",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gemsbok",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gerbil",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gibbon",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gila",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "giraffe",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "glassfrog",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gnat",
+      "targets": [
+        {
+          "object": "Diptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gnu",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "goat",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "godwit",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "goldeneye",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "goldfinch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "goldfish",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "goose",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "gorilla",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grasshopper",
+      "targets": [
+        {
+          "object": "Orthoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grayling",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "greenfinch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grizzly",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grosbeak",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grouper",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grouse",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "grunt",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "guanaco",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "guinea",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "guineafowl",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "guppy",
+      "targets": [
+        {
+          "object": "Cyprinodontiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "haddock",
+      "targets": [
+        {
+          "object": "Gadiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "halibut",
+      "targets": [
+        {
+          "object": "Pleuronectiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hamster",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hare",
+      "targets": [
+        {
+          "object": "Lagomorpha",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "harrier",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hartebeest",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hawk",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hedgehog",
+      "targets": [
+        {
+          "object": "Eulipotyphla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hellbender",
+      "targets": [
+        {
+          "object": "Caudata",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "herring",
+      "targets": [
+        {
+          "object": "Clupeiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hippopotamus",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "honeyeater",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hornet",
+      "targets": [
+        {
+          "object": "Hymenoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "horse",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "housefly",
+      "targets": [
+        {
+          "object": "Diptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "howler",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "hyena",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ibex",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ide",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "iguana",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "impala",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "jacamar",
+      "targets": [
+        {
+          "object": "Piciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "jackal",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "jaguar",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "jay",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "junco",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kangaroo",
+      "targets": [
+        {
+          "object": "Diprotodontia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kestrel",
+      "targets": [
+        {
+          "object": "Falconiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kingfisher",
+      "targets": [
+        {
+          "object": "Coraciiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kinglet",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kite",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "koala",
+      "targets": [
+        {
+          "object": "Diprotodontia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "komodo",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "kudu",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ladybug",
+      "targets": [
+        {
+          "object": "Coleoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ladyfish",
+      "targets": [
+        {
+          "object": "Elopiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "langur",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lapwing",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lark",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lemur",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "leopard",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "linnet",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lion",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lionfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lizard",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "llama",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lorikeet",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "loris",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lovebird",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "lynx",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "macaque",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "macaw",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "magpie",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mahi-mahi",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mallard",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mamba",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "manakin",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "manatee",
+      "targets": [
+        {
+          "object": "Sirenia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mandrill",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "margay",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "marmoset",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "marten",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "meerkat",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "merganser",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mink",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mockingbird",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mole",
+      "targets": [
+        {
+          "object": "Eulipotyphla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mongoose",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "monkey",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "moonfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "moose",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "moray",
+      "targets": [
+        {
+          "object": "Anguilliformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mosquito",
+      "targets": [
+        {
+          "object": "Diptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "moth",
+      "targets": [
+        {
+          "object": "Lepidoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mouse",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "mudpuppy",
+      "targets": [
+        {
+          "object": "Caudata",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "muskox",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "muskrat",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "narwhal",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "natterjack toad",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "newt",
+      "targets": [
+        {
+          "object": "Caudata",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "nightingale",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "nuthatch",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "nutria",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ocelot",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "okapi",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "orangutan",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "orca",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "oriole",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "oryx",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "osprey",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "otter",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "oystercatcher",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "panda",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "panther",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "papio",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "parakeet",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "parrot",
+      "targets": [
+        {
+          "object": "Psittaciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "partridge",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "peafowl",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "peccary",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "perch",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "phalarope",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pheasant",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "phoebe",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pig",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pigeon",
+      "targets": [
+        {
+          "object": "Columbiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pika",
+      "targets": [
+        {
+          "object": "Lagomorpha",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pintail",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pipefish",
+      "targets": [
+        {
+          "object": "Syngnathiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pipit",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "platypus",
+      "targets": [
+        {
+          "object": "Monotremata",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pleco",
+      "targets": [
+        {
+          "object": "Siluriformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "plover",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "polarbear",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pollock",
+      "targets": [
+        {
+          "object": "Gadiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pomfret",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pompano",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pony",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "porcupine",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "porpoise",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "pronghorn",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "ptarmigan",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "puffer",
+      "targets": [
+        {
+          "object": "Tetraodontiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "puffin",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "puma",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "quail",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rabbit",
+      "targets": [
+        {
+          "object": "Lagomorpha",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "raccoon",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rat",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "raven",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "redpanda",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "redpoll",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "redshank",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "reedbunting",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "reindeer",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rhinoceros",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "roach",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "roadrunner",
+      "targets": [
+        {
+          "object": "Cuculiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rockfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rodent",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "rudd",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sable",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "saki",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "salamander",
+      "targets": [
+        {
+          "object": "Caudata",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "salmon",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sandpiper",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sardine",
+      "targets": [
+        {
+          "object": "Clupeiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "scarab",
+      "targets": [
+        {
+          "object": "Coleoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "scorpionfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "scoter",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "scup",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sea-lion",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "seagull",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "seahorse",
+      "targets": [
+        {
+          "object": "Syngnathiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "serow",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sheep",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "shoveler",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "shrew",
+      "targets": [
+        {
+          "object": "Eulipotyphla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "shrike",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "siamang",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "siskin",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "skink",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "skunk",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sloth",
+      "targets": [
+        {
+          "object": "Pilosa",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "smew",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "snake",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "snapper",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "snipe",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "snook",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "snow-leopard",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sockeye",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "sparrow",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "spermwhale",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "springbok",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "squirrel",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "starling",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "stoat",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "surgeonfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "surinam toad",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "swallow",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "swan",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "swordfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "swordtail",
+      "targets": [
+        {
+          "object": "Cyprinodontiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "takin",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tamarin",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tanager",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tapaculo",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tapir",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tarpon",
+      "targets": [
+        {
+          "object": "Elopiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tarsier",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "teal",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tench",
+      "targets": [
+        {
+          "object": "Cypriniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "termite",
+      "targets": [
+        {
+          "object": "Blattodea",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tern",
+      "targets": [
+        {
+          "object": "Charadriiformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "terrapin",
+      "targets": [
+        {
+          "object": "Testudines",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "thrasher",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "thrush",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tiger",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "toad",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "topi",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tortoise",
+      "targets": [
+        {
+          "object": "Testudines",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "treecreeper",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "treefrog",
+      "targets": [
+        {
+          "object": "Anura",
+          "hops": 1
+        },
+        {
+          "object": "Amphibian",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "triggerfish",
+      "targets": [
+        {
+          "object": "Tetraodontiformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "trout",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "tuna",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "turkey",
+      "targets": [
+        {
+          "object": "Galliformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "turtle",
+      "targets": [
+        {
+          "object": "Testudines",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "uakari",
+      "targets": [
+        {
+          "object": "Primates",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "vicuna",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "viper",
+      "targets": [
+        {
+          "object": "Squamata",
+          "hops": 1
+        },
+        {
+          "object": "Reptilia",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "vireo",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "vole",
+      "targets": [
+        {
+          "object": "Rodentia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "vulture",
+      "targets": [
+        {
+          "object": "Accipitriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wagtail",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wallaby",
+      "targets": [
+        {
+          "object": "Diprotodontia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "warbler",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "warthog",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wasp",
+      "targets": [
+        {
+          "object": "Hymenoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "waterbuck",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "waxwing",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "weakfish",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "weasel",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "weevil",
+      "targets": [
+        {
+          "object": "Coleoptera",
+          "hops": 1
+        },
+        {
+          "object": "Insect",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "whale",
+      "targets": [
+        {
+          "object": "Cetacea",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "whitefish",
+      "targets": [
+        {
+          "object": "Salmoniformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wigeon",
+      "targets": [
+        {
+          "object": "Anseriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wildebeest",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wolf",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wolverine",
+      "targets": [
+        {
+          "object": "Carnivora",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wombat",
+      "targets": [
+        {
+          "object": "Diprotodontia",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "woodpecker",
+      "targets": [
+        {
+          "object": "Piciformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wrasse",
+      "targets": [
+        {
+          "object": "Perciformes",
+          "hops": 1
+        },
+        {
+          "object": "Fish",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "wren",
+      "targets": [
+        {
+          "object": "Passeriformes",
+          "hops": 1
+        },
+        {
+          "object": "Bird",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "yak",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "zebra",
+      "targets": [
+        {
+          "object": "Perissodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "zebu",
+      "targets": [
+        {
+          "object": "Artiodactyla",
+          "hops": 1
+        },
+        {
+          "object": "Mammal",
+          "hops": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+    "Organization": {
+        "Company": {
+            "Automotive company": [
+                "BMW",
+                "Ford",
+                "General Motors",
+                "Honda",
+                "Hyundai Motor",
+                "Kia",
+                "Mercedes-Benz",
+                "Nissan",
+                "Stellantis",
+                "Tesla",
+                "Toyota",
+                "Volkswagen",
+                "Volvo Cars"
+            ],
+            "Consumer goods company": [
+                "Colgate-Palmolive",
+                "Danone",
+                "Johnson & Johnson",
+                "Kimberly-Clark",
+                "Kraft Heinz",
+                "L’Oréal",
+                "Mondelez International",
+                "Nestlé",
+                "PepsiCo",
+                "Procter & Gamble",
+                "Reckitt",
+                "The Coca-Cola Company",
+                "Unilever"
+            ],
+            "Financial services company": [
+                "BNP Paribas",
+                "Bank of America",
+                "Barclays",
+                "Citigroup",
+                "Deutsche Bank",
+                "Goldman Sachs",
+                "HSBC",
+                "JPMorgan Chase",
+                "Morgan Stanley",
+                "Standard Chartered",
+                "UBS",
+                "Visa"
+            ],
+            "Media company": [
+                "Comcast",
+                "Disney",
+                "NBCUniversal",
+                "Netflix",
+                "News Corp",
+                "Paramount Global",
+                "Sony Pictures",
+                "Tencent Music",
+                "The New York Times Company",
+                "Warner Bros. Discovery",
+                "iHeartMedia"
+            ],
+            "Retail company": [
+                "Carrefour",
+                "Costco",
+                "IKEA",
+                "Kroger",
+                "Seven & i Holdings",
+                "Target",
+                "Tesco",
+                "The Home Depot",
+                "Walmart"
+            ],
+            "Technology company": [
+                "Adobe",
+                "Apple",
+                "Google",
+                "Huawei",
+                "IBM",
+                "Intel",
+                "Meta",
+                "Microsoft",
+                "NVIDIA",
+                "Oracle",
+                "SAP",
+                "Samsung Electronics",
+                "Tencent"
+            ]
+        },
+        "Cultural organization": {
+            "Museum": [
+                "Museo del Prado",
+                "Rijksmuseum",
+                "Smithsonian Institution",
+                "Solomon R. Guggenheim Museum",
+                "The British Museum",
+                "The Louvre",
+                "The Metropolitan Museum of Art",
+                "The State Hermitage Museum",
+                "Tokyo National Museum",
+                "Uffizi Gallery",
+                "Vatican Museums"
+            ],
+            "Performing arts organization": [
+                "Berlin Philharmonic",
+                "London Symphony Orchestra",
+                "Metropolitan Opera",
+                "NHK Symphony Orchestra",
+                "New York Philharmonic",
+                "Opéra national de Paris",
+                "Royal Concertgebouw Orchestra",
+                "Royal Opera House",
+                "Teatro Real",
+                "Teatro alla Scala",
+                "Vienna Philharmonic"
+            ]
+        },
+        "Educational institution": {
+            "School": [
+                "Eton College",
+                "Harrow School",
+                "International School of Geneva",
+                "Lycée Louis-le-Grand",
+                "Phillips Academy Andover",
+                "Phillips Exeter Academy",
+                "Seoul Foreign School",
+                "Sydney Grammar School",
+                "The Bronx High School of Science",
+                "Tokyo Gakugei University Senior High School"
+            ],
+            "University": [
+                "ETH Zurich",
+                "Harvard University",
+                "Massachusetts Institute of Technology (MIT)",
+                "National University of Singapore",
+                "Sorbonne University",
+                "Stanford University",
+                "Tsinghua University",
+                "University of California, Berkeley",
+                "University of Cambridge",
+                "University of Melbourne",
+                "University of Oxford",
+                "University of Tokyo",
+                "University of Toronto"
+            ]
+        },
+        "Government organization": {
+            "International organization": [
+                "International Atomic Energy Agency",
+                "International Labour Organization",
+                "International Monetary Fund",
+                "International Organization for Migration",
+                "NATO",
+                "OECD",
+                "UNESCO",
+                "UNHCR",
+                "UNICEF",
+                "United Nations",
+                "World Bank",
+                "World Health Organization",
+                "World Trade Organization"
+            ],
+            "Local government": [
+                "City of Chicago",
+                "City of Los Angeles",
+                "City of New York",
+                "City of Paris",
+                "Greater London Authority",
+                "Osaka Prefectural Government",
+                "San Francisco City and County",
+                "Senate of Berlin",
+                "Seoul Metropolitan Government",
+                "Sydney City Council",
+                "Tokyo Metropolitan Government",
+                "Toronto City Council"
+            ],
+            "National government agency": [
+                "Federal Bureau of Investigation (FBI)",
+                "U.S. Department of Defense",
+                "U.S. Department of State",
+                "UK Home Office"
+            ]
+        },
+        "Healthcare organization": {
+            "Hospital system": [
+                "Cleveland Clinic",
+                "Johns Hopkins Medicine",
+                "Kaiser Permanente",
+                "MD Anderson Cancer Center",
+                "Mass General Brigham",
+                "Mayo Clinic",
+                "NYU Langone Health",
+                "Seoul National University Hospital",
+                "SingHealth",
+                "UCSF Health"
+            ],
+            "Public health agency": [
+                "Africa Centres for Disease Control and Prevention",
+                "Chinese Center for Disease Control and Prevention",
+                "European Centre for Disease Prevention and Control",
+                "Korea Disease Control and Prevention Agency",
+                "Public Health Agency of Canada",
+                "Robert Koch Institute",
+                "Singapore Ministry of Health",
+                "UK Health Security Agency"
+            ]
+        },
+        "Nonprofit organization": {
+            "Education nonprofit": [
+                "Code.org",
+                "DonorsChoose",
+                "Girls Who Code",
+                "Khan Academy",
+                "Pratham",
+                "Room to Read",
+                "Sesame Workshop",
+                "Teach For All",
+                "The College Board",
+                "Wikimedia Foundation"
+            ],
+            "Environmental NGO": [
+                "350.org",
+                "BirdLife International",
+                "Conservation International",
+                "Environmental Defense Fund",
+                "Friends of the Earth",
+                "Greenpeace",
+                "Oceana",
+                "Rainforest Alliance",
+                "Sierra Club",
+                "The Nature Conservancy",
+                "WWF"
+            ],
+            "Humanitarian NGO": [
+                "Action Against Hunger",
+                "Amnesty International",
+                "CARE",
+                "Catholic Relief Services",
+                "International Committee of the Red Cross",
+                "International Rescue Committee",
+                "Mercy Corps",
+                "Norwegian Refugee Council",
+                "Oxfam",
+                "Plan International",
+                "Save the Children",
+                "World Vision International"
+            ]
+        }
+    }
+}

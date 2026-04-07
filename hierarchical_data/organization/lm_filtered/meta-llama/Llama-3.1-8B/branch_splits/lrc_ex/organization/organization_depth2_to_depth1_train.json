@@ -1,0 +1,53 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Museum",
+      "object": "Cultural organization"
+    },
+    {
+      "subject": "Performing arts organization",
+      "object": "Cultural organization"
+    },
+    {
+      "subject": "International organization",
+      "object": "Government organization"
+    },
+    {
+      "subject": "Local government",
+      "object": "Government organization"
+    },
+    {
+      "subject": "National government agency",
+      "object": "Government organization"
+    },
+    {
+      "subject": "Hospital system",
+      "object": "Healthcare organization"
+    },
+    {
+      "subject": "Public health agency",
+      "object": "Healthcare organization"
+    },
+    {
+      "subject": "Environmental NGO",
+      "object": "Nonprofit organization"
+    },
+    {
+      "subject": "Humanitarian NGO",
+      "object": "Nonprofit organization"
+    }
+  ]
+}

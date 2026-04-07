@@ -1,0 +1,354 @@
+{
+    "snapper": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "anchovy": {
+        "class": "Fish",
+        "order": "Clupeiformes"
+    },
+    "moonfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "herring": {
+        "class": "Fish",
+        "order": "Clupeiformes"
+    },
+    "dolphinfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "pomfret": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "barracuda": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "arowana": {
+        "class": "Fish",
+        "order": "Osteoglossiformes"
+    },
+    "ladyfish": {
+        "class": "Fish",
+        "order": "Elopiformes"
+    },
+    "salmon": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "dace": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "carp": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "eel": {
+        "class": "Fish",
+        "order": "Anguilliformes"
+    },
+    "flounder": {
+        "class": "Fish",
+        "order": "Pleuronectiformes"
+    },
+    "spadefish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "tilapia": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "boxfish": {
+        "class": "Fish",
+        "order": "Tetraodontiformes"
+    },
+    "croaker": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "goosefish": {
+        "class": "Fish",
+        "order": "Lophiiformes"
+    },
+    "pollock": {
+        "class": "Fish",
+        "order": "Gadiformes"
+    },
+    "trout": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "seahorse": {
+        "class": "Fish",
+        "order": "Syngnathiformes"
+    },
+    "shark": {
+        "class": "Chondrichthyes",
+        "order": "Various"
+    },
+    "jewfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "grayling": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "tench": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "mahi-mahi": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "halibut": {
+        "class": "Fish",
+        "order": "Pleuronectiformes"
+    },
+    "bonefish": {
+        "class": "Fish",
+        "order": "Albuliformes"
+    },
+    "ide": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "piranha": {
+        "class": "Fish",
+        "order": "Characiformes"
+    },
+    "rockfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "swordtail": {
+        "class": "Fish",
+        "order": "Cyprinodontiformes"
+    },
+    "tuna": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "surgeonfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "smelt": {
+        "class": "Fish",
+        "order": "Osmeriformes"
+    },
+    "mackerel": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "sockeye": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "fluke": {
+        "class": "Fish",
+        "order": "Pleuronectiformes"
+    },
+    "chub": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "tarpon": {
+        "class": "Fish",
+        "order": "Elopiformes"
+    },
+    "pompano": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "monkfish": {
+        "class": "Fish",
+        "order": "Lophiiformes"
+    },
+    "moray": {
+        "class": "Fish",
+        "order": "Anguilliformes"
+    },
+    "cod": {
+        "class": "Fish",
+        "order": "Gadiformes"
+    },
+    "catfish": {
+        "class": "Fish",
+        "order": "Siluriformes"
+    },
+    "rudd": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "sturgeon": {
+        "class": "Fish",
+        "order": "Acipenseriformes"
+    },
+    "coho": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "bitterling": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "grunt": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "roach": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "pipefish": {
+        "class": "Fish",
+        "order": "Syngnathiformes"
+    },
+    "weakfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "grouper": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "snook": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "swordfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "lingcod": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "clownfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "haddock": {
+        "class": "Fish",
+        "order": "Gadiformes"
+    },
+    "angelfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "sardine": {
+        "class": "Fish",
+        "order": "Clupeiformes"
+    },
+    "platy": {
+        "class": "Fish",
+        "order": "Cyprinodontiformes"
+    },
+    "scorpionfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "chinook": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "triggerfish": {
+        "class": "Fish",
+        "order": "Tetraodontiformes"
+    },
+    "amberjack": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "sablefish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "guppy": {
+        "class": "Fish",
+        "order": "Cyprinodontiformes"
+    },
+    "discus": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "puffer": {
+        "class": "Fish",
+        "order": "Tetraodontiformes"
+    },
+    "mullet": {
+        "class": "Fish",
+        "order": "Mugiliformes"
+    },
+    "kingfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "pleco": {
+        "class": "Fish",
+        "order": "Siluriformes"
+    },
+    "whitefish": {
+        "class": "Fish",
+        "order": "Salmoniformes"
+    },
+    "perch": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "gar": {
+        "class": "Fish",
+        "order": "Lepisosteiformes"
+    },
+    "barbel": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "bream": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "wrasse": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "pike": {
+        "class": "Fish",
+        "order": "Esociformes"
+    },
+    "damselfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "lionfish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "goldfish": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "cichlid": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "bleak": {
+        "class": "Fish",
+        "order": "Cypriniformes"
+    },
+    "scup": {
+        "class": "Fish",
+        "order": "Perciformes"
+    },
+    "bluefish": {
+        "class": "Fish",
+        "order": "Perciformes"
+    }
+}

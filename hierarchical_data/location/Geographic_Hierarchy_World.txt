@@ -1,0 +1,99 @@
+Earth
+├── Africa
+│   ├── Eastern Africa
+│   │   ├── Kenya
+│   │   ├── Ethiopia
+│   │   └── Tanzania
+│   ├── Middle Africa
+│   │   ├── Democratic Republic of the Congo
+│   │   ├── Cameroon
+│   │   └── Gabon
+│   ├── Northern Africa
+│   │   ├── Egypt
+│   │   ├── Morocco
+│   │   └── Algeria
+│   ├── Southern Africa
+│   │   ├── South Africa
+│   │   ├── Namibia
+│   │   └── Botswana
+│   └── Western Africa
+│       ├── Nigeria
+│       ├── Ghana
+│       └── Senegal
+│
+├── Americas
+│   ├── North America
+│   │   ├── United States
+│   │   ├── Canada
+│   │   └── Mexico
+│   ├── Caribbean
+│   │   ├── Cuba
+│   │   ├── Dominican Republic
+│   │   ├── Haiti
+│   │   └── Jamaica
+│   ├── Central America
+│   │   ├── Guatemala
+│   │   ├── Honduras
+│   │   ├── Costa Rica
+│   │   └── Panama
+│   └── South America
+│       ├── Brazil
+│       ├── Argentina
+│       └── Chile
+│
+├── Asia
+│   ├── Central Asia
+│   │   ├── Kazakhstan
+│   │   ├── Uzbekistan
+│   │   └── Kyrgyzstan
+│   ├── Eastern Asia
+│   │   ├── China
+│   │   ├── Japan
+│   │   └── South Korea
+│   ├── Southern Asia
+│   │   ├── India
+│   │   ├── Pakistan
+│   │   └── Bangladesh
+│   ├── Southeast Asia
+│   │   ├── Thailand
+│   │   ├── Vietnam
+│   │   ├── Indonesia
+│   │   ├── Malaysia
+│   │   └── Cambodia
+│   └── Western Asia
+│       ├── Turkey
+│       ├── Saudi Arabia
+│       ├── Iran
+│       ├── United Arab Emirates
+│       └── Israel
+│
+├── Europe
+│   ├── Eastern Europe
+│   │   ├── Russia
+│   │   ├── Ukraine
+│   │   └── Poland
+│   ├── Northern Europe
+│   │   ├── United Kingdom
+│   │   ├── Sweden
+│   │   └── Finland
+│   ├── Southern Europe
+│   │   ├── Italy
+│   │   ├── Spain
+│   │   └── Greece
+│   └── Western Europe
+│       ├── France
+│       ├── Germany
+│       └── Netherlands
+│
+└── Oceania
+    ├── Australia and New Zealand
+    │   ├── Australia
+    │   └── New Zealand
+    ├── Melanesia
+    │   ├── Papua New Guinea
+    │   └── Fiji
+    ├── Micronesia
+    │   └── Federated States of Micronesia
+    └── Polynesia
+        └── Samoa
+ 

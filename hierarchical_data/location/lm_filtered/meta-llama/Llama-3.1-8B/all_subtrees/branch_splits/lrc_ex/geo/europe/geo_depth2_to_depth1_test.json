@@ -1,0 +1,33 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is part of"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Eastern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Northern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Southern Europe",
+      "object": "Europe"
+    },
+    {
+      "subject": "Western Europe",
+      "object": "Europe"
+    }
+  ]
+}

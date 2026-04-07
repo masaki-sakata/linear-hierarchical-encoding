@@ -1,0 +1,361 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is part of"
+  ],
+  "prompt_templates_zs": [
+    "{} is part of"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Burundi",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Comoros",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Djibouti",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Eritrea",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Ethiopia",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Kenya",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Madagascar",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Mauritius",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Mozambique",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Rwanda",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Seychelles",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Somalia",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "South Sudan",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Uganda",
+      "object": "Eastern Africa"
+    },
+    {
+      "subject": "Cameroon",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Central African Republic",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Chad",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Democratic Republic of the Congo",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Equatorial Guinea",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Gabon",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Republic of the Congo",
+      "object": "Middle Africa"
+    },
+    {
+      "subject": "Algeria",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Egypt",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Libya",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Morocco",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Sudan",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Tunisia",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Western Sahara",
+      "object": "Northern Africa"
+    },
+    {
+      "subject": "Botswana",
+      "object": "Southern Africa"
+    },
+    {
+      "subject": "Eswatini",
+      "object": "Southern Africa"
+    },
+    {
+      "subject": "Lesotho",
+      "object": "Southern Africa"
+    },
+    {
+      "subject": "Namibia",
+      "object": "Southern Africa"
+    },
+    {
+      "subject": "South Africa",
+      "object": "Southern Africa"
+    },
+    {
+      "subject": "Benin",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Burkina Faso",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Gambia",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Ghana",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Guinea",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Guinea-Bissau",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Liberia",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Mali",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Niger",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Nigeria",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Senegal",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Sierra Leone",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Togo",
+      "object": "Western Africa"
+    },
+    {
+      "subject": "Kazakhstan",
+      "object": "Central Asia"
+    },
+    {
+      "subject": "Kyrgyzstan",
+      "object": "Central Asia"
+    },
+    {
+      "subject": "Tajikistan",
+      "object": "Central Asia"
+    },
+    {
+      "subject": "Turkmenistan",
+      "object": "Central Asia"
+    },
+    {
+      "subject": "Uzbekistan",
+      "object": "Central Asia"
+    },
+    {
+      "subject": "China",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "Hong Kong",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "Japan",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "Mongolia",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "North Korea",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "South Korea",
+      "object": "Eastern Asia"
+    },
+    {
+      "subject": "Cambodia",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Indonesia",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Malaysia",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Myanmar",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Philippines",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Singapore",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Thailand",
+      "object": "Southeast Asia"
+    },
+    {
+      "subject": "Afghanistan",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Bangladesh",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Bhutan",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "India",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Maldives",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Nepal",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Pakistan",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Sri Lanka",
+      "object": "Southern Asia"
+    },
+    {
+      "subject": "Armenia",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Azerbaijan",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Bahrain",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Cyprus",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Iraq",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Israel",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Jordan",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Kuwait",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Lebanon",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Oman",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Qatar",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Saudi Arabia",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "United Arab Emirates",
+      "object": "Western Asia"
+    },
+    {
+      "subject": "Yemen",
+      "object": "Western Asia"
+    }
+  ]
+}

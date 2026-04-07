@@ -1,0 +1,245 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "Agronomy and Crop Science",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Animal Science and Zoology",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Ecology, Evolution, Behavior and Systematics",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Food Science",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "General Agricultural and Biological Sciences",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Insect Science",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Plant Science",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Soil Science",
+      "object": "Agricultural and Biological Sciences"
+    },
+    {
+      "subject": "Biochemistry",
+      "object": "Biochemistry, Genetics and Molecular Biology"
+    },
+    {
+      "subject": "Cancer Research",
+      "object": "Biochemistry, Genetics and Molecular Biology"
+    },
+    {
+      "subject": "Cell Biology",
+      "object": "Biochemistry, Genetics and Molecular Biology"
+    },
+    {
+      "subject": "Genetics",
+      "object": "Biochemistry, Genetics and Molecular Biology"
+    },
+    {
+      "subject": "Molecular Biology",
+      "object": "Biochemistry, Genetics and Molecular Biology"
+    },
+    {
+      "subject": "Applied Microbiology and Biotechnology",
+      "object": "Immunology and Microbiology"
+    },
+    {
+      "subject": "Immunology",
+      "object": "Immunology and Microbiology"
+    },
+    {
+      "subject": "Microbiology",
+      "object": "Immunology and Microbiology"
+    },
+    {
+      "subject": "Parasitology",
+      "object": "Immunology and Microbiology"
+    },
+    {
+      "subject": "Virology",
+      "object": "Immunology and Microbiology"
+    },
+    {
+      "subject": "Cellular and Molecular Neuroscience",
+      "object": "Neuroscience"
+    },
+    {
+      "subject": "Cognitive Neuroscience",
+      "object": "Neuroscience"
+    },
+    {
+      "subject": "Sensory Systems",
+      "object": "Neuroscience"
+    },
+    {
+      "subject": "Archeology",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "History",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "History and Philosophy of Science",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Language and Linguistics",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Literature and Literary Theory",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Music",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Philosophy",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Religious studies",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Visual Arts and Performing Arts",
+      "object": "Arts and Humanities"
+    },
+    {
+      "subject": "Accounting",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Management Information Systems",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Management of Technology and Innovation",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Marketing",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Organizational Behavior and Human Resource Management",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Strategy and Management",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Tourism, Leisure and Hospitality Management",
+      "object": "Business, Management and Accounting"
+    },
+    {
+      "subject": "Economics and Econometrics",
+      "object": "Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Finance",
+      "object": "Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "General Economics, Econometrics and Finance",
+      "object": "Economics, Econometrics and Finance"
+    },
+    {
+      "subject": "Applied Psychology",
+      "object": "Psychology"
+    },
+    {
+      "subject": "Clinical Psychology",
+      "object": "Psychology"
+    },
+    {
+      "subject": "Developmental and Educational Psychology",
+      "object": "Psychology"
+    },
+    {
+      "subject": "Experimental and Cognitive Psychology",
+      "object": "Psychology"
+    },
+    {
+      "subject": "Anthropology",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Cultural Studies",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Development",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Education",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Gender Studies",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "General Social Sciences",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Geography, Planning and Development",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Health",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Law",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Library and Information Sciences",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Political Science and International Relations",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Sociology and Political Science",
+      "object": "Social Sciences (Field)"
+    },
+    {
+      "subject": "Urban Studies",
+      "object": "Social Sciences (Field)"
+    }
+  ]
+}

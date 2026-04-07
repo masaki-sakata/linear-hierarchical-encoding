@@ -1,0 +1,122 @@
+{
+    "mayfly": {
+        "class": "Insect",
+        "order": "Ephemeroptera"
+    },
+    "grasshopper": {
+        "class": "Insect",
+        "order": "Orthoptera"
+    },
+    "bedbug": {
+        "class": "Insect",
+        "order": "Hemiptera"
+    },
+    "silverfish": {
+        "class": "Insect",
+        "order": "Zygentoma"
+    },
+    "cicada": {
+        "class": "Insect",
+        "order": "Hemiptera"
+    },
+    "dragonfly": {
+        "class": "Insect",
+        "order": "Odonata"
+    },
+    "lacewing": {
+        "class": "Insect",
+        "order": "Neuroptera"
+    },
+    "butterfly": {
+        "class": "Insect",
+        "order": "Lepidoptera"
+    },
+    "damselfly": {
+        "class": "Insect",
+        "order": "Odonata"
+    },
+    "housefly": {
+        "class": "Insect",
+        "order": "Diptera"
+    },
+    "termite": {
+        "class": "Insect",
+        "order": "Blattodea"
+    },
+    "earwig": {
+        "class": "Insect",
+        "order": "Dermaptera"
+    },
+    "moth": {
+        "class": "Insect",
+        "order": "Lepidoptera"
+    },
+    "flea": {
+        "class": "Insect",
+        "order": "Siphonaptera"
+    },
+    "mosquito": {
+        "class": "Insect",
+        "order": "Diptera"
+    },
+    "hornet": {
+        "class": "Insect",
+        "order": "Hymenoptera"
+    },
+    "ladybug": {
+        "class": "Insect",
+        "order": "Coleoptera"
+    },
+    "cockroach": {
+        "class": "Insect",
+        "order": "Blattodea"
+    },
+    "gnat": {
+        "class": "Insect",
+        "order": "Diptera"
+    },
+    "scarab": {
+        "class": "Insect",
+        "order": "Coleoptera"
+    },
+    "caterpillar": {
+        "class": "Insect",
+        "order": "Lepidoptera"
+    },
+    "aphid": {
+        "class": "Insect",
+        "order": "Hemiptera"
+    },
+    "thrips": {
+        "class": "Insect",
+        "order": "Thysanoptera"
+    },
+    "weevil": {
+        "class": "Insect",
+        "order": "Coleoptera"
+    },
+    "beetle": {
+        "class": "Insect",
+        "order": "Coleoptera"
+    },
+    "firefly": {
+        "class": "Insect",
+        "order": "Coleoptera"
+    },
+    "cricket": {
+        "class": "Insect",
+        "order": "Orthoptera"
+    },
+    "wasp": {
+        "class": "Insect",
+        "order": "Hymenoptera"
+    },
+    "ant": {
+        "class": "Insect",
+        "order": "Hymenoptera"
+    },
+    "bee": {
+        "class": "Insect",
+        "order": "Hymenoptera"
+    }
+}

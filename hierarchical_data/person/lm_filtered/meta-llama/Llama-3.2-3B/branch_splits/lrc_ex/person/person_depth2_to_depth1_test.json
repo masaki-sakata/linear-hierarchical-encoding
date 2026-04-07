@@ -1,0 +1,49 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Film actor",
+      "object": "Actor"
+    },
+    {
+      "subject": "Voice actor",
+      "object": "Actor"
+    },
+    {
+      "subject": "Baseball player",
+      "object": "Athlete"
+    },
+    {
+      "subject": "Basketball player",
+      "object": "Athlete"
+    },
+    {
+      "subject": "Boxer",
+      "object": "Athlete"
+    },
+    {
+      "subject": "Golfer",
+      "object": "Athlete"
+    },
+    {
+      "subject": "Soccer player",
+      "object": "Athlete"
+    },
+    {
+      "subject": "Sprinter",
+      "object": "Athlete"
+    }
+  ]
+}

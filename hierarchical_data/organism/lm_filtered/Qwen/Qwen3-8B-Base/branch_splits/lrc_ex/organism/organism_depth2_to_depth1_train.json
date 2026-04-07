@@ -1,0 +1,113 @@
+{
+  "name": "depth2 to depth1",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth2",
+    "range_name": "depth1"
+  },
+  "samples": [
+    {
+      "subject": "Anura",
+      "object": "Amphibian"
+    },
+    {
+      "subject": "Caudata",
+      "object": "Amphibian"
+    },
+    {
+      "subject": "Anguilliformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Clupeiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Cypriniformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Cyprinodontiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Gadiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Lophiiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Perciformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Salmoniformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Siluriformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Syngnathiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Tetraodontiformes",
+      "object": "Fish"
+    },
+    {
+      "subject": "Blattodea",
+      "object": "Insect"
+    },
+    {
+      "subject": "Coleoptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Diptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Hemiptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Hymenoptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Lepidoptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Odonata",
+      "object": "Insect"
+    },
+    {
+      "subject": "Orthoptera",
+      "object": "Insect"
+    },
+    {
+      "subject": "Crocodylia",
+      "object": "Reptilia"
+    },
+    {
+      "subject": "Squamata",
+      "object": "Reptilia"
+    },
+    {
+      "subject": "Testudines",
+      "object": "Reptilia"
+    }
+  ]
+}

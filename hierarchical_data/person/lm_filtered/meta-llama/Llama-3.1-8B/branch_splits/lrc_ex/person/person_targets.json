@@ -1,0 +1,2940 @@
+{
+  "name": "person full",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "mixed",
+    "range_name": "mixed"
+  },
+  "samples": [
+    {
+      "subject": "Abby Wambach",
+      "targets": [
+        {
+          "object": "Soccer player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Abraham Lincoln",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ada Lovelace",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Albert Einstein",
+      "targets": [
+        {
+          "object": "Physicist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Allyson Felix",
+      "targets": [
+        {
+          "object": "Sprinter",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Angela Merkel",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anne Hidalgo",
+      "targets": [
+        {
+          "object": "Mayor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Anne-Sophie Mutter",
+      "targets": [
+        {
+          "object": "Violinist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Annika Sörenstam",
+      "targets": [
+        {
+          "object": "Golfer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Antoine Lavoisier",
+      "targets": [
+        {
+          "object": "Chemist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Aretha Franklin",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Arnold Palmer",
+      "targets": [
+        {
+          "object": "Golfer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Astronomer",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Audrey Hepburn",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "B. F. Skinner",
+      "targets": [
+        {
+          "object": "Psychologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Babe Ruth",
+      "targets": [
+        {
+          "object": "Baseball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Barack Obama",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Barbara McClintock",
+      "targets": [
+        {
+          "object": "Biologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Baseball player",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Basketball player",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Bassist",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Beck",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Benazir Bhutto",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Benjamin Graham",
+      "targets": [
+        {
+          "object": "Investor",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bernie Sanders",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Beyoncé",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bill Gates",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Biologist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Björk",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Bob Dylan",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Boxer",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Buddy Rich",
+      "targets": [
+        {
+          "object": "Drummer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Business executive",
+      "targets": [
+        {
+          "object": "Business person",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Carl Friedrich Gauss",
+      "targets": [
+        {
+          "object": "Mathematician",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Carl Jung",
+      "targets": [
+        {
+          "object": "Psychologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Carl Sagan",
+      "targets": [
+        {
+          "object": "Astronomer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Carlos Santana",
+      "targets": [
+        {
+          "object": "Guitarist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Charles Darwin",
+      "targets": [
+        {
+          "object": "Biologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chemist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Chien-Shiung Wu",
+      "targets": [
+        {
+          "object": "Physicist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chiwetel Ejiofor",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Chris Christie",
+      "targets": [
+        {
+          "object": "Governor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Comedian",
+      "targets": [
+        {
+          "object": "Actor",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Composer",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Computer scientist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Conductor",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Cristiano Ronaldo",
+      "targets": [
+        {
+          "object": "Soccer player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Ek",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Daniel Kahneman",
+      "targets": [
+        {
+          "object": "Psychologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dave Chappelle",
+      "targets": [
+        {
+          "object": "Comedian",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "David Hubel",
+      "targets": [
+        {
+          "object": "Neuroscientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "David Ogilvy",
+      "targets": [
+        {
+          "object": "Marketer",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Denzel Washington",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Dmitri Mendeleev",
+      "targets": [
+        {
+          "object": "Chemist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Donald Knuth",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Drummer",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Edsger W. Dijkstra",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Edward Bernays",
+      "targets": [
+        {
+          "object": "Marketer",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Edwin Hubble",
+      "targets": [
+        {
+          "object": "Astronomer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Elon Musk",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Elvis Presley",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Emmy Noether",
+      "targets": [
+        {
+          "object": "Mathematician",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Engineer",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Eric Clapton",
+      "targets": [
+        {
+          "object": "Guitarist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Eric Kandel",
+      "targets": [
+        {
+          "object": "Neuroscientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Erik Satie",
+      "targets": [
+        {
+          "object": "Composer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Film actor",
+      "targets": [
+        {
+          "object": "Actor",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Fiorello La Guardia",
+      "targets": [
+        {
+          "object": "Mayor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Florence Griffith-Joyner",
+      "targets": [
+        {
+          "object": "Sprinter",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Florence Welch",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Floyd Mayweather Jr.",
+      "targets": [
+        {
+          "object": "Boxer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Frank Welker",
+      "targets": [
+        {
+          "object": "Voice actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Franz Liszt",
+      "targets": [
+        {
+          "object": "Pianist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Gael García Bernal",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Galileo Galilei",
+      "targets": [
+        {
+          "object": "Astronomer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Gary Vaynerchuk",
+      "targets": [
+        {
+          "object": "Marketer",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Golda Meir",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Golfer",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Governor",
+      "targets": [
+        {
+          "object": "Politician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Grace Hopper",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Gregor Mendel",
+      "targets": [
+        {
+          "object": "Biologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Guitarist",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Gustave Eiffel",
+      "targets": [
+        {
+          "object": "Engineer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Gustavo Dudamel",
+      "targets": [
+        {
+          "object": "Conductor",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Hank Aaron",
+      "targets": [
+        {
+          "object": "Baseball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Helmut Kohl",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Henry Ford",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Herbert von Karajan",
+      "targets": [
+        {
+          "object": "Conductor",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Hilary Hahn",
+      "targets": [
+        {
+          "object": "Violinist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ian McKellen",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ichiro Suzuki",
+      "targets": [
+        {
+          "object": "Baseball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Indira Gandhi",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Indra Nooyi",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Investor",
+      "targets": [
+        {
+          "object": "Business person",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Isaac Newton",
+      "targets": [
+        {
+          "object": "Physicist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Isambard Kingdom Brunel",
+      "targets": [
+        {
+          "object": "Engineer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Itzhak Perlman",
+      "targets": [
+        {
+          "object": "Violinist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jacinda Ardern",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jack Nicklaus",
+      "targets": [
+        {
+          "object": "Golfer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jackie Robinson",
+      "targets": [
+        {
+          "object": "Baseball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jaco Pastorius",
+      "targets": [
+        {
+          "object": "Bassist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "James Jamerson",
+      "targets": [
+        {
+          "object": "Bassist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Janelle Monáe",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jascha Heifetz",
+      "targets": [
+        {
+          "object": "Violinist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jean Piaget",
+      "targets": [
+        {
+          "object": "Psychologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jeff Bezos",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jerry Brown",
+      "targets": [
+        {
+          "object": "Governor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jimi Hendrix",
+      "targets": [
+        {
+          "object": "Guitarist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Jimmy Page",
+      "targets": [
+        {
+          "object": "Guitarist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Johann Sebastian Bach",
+      "targets": [
+        {
+          "object": "Composer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Bonham",
+      "targets": [
+        {
+          "object": "Drummer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Entwistle",
+      "targets": [
+        {
+          "object": "Bassist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John F. Kennedy",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Lennon",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Major",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John McCain",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John McCarthy",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "John Templeton",
+      "targets": [
+        {
+          "object": "Investor",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "José Mujica",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Justin Gatlin",
+      "targets": [
+        {
+          "object": "Sprinter",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Justin Trudeau",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Katherine Johnson",
+      "targets": [
+        {
+          "object": "Mathematician",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Keith Moon",
+      "targets": [
+        {
+          "object": "Drummer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ken Livingstone",
+      "targets": [
+        {
+          "object": "Mayor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ken Watanabe",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Kobe Bryant",
+      "targets": [
+        {
+          "object": "Basketball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Konrad Adenauer",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Lang Lang",
+      "targets": [
+        {
+          "object": "Pianist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "LeBron James",
+      "targets": [
+        {
+          "object": "Basketball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Lee Hsien Loong",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Lee Kuan Yew",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Legislator",
+      "targets": [
+        {
+          "object": "Politician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Leonard Bernstein",
+      "targets": [
+        {
+          "object": "Conductor",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Leonardo DiCaprio",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Leonhard Euler",
+      "targets": [
+        {
+          "object": "Mathematician",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Linus Pauling",
+      "targets": [
+        {
+          "object": "Chemist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Lionel Messi",
+      "targets": [
+        {
+          "object": "Soccer player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ludwig van Beethoven",
+      "targets": [
+        {
+          "object": "Composer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Madonna",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mahershala Ali",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Manny Pacquiao",
+      "targets": [
+        {
+          "object": "Boxer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Margaret Thatcher",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Marilyn Monroe",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Marketer",
+      "targets": [
+        {
+          "object": "Business person",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Marta",
+      "targets": [
+        {
+          "object": "Soccer player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Martha Argerich",
+      "targets": [
+        {
+          "object": "Pianist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mary Barra",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mathematician",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mayor",
+      "targets": [
+        {
+          "object": "Politician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Mel Blanc",
+      "targets": [
+        {
+          "object": "Voice actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Melanie Perkins",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Meryl Streep",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Michael Fassbender",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Michael Jackson",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Michael Jordan",
+      "targets": [
+        {
+          "object": "Basketball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mike Tyson",
+      "targets": [
+        {
+          "object": "Boxer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mitch McConnell",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Morgan Freeman",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Mozart",
+      "targets": [
+        {
+          "object": "Composer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Muhammad Ali",
+      "targets": [
+        {
+          "object": "Boxer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Nancy Pelosi",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Neil Peart",
+      "targets": [
+        {
+          "object": "Drummer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Neuroscientist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Niccolò Paganini",
+      "targets": [
+        {
+          "object": "Violinist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Nikola Tesla",
+      "targets": [
+        {
+          "object": "Engineer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Norah Jones",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Novak Djokovic",
+      "targets": [
+        {
+          "object": "Tennis player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Oprah Winfrey",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Pelé",
+      "targets": [
+        {
+          "object": "Soccer player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Peter Lynch",
+      "targets": [
+        {
+          "object": "Investor",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Philip Kotler",
+      "targets": [
+        {
+          "object": "Marketer",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Physicist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pianist",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Psychologist",
+      "targets": [
+        {
+          "object": "Scientist",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Pyotr Ilyich Tchaikovsky",
+      "targets": [
+        {
+          "object": "Composer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rachel Weisz",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rafael Nadal",
+      "targets": [
+        {
+          "object": "Tennis player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ray Dalio",
+      "targets": [
+        {
+          "object": "Investor",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Richard Pryor",
+      "targets": [
+        {
+          "object": "Comedian",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Ringo Starr",
+      "targets": [
+        {
+          "object": "Drummer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rita Levi-Montalcini",
+      "targets": [
+        {
+          "object": "Neuroscientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Robert De Niro",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Roger Federer",
+      "targets": [
+        {
+          "object": "Tennis player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rory McIlroy",
+      "targets": [
+        {
+          "object": "Golfer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Rudy Giuliani",
+      "targets": [
+        {
+          "object": "Mayor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sadiq Khan",
+      "targets": [
+        {
+          "object": "Mayor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Santiago Ramón y Cajal",
+      "targets": [
+        {
+          "object": "Neuroscientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Saoirse Ronan",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sara Blakely",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sarah Palin",
+      "targets": [
+        {
+          "object": "Governor",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Satya Nadella",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Seiji Ozawa",
+      "targets": [
+        {
+          "object": "Conductor",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Serena Williams",
+      "targets": [
+        {
+          "object": "Tennis player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Seth Godin",
+      "targets": [
+        {
+          "object": "Marketer",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shelly-Ann Fraser-Pryce",
+      "targets": [
+        {
+          "object": "Sprinter",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shinzo Abe",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shirley Chisholm",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Shohei Ohtani",
+      "targets": [
+        {
+          "object": "Baseball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sigmund Freud",
+      "targets": [
+        {
+          "object": "Psychologist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Simon Rattle",
+      "targets": [
+        {
+          "object": "Conductor",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Singer",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Soccer player",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Solange",
+      "targets": [
+        {
+          "object": "Singer",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sprinter",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "St. Vincent",
+      "targets": [
+        {
+          "object": "Guitarist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Stan Wawrinka",
+      "targets": [
+        {
+          "object": "Tennis player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Stephen Curry",
+      "targets": [
+        {
+          "object": "Basketball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Stephen Hawking",
+      "targets": [
+        {
+          "object": "Physicist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Steve Jobs",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Stewart Butterfield",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sugar Ray Robinson",
+      "targets": [
+        {
+          "object": "Boxer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Sundar Pichai",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tadashi Yanai",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tara Strong",
+      "targets": [
+        {
+          "object": "Voice actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tennis player",
+      "targets": [
+        {
+          "object": "Athlete",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Thomas Edison",
+      "targets": [
+        {
+          "object": "Engineer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tiger Woods",
+      "targets": [
+        {
+          "object": "Golfer",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tilda Swinton",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tim Berners-Lee",
+      "targets": [
+        {
+          "object": "Computer scientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tim Cook",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tim Duncan",
+      "targets": [
+        {
+          "object": "Basketball player",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tom Hanks",
+      "targets": [
+        {
+          "object": "Film actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tom Kenny",
+      "targets": [
+        {
+          "object": "Voice actor",
+          "hops": 1
+        },
+        {
+          "object": "Actor",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tony Blair",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Tony Hsieh",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Torsten Wiesel",
+      "targets": [
+        {
+          "object": "Neuroscientist",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Usain Bolt",
+      "targets": [
+        {
+          "object": "Sprinter",
+          "hops": 1
+        },
+        {
+          "object": "Athlete",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Vera Rubin",
+      "targets": [
+        {
+          "object": "Astronomer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Violinist",
+      "targets": [
+        {
+          "object": "Musician",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Vladimir Horowitz",
+      "targets": [
+        {
+          "object": "Pianist",
+          "hops": 1
+        },
+        {
+          "object": "Musician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Voice actor",
+      "targets": [
+        {
+          "object": "Actor",
+          "hops": 1
+        }
+      ]
+    },
+    {
+      "subject": "Walt Disney",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Wernher von Braun",
+      "targets": [
+        {
+          "object": "Engineer",
+          "hops": 1
+        },
+        {
+          "object": "Scientist",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Winston Churchill",
+      "targets": [
+        {
+          "object": "Legislator",
+          "hops": 1
+        },
+        {
+          "object": "Politician",
+          "hops": 2
+        }
+      ]
+    },
+    {
+      "subject": "Yvon Chouinard",
+      "targets": [
+        {
+          "object": "Business executive",
+          "hops": 1
+        },
+        {
+          "object": "Business person",
+          "hops": 2
+        }
+      ]
+    }
+  ]
+}

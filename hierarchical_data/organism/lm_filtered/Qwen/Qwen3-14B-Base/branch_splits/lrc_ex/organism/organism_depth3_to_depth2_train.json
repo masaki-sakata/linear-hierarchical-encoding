@@ -1,0 +1,485 @@
+{
+  "name": "depth3 to depth2",
+  "prompt_templates": [
+    "{} is a"
+  ],
+  "prompt_templates_zs": [
+    "{} is a"
+  ],
+  "properties": {
+    "relation_type": "factual",
+    "symmetric": false,
+    "domain_name": "depth3",
+    "range_name": "depth2"
+  },
+  "samples": [
+    {
+      "subject": "bullfrog",
+      "object": "Anura"
+    },
+    {
+      "subject": "frog",
+      "object": "Anura"
+    },
+    {
+      "subject": "glassfrog",
+      "object": "Anura"
+    },
+    {
+      "subject": "natterjack toad",
+      "object": "Anura"
+    },
+    {
+      "subject": "surinam toad",
+      "object": "Anura"
+    },
+    {
+      "subject": "toad",
+      "object": "Anura"
+    },
+    {
+      "subject": "treefrog",
+      "object": "Anura"
+    },
+    {
+      "subject": "axolotl",
+      "object": "Caudata"
+    },
+    {
+      "subject": "hellbender",
+      "object": "Caudata"
+    },
+    {
+      "subject": "mudpuppy",
+      "object": "Caudata"
+    },
+    {
+      "subject": "newt",
+      "object": "Caudata"
+    },
+    {
+      "subject": "olm",
+      "object": "Caudata"
+    },
+    {
+      "subject": "salamander",
+      "object": "Caudata"
+    },
+    {
+      "subject": "eel",
+      "object": "Anguilliformes"
+    },
+    {
+      "subject": "moray",
+      "object": "Anguilliformes"
+    },
+    {
+      "subject": "anchovy",
+      "object": "Clupeiformes"
+    },
+    {
+      "subject": "herring",
+      "object": "Clupeiformes"
+    },
+    {
+      "subject": "sardine",
+      "object": "Clupeiformes"
+    },
+    {
+      "subject": "barbel",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "bitterling",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "carp",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "chub",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "dace",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "goldfish",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "ide",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "tench",
+      "object": "Cypriniformes"
+    },
+    {
+      "subject": "guppy",
+      "object": "Cyprinodontiformes"
+    },
+    {
+      "subject": "swordtail",
+      "object": "Cyprinodontiformes"
+    },
+    {
+      "subject": "cod",
+      "object": "Gadiformes"
+    },
+    {
+      "subject": "haddock",
+      "object": "Gadiformes"
+    },
+    {
+      "subject": "pollock",
+      "object": "Gadiformes"
+    },
+    {
+      "subject": "amberjack",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "angelfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "barracuda",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "bluefish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "cichlid",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "clownfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "croaker",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "damselfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "dolphinfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "grouper",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "grunt",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "jewfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "kingfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "lingcod",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "mahi-mahi",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "moonfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "perch",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "pomfret",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "pompano",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "rockfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "scorpionfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "scup",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "snapper",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "snook",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "spadefish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "surgeonfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "swordfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "tilapia",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "weakfish",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "wrasse",
+      "object": "Perciformes"
+    },
+    {
+      "subject": "chinook",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "coho",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "grayling",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "salmon",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "sockeye",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "trout",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "whitefish",
+      "object": "Salmoniformes"
+    },
+    {
+      "subject": "catfish",
+      "object": "Siluriformes"
+    },
+    {
+      "subject": "pleco",
+      "object": "Siluriformes"
+    },
+    {
+      "subject": "pipefish",
+      "object": "Syngnathiformes"
+    },
+    {
+      "subject": "seahorse",
+      "object": "Syngnathiformes"
+    },
+    {
+      "subject": "boxfish",
+      "object": "Tetraodontiformes"
+    },
+    {
+      "subject": "puffer",
+      "object": "Tetraodontiformes"
+    },
+    {
+      "subject": "triggerfish",
+      "object": "Tetraodontiformes"
+    },
+    {
+      "subject": "cockroach",
+      "object": "Blattodea"
+    },
+    {
+      "subject": "termite",
+      "object": "Blattodea"
+    },
+    {
+      "subject": "beetle",
+      "object": "Coleoptera"
+    },
+    {
+      "subject": "firefly",
+      "object": "Coleoptera"
+    },
+    {
+      "subject": "ladybug",
+      "object": "Coleoptera"
+    },
+    {
+      "subject": "scarab",
+      "object": "Coleoptera"
+    },
+    {
+      "subject": "weevil",
+      "object": "Coleoptera"
+    },
+    {
+      "subject": "gnat",
+      "object": "Diptera"
+    },
+    {
+      "subject": "housefly",
+      "object": "Diptera"
+    },
+    {
+      "subject": "mosquito",
+      "object": "Diptera"
+    },
+    {
+      "subject": "aphid",
+      "object": "Hemiptera"
+    },
+    {
+      "subject": "bedbug",
+      "object": "Hemiptera"
+    },
+    {
+      "subject": "cicada",
+      "object": "Hemiptera"
+    },
+    {
+      "subject": "ant",
+      "object": "Hymenoptera"
+    },
+    {
+      "subject": "bee",
+      "object": "Hymenoptera"
+    },
+    {
+      "subject": "hornet",
+      "object": "Hymenoptera"
+    },
+    {
+      "subject": "wasp",
+      "object": "Hymenoptera"
+    },
+    {
+      "subject": "butterfly",
+      "object": "Lepidoptera"
+    },
+    {
+      "subject": "caterpillar",
+      "object": "Lepidoptera"
+    },
+    {
+      "subject": "moth",
+      "object": "Lepidoptera"
+    },
+    {
+      "subject": "damselfly",
+      "object": "Odonata"
+    },
+    {
+      "subject": "dragonfly",
+      "object": "Odonata"
+    },
+    {
+      "subject": "cricket",
+      "object": "Orthoptera"
+    },
+    {
+      "subject": "grasshopper",
+      "object": "Orthoptera"
+    },
+    {
+      "subject": "alligator",
+      "object": "Crocodylia"
+    },
+    {
+      "subject": "crocodile",
+      "object": "Crocodylia"
+    },
+    {
+      "subject": "anaconda",
+      "object": "Squamata"
+    },
+    {
+      "subject": "anole",
+      "object": "Squamata"
+    },
+    {
+      "subject": "chameleon",
+      "object": "Squamata"
+    },
+    {
+      "subject": "cobra",
+      "object": "Squamata"
+    },
+    {
+      "subject": "gecko",
+      "object": "Squamata"
+    },
+    {
+      "subject": "gila",
+      "object": "Squamata"
+    },
+    {
+      "subject": "iguana",
+      "object": "Squamata"
+    },
+    {
+      "subject": "komodo",
+      "object": "Squamata"
+    },
+    {
+      "subject": "lizard",
+      "object": "Squamata"
+    },
+    {
+      "subject": "mamba",
+      "object": "Squamata"
+    },
+    {
+      "subject": "skink",
+      "object": "Squamata"
+    },
+    {
+      "subject": "snake",
+      "object": "Squamata"
+    },
+    {
+      "subject": "viper",
+      "object": "Squamata"
+    },
+    {
+      "subject": "terrapin",
+      "object": "Testudines"
+    },
+    {
+      "subject": "tortoise",
+      "object": "Testudines"
+    },
+    {
+      "subject": "turtle",
+      "object": "Testudines"
+    }
+  ]
+}
