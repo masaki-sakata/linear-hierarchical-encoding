@@ -1,4 +1,7 @@
 # Linear Representations of Hierarchical Concepts in Language Models
+
+**Paper:** [Sakata et al., Linear Representations of Hierarchical Concepts in Language Models](https://arxiv.org/abs/2604.07886)
+
 This repository releases the dataset used for analyzing hierarchical concept representations in language models.
 
 ## Status
@@ -55,6 +58,26 @@ Depending on the final release format, file names and directory structure may ch
 This repository contains data derived from multiple sources.
 
 Please read [`DATA_LICENSE.md`](./DATA_LICENSE.md) carefully before reusing, redistributing, or modifying the dataset.
+
+
+## Citation
+
+If you use this repository, please cite the associated paper.
+
+```bibtex
+@misc{sakata2026linearrepresentationshierarchicalconcepts,
+      title={Linear Representations of Hierarchical Concepts in Language Models}, 
+      author={Masaki Sakata and Benjamin Heinzerling and Takumi Ito and Sho Yokoi and Kentaro Inui},
+      year={2026},
+      eprint={2604.07886},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.07886}, 
+}
+```
+
+Update this entry with the final publication venue and bibliographic information when available.
+
 
 ## Contact
 
